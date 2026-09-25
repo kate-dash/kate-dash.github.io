@@ -3,10 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0c0d0c">
-  <meta name="description" content="Екатерина Зайцева — портфолио и резюме веб-дизайнера. Лендинги, многостраничные сайты и интерфейсы.">
-  <title>Екатерина Зайцева — Веб-дизайнер & UI/UX (Резюме и Портфолио)</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230c0d0c'/%3E%3Cpath d='M16 18h32v7H23v8h22v7H23v7h25v7H16z' fill='%23f5f6f1'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>Екатерина Зайцева — Дизайн сайтов & UI/UX</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a0a0a'/%3E%3Cpath d='M16 18h32v7H23v8h22v7H23v7h25v7H16z' fill='%23e5e6df'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="/assets/yaeger-preview.css">
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript">
@@ -21,358 +20,613 @@
 </head>
 <body>
 
-  <!-- Header -->
-  <header class="y-header">
-    <div class="wrap y-header-inner">
-      <a class="y-logo" href="#">
-        Екатерина <span>Зайцева</span>
-      </a>
-      <nav class="y-nav">
-        <a href="#projects">Проекты</a>
-        <a href="#about">Обо мне & Резюме</a>
-        <a href="#skills">Стек</a>
-        <a href="#contact">Контакты</a>
-      </nav>
-      <a class="y-btn-header" href="https://t.me" target="_blank" rel="noopener">Написать в Telegram</a>
-    </div>
-  </header>
+  <div class="y-page-wrap">
 
-  <main>
-    <!-- Hero / Resume Intro -->
-    <section class="y-hero wrap">
-      <div class="y-hero-meta">
-        <span class="label-tag">Россия · Удаленно / Релокация</span>
-        <span class="label-tag">(Веб-дизайнер · UI/UX)</span>
-        <div class="y-status-badge">
-          <span class="y-status-dot"></span>
-          <span>Открыта к предложениям</span>
-        </div>
+    <!-- Top Bar: Logo stacked & Nav Links -->
+    <header class="y-top-nav">
+      <div class="y-logo">
+        <div>ЕКАТЕРИНА</div>
+        <div>ЗАЙЦЕВА</div>
       </div>
+      <nav class="y-nav-links">
+        <a href="#works">WORKS</a>
+        <a href="#about">ABOUT</a>
+        <a href="https://t.me" target="_blank" rel="noopener">CONTACT</a>
+      </nav>
+    </header>
 
-      <h1 class="y-hero-statement">
-        Проектирую сайты и интерфейсы, соединяя эстетику бренда с логикой продукта и аккуратной передачей в разработку.
-      </h1>
-
-      <div class="y-hero-cover">
-        <img src="/assets/naglyadno-case/hero-laptop.png" alt="Кейс Наглядно — презентация интерфейса" fetchpriority="high">
-        <div class="y-hero-caption">Флагманский кейс / «Наглядно» — SaaS аналитика для Ozon</div>
+    <!-- Works Header Section (Giant WORKS on left, Editorial Text on right) -->
+    <section class="y-works-hero" id="works">
+      <div class="y-works-hero-title">
+        <h1>WORKS</h1>
+      </div>
+      <div class="y-works-hero-desc">
+        <p>Небольшая подборка недавних проектов, выбранных по смыслу и пользе для продукта, а не просто по внешней картинке. Каждый проект — баланс структуры, эстетики и бизнес-задачи.</p>
+        <span class="y-period">(2024 — ПО НАСТ. ВРЕМЯ)</span>
       </div>
     </section>
 
-    <!-- Works / Projects Section -->
-    <section class="y-works wrap" id="projects">
-      <div class="y-section-header">
-        <h2 class="y-section-title">ПРОЕКТЫ</h2>
-        <p class="y-section-lead">
-          Избранные работы: лендинги цифровых сервисов, многостраничные платформы, дашборды и интернет-магазины.
-        </p>
-        <span class="label-tag">(2024 — 2026)</span>
+    <!-- Projects List: 3-column rows (Title | Description + Scope | Visual) -->
+    <main class="y-projects-list">
+
+      <!-- Project 01: НАГЛЯДНО -->
+      <a class="y-project-item" href="/projects/naglyadno/">
+        <div class="y-project-grid">
+          <div class="y-col-title">
+            <h3>НАГЛЯДНО <span class="arrow">↗</span></h3>
+          </div>
+          <div class="y-col-desc">
+            <p class="y-project-p">
+              Комплексный веб-дизайн сервиса аналитики для продавцов Ozon: промо-лендинг, интерфейс веб-дашборда с графиками метрик и дизайн-система промо-материалов.
+            </p>
+            <div class="y-scope-block">
+              <span class="y-scope-label">(SCOPE)</span>
+              <div class="y-scope-tags">
+                <div>Лендинг</div>
+                <div>Дашборд</div>
+                <div>ВКонтакте</div>
+              </div>
+            </div>
+          </div>
+          <div class="y-col-visual">
+            <div class="y-visual-frame">
+              <img src="/assets/naglyadno-case/hero-laptop.png" alt="Наглядно" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- Project 02: OIVA FEEDBACK -->
+      <a class="y-project-item" href="/projects/oiva/">
+        <div class="y-project-grid">
+          <div class="y-col-title">
+            <h3>OIVA FEEDBACK <span class="arrow">↗</span></h3>
+          </div>
+          <div class="y-col-desc">
+            <p class="y-project-p">
+              Сайт B2B-сервиса обратной связи: сценарии использования от первого знакомства с продуктом до интеграций и прозрачной тарифной сетки.
+            </p>
+            <div class="y-scope-block">
+              <span class="y-scope-label">(SCOPE)</span>
+              <div class="y-scope-tags">
+                <div>Веб-дизайн</div>
+                <div>SaaS</div>
+                <div>Тарифы</div>
+              </div>
+            </div>
+          </div>
+          <div class="y-col-visual">
+            <div class="y-visual-frame">
+              <img src="/assets/oiva-cover.webp" alt="Oiva Feedback" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- Project 03: CAPSERVICE -->
+      <a class="y-project-item" href="/projects/capservice/">
+        <div class="y-project-grid">
+          <div class="y-col-title">
+            <h3>CAPSERVICE <span class="arrow">↗</span></h3>
+          </div>
+          <div class="y-col-desc">
+            <p class="y-project-p">
+              Обновленный сайт сервиса аренды кофемашин для бизнеса и продажи капсул. Новая понятная бенто-система и презентация оборудования.
+            </p>
+            <div class="y-scope-block">
+              <span class="y-scope-label">(SCOPE)</span>
+              <div class="y-scope-tags">
+                <div>Веб-дизайн</div>
+                <div>Аренда для бизнеса</div>
+                <div>Интернет-магазин</div>
+              </div>
+            </div>
+          </div>
+          <div class="y-col-visual">
+            <div class="y-visual-frame">
+              <img src="/assets/capservice-cover.webp" alt="CapService" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- Project 04: SNK -->
+      <a class="y-project-item" href="/projects/snk/">
+        <div class="y-project-grid">
+          <div class="y-col-title">
+            <h3>SNK <span class="arrow">↗</span></h3>
+          </div>
+          <div class="y-col-desc">
+            <p class="y-project-p">
+              Сибирская косметика и цифровой помощник по подбору ухода. Главная, страницы для брендов, история компании и блог.
+            </p>
+            <div class="y-scope-block">
+              <span class="y-scope-label">(SCOPE)</span>
+              <div class="y-scope-tags">
+                <div>Интернет-магазин</div>
+                <div>AI-косметолог</div>
+                <div>Адаптив</div>
+              </div>
+            </div>
+          </div>
+          <div class="y-col-visual">
+            <div class="y-visual-frame">
+              <img src="/assets/snk-cover.webp" alt="SNK" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- Project 05: KILEV LAB -->
+      <a class="y-project-item" href="/projects/kilev-lab/">
+        <div class="y-project-grid">
+          <div class="y-col-title">
+            <h3>KILEV LAB <span class="arrow">↗</span></h3>
+          </div>
+          <div class="y-col-desc">
+            <p class="y-project-p">
+              Сайт международного брендингового агентства: две языковые версии, выразительное портфолио и адаптация для компьютеров, планшетов и телефонов.
+            </p>
+            <div class="y-scope-block">
+              <span class="y-scope-label">(SCOPE)</span>
+              <div class="y-scope-tags">
+                <div>Веб-дизайн</div>
+                <div>RU / EN</div>
+                <div>Адаптив</div>
+              </div>
+            </div>
+          </div>
+          <div class="y-col-visual">
+            <div class="y-visual-frame">
+              <img src="/assets/kilev-lab-cover.webp" alt="Kilev Lab" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- Project 06: 0NOT1 -->
+      <a class="y-project-item" href="/projects/0not1/">
+        <div class="y-project-grid">
+          <div class="y-col-title">
+            <h3>0NOT1 <span class="arrow">↗</span></h3>
+          </div>
+          <div class="y-col-desc">
+            <p class="y-project-p">
+              Одежда для тех, кто выбирает быть собой. Интернет-магазин 0not1 соединяет манифест бренда с каталогом, карточками вещей и оптовым направлением.
+            </p>
+            <div class="y-scope-block">
+              <span class="y-scope-label">(SCOPE)</span>
+              <div class="y-scope-tags">
+                <div>Интернет-магазин</div>
+                <div>Одежда</div>
+                <div>Адаптив</div>
+              </div>
+            </div>
+          </div>
+          <div class="y-col-visual">
+            <div class="y-visual-frame">
+              <img src="/assets/0not1-cover.webp" alt="0not1" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- Project 07: ICEFLOW -->
+      <a class="y-project-item" href="/projects/iceflow/">
+        <div class="y-project-grid">
+          <div class="y-col-title">
+            <h3>ICEFLOW <span class="arrow">↗</span></h3>
+          </div>
+          <div class="y-col-desc">
+            <p class="y-project-p">
+              Сайт бренда напитков: главная, мобильная версия, страница Recovery и объяснение продуктовой линейки.
+            </p>
+            <div class="y-scope-block">
+              <span class="y-scope-label">(SCOPE)</span>
+              <div class="y-scope-tags">
+                <div>Веб-дизайн</div>
+                <div>Напитки</div>
+                <div>Адаптив</div>
+              </div>
+            </div>
+          </div>
+          <div class="y-col-visual">
+            <div class="y-visual-frame">
+              <img src="/assets/iceflow-cover.webp" alt="Iceflow" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- Project 08: RENOM -->
+      <a class="y-project-item" href="/projects/renom/">
+        <div class="y-project-grid">
+          <div class="y-col-title">
+            <h3>RENOM <span class="arrow">↗</span></h3>
+          </div>
+          <div class="y-col-desc">
+            <p class="y-project-p">
+              Визуальная система для компании, которая разрабатывает решения для защиты информации: знак, палитра, носители и презентация.
+            </p>
+            <div class="y-scope-block">
+              <span class="y-scope-label">(SCOPE)</span>
+              <div class="y-scope-tags">
+                <div>Брендинг</div>
+                <div>Брендбук</div>
+                <div>Презентация</div>
+              </div>
+            </div>
+          </div>
+          <div class="y-col-visual">
+            <div class="y-visual-frame">
+              <img src="/assets/renom-cover.webp" alt="RENOM" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- More Projects Container (Collapsed / Expandable) -->
+      <div id="extraProjects" style="display: none; flex-direction: column; gap: 80px;">
+
+        <!-- 3R Agency -->
+        <a class="y-project-item" href="/projects/3r-agency/">
+          <div class="y-project-grid">
+            <div class="y-col-title">
+              <h3>3R AGENCY <span class="arrow">↗</span></h3>
+            </div>
+            <div class="y-col-desc">
+              <p class="y-project-p">
+                Сайт AI-агентства и фирменный стиль: от идеи трех R до логотипа, гайдбука и применения на разных носителях.
+              </p>
+              <div class="y-scope-block">
+                <span class="y-scope-label">(SCOPE)</span>
+                <div class="y-scope-tags">
+                  <div>Веб-дизайн</div>
+                  <div>Логотип</div>
+                  <div>Фирменный стиль</div>
+                </div>
+              </div>
+            </div>
+            <div class="y-col-visual">
+              <div class="y-visual-frame">
+                <img src="/assets/3r-agency-cover.webp" alt="3R Agency" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Status Compliance -->
+        <a class="y-project-item" href="/projects/status-compliance/">
+          <div class="y-project-grid">
+            <div class="y-col-title">
+              <h3>STATUS COMPLIANCE <span class="arrow">↗</span></h3>
+            </div>
+            <div class="y-col-desc">
+              <p class="y-project-p">
+                Фирменный стиль с выразительным знаком, контрастной палитрой и применением в печати, цифровой среде и пространстве.
+              </p>
+              <div class="y-scope-block">
+                <span class="y-scope-label">(SCOPE)</span>
+                <div class="y-scope-tags">
+                  <div>Брендинг</div>
+                  <div>Фирменный стиль</div>
+                  <div>Брендбук</div>
+                </div>
+              </div>
+            </div>
+            <div class="y-col-visual">
+              <div class="y-visual-frame">
+                <img src="/assets/status-compliance-cover.webp" alt="Status Compliance" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Yodometics -->
+        <a class="y-project-item" href="/projects/yodometics/">
+          <div class="y-project-grid">
+            <div class="y-col-title">
+              <h3>YODOMETICS <span class="arrow">↗</span></h3>
+            </div>
+            <div class="y-col-desc">
+              <p class="y-project-p">
+                Дизайн магазина натуральной косметики: подбор ухода через AI-помощника и каталог продуктов.
+              </p>
+              <div class="y-scope-block">
+                <span class="y-scope-label">(SCOPE)</span>
+                <div class="y-scope-tags">
+                  <div>Веб-дизайн</div>
+                  <div>Косметика</div>
+                  <div>Интернет-магазин</div>
+                </div>
+              </div>
+            </div>
+            <div class="y-col-visual">
+              <div class="y-visual-frame">
+                <img src="/assets/yodometics-cover.webp" alt="Yodometics" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Kosov -->
+        <a class="y-project-item" href="/projects/kosov/">
+          <div class="y-project-grid">
+            <div class="y-col-title">
+              <h3>KOSOV <span class="arrow">↗</span></h3>
+            </div>
+            <div class="y-col-desc">
+              <p class="y-project-p">
+                Три ключевых раздела: главная, проекты и команда. Показ сайта целиком без лишних повторов.
+              </p>
+              <div class="y-scope-block">
+                <span class="y-scope-label">(SCOPE)</span>
+                <div class="y-scope-tags">
+                  <div>Веб-дизайн</div>
+                  <div>Многостраничный сайт</div>
+                </div>
+              </div>
+            </div>
+            <div class="y-col-visual">
+              <div class="y-visual-frame">
+                <img src="/assets/kosov-cover.webp" alt="Kosov" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Wowflat -->
+        <a class="y-project-item" href="/projects/wowflat/">
+          <div class="y-project-grid">
+            <div class="y-col-title">
+              <h3>WOWFLAT <span class="arrow">↗</span></h3>
+            </div>
+            <div class="y-col-desc">
+              <p class="y-project-p">
+                Сайт агентства: крупные блоки, презентация услуг и собственный визуальный ритм.
+              </p>
+              <div class="y-scope-block">
+                <span class="y-scope-label">(SCOPE)</span>
+                <div class="y-scope-tags">
+                  <div>Веб-дизайн</div>
+                  <div>Агентство</div>
+                </div>
+              </div>
+            </div>
+            <div class="y-col-visual">
+              <div class="y-visual-frame">
+                <img src="/assets/wowflat-cover.webp" alt="Wowflat" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Bali -->
+        <a class="y-project-item" href="/projects/bali/">
+          <div class="y-project-grid">
+            <div class="y-col-title">
+              <h3>BALI <span class="arrow">↗</span></h3>
+            </div>
+            <div class="y-col-desc">
+              <p class="y-project-p">
+                Длинная страница проекта о Бали с последовательной и плавной подачей контента.
+              </p>
+              <div class="y-scope-block">
+                <span class="y-scope-label">(SCOPE)</span>
+                <div class="y-scope-tags">
+                  <div>Веб-дизайн</div>
+                  <div>Лендинг</div>
+                </div>
+              </div>
+            </div>
+            <div class="y-col-visual">
+              <div class="y-visual-frame">
+                <img src="/assets/bali-cover.webp" alt="Bali" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Phuket -->
+        <a class="y-project-item" href="/projects/phuket/">
+          <div class="y-project-grid">
+            <div class="y-col-title">
+              <h3>GET YOUR PHUKET <span class="arrow">↗</span></h3>
+            </div>
+            <div class="y-col-desc">
+              <p class="y-project-p">
+                Проект с несколькими визуальными версиями: зеленая концепция и мобильный экран.
+              </p>
+              <div class="y-scope-block">
+                <span class="y-scope-label">(SCOPE)</span>
+                <div class="y-scope-tags">
+                  <div>Веб-дизайн</div>
+                  <div>Адаптив</div>
+                </div>
+              </div>
+            </div>
+            <div class="y-col-visual">
+              <div class="y-visual-frame">
+                <img src="/assets/phuket-cover.webp" alt="Phuket" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Christmas Present -->
+        <a class="y-project-item" href="/projects/christmas-present/">
+          <div class="y-project-grid">
+            <div class="y-col-title">
+              <h3>CHRISTMAS PRESENT <span class="arrow">↗</span></h3>
+            </div>
+            <div class="y-col-desc">
+              <p class="y-project-p">
+                Праздничный сайт с длинной главной страницей и выразительными типографическими акцентами.
+              </p>
+              <div class="y-scope-block">
+                <span class="y-scope-label">(SCOPE)</span>
+                <div class="y-scope-tags">
+                  <div>Веб-дизайн</div>
+                  <div>Праздничный лендинг</div>
+                </div>
+              </div>
+            </div>
+            <div class="y-col-visual">
+              <div class="y-visual-frame">
+                <img src="/assets/christmas-present-cover.webp" alt="Christmas Present" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- CREDU -->
+        <a class="y-project-item" href="/projects/credu/">
+          <div class="y-project-grid">
+            <div class="y-col-title">
+              <h3>CREDU <span class="arrow">↗</span></h3>
+            </div>
+            <div class="y-col-desc">
+              <p class="y-project-p">
+                Лендинг и отдельная визуальная концепция для проекта Crypto Legion.
+              </p>
+              <div class="y-scope-block">
+                <span class="y-scope-label">(SCOPE)</span>
+                <div class="y-scope-tags">
+                  <div>Веб-дизайн</div>
+                  <div>Визуальная система</div>
+                </div>
+              </div>
+            </div>
+            <div class="y-col-visual">
+              <div class="y-visual-frame">
+                <img src="/assets/credu-cover.webp" alt="CREDU" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Arhistratig -->
+        <a class="y-project-item" href="/projects/arhistratig/">
+          <div class="y-project-grid">
+            <div class="y-col-title">
+              <h3>ARHISTRATIG <span class="arrow">↗</span></h3>
+            </div>
+            <div class="y-col-desc">
+              <p class="y-project-p">
+                Цельная версия страницы Johan с выверенной типографикой и аккуратным ритмом.
+              </p>
+              <div class="y-scope-block">
+                <span class="y-scope-label">(SCOPE)</span>
+                <div class="y-scope-tags">
+                  <div>Веб-дизайн</div>
+                  <div>Лендинг</div>
+                </div>
+              </div>
+            </div>
+            <div class="y-col-visual">
+              <div class="y-visual-frame">
+                <img src="/assets/arhistratig-cover.webp" alt="Arhistratig" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Sananda -->
+        <a class="y-project-item" href="/projects/sananda/">
+          <div class="y-project-grid">
+            <div class="y-col-title">
+              <h3>SANANDA <span class="arrow">↗</span></h3>
+            </div>
+            <div class="y-col-desc">
+              <p class="y-project-p">
+                Подборка из четырех страниц: главная, курсы, ретриты и консультации.
+              </p>
+              <div class="y-scope-block">
+                <span class="y-scope-label">(SCOPE)</span>
+                <div class="y-scope-tags">
+                  <div>Веб-дизайн</div>
+                  <div>Многостраничный сайт</div>
+                </div>
+              </div>
+            </div>
+            <div class="y-col-visual">
+              <div class="y-visual-frame">
+                <img src="/assets/sananda-cover.webp" alt="Sananda" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </a>
+
       </div>
 
-      <!-- Project 01 -->
-      <article class="y-project-row">
-        <a href="/projects/naglyadno/">
-          <div class="y-project-header">
-            <div class="y-project-title-group">
-              <span class="label-tag">01 / Продуктовый сайт & UI</span>
-              <h3>Наглядно <span class="y-arrow">↗</span></h3>
-            </div>
-            <div class="y-project-scope">
-              <span class="label-tag">(Scope)</span>
-              <span>SaaS · Аналитика Ozon · UI-система · Лендинг · ВКонтакте</span>
-            </div>
-            <div class="y-project-desc">
-              Комплексный веб-дизайн сервиса аналитики для селлеров маркетплейсов: промо-лендинг, интерфейс веб-дашборда с графиками метрик и дизайн-система промо-материалов.
-            </div>
-          </div>
-          <div class="y-project-image-box">
-            <img src="/assets/naglyadno-cover.webp" alt="Проект Наглядно" loading="lazy" decoding="async">
-          </div>
-        </a>
-      </article>
-
-      <!-- Project 02 -->
-      <article class="y-project-row">
-        <a href="/projects/oiva/">
-          <div class="y-project-header">
-            <div class="y-project-title-group">
-              <span class="label-tag">02 / Продуктовый лендинг</span>
-              <h3>Oiva Feedback <span class="y-arrow">↗</span></h3>
-            </div>
-            <div class="y-project-scope">
-              <span class="label-tag">(Scope)</span>
-              <span>B2B SaaS · Обратная связь · Тарифы · Адаптив</span>
-            </div>
-            <div class="y-project-desc">
-              Сайт сервиса клиентской обратной связи и сбора отзывов: структура от первого знакомства с продуктом до сценариев использования, интеграций и прозрачной тарифной сетки.
-            </div>
-          </div>
-          <div class="y-project-image-box">
-            <img src="/assets/oiva-cover.webp" alt="Проект Oiva Feedback" loading="lazy" decoding="async">
-          </div>
-        </a>
-      </article>
-
-      <!-- Project 03 -->
-      <article class="y-project-row">
-        <a href="/projects/capservice/">
-          <div class="y-project-header">
-            <div class="y-project-title-group">
-              <span class="label-tag">03 / B2B Сервис & E-commerce</span>
-              <h3>CapService <span class="y-arrow">↗</span></h3>
-            </div>
-            <div class="y-project-scope">
-              <span class="label-tag">(Scope)</span>
-              <span>Многостраничный сайт · B2B Аренда · Каталог капсул</span>
-            </div>
-            <div class="y-project-desc">
-              Редизайн сайта сервиса аренды профессиональных кофемашин для бизнеса и продажи кофе в капсулах. Новая понятная бенто-система, презентация оборудования и удобный чекаут.
-            </div>
-          </div>
-          <div class="y-project-image-box">
-            <img src="/assets/capservice-cover.webp" alt="Проект CapService" loading="lazy" decoding="async">
-          </div>
-        </a>
-      </article>
-
-      <!-- Project 04 -->
-      <article class="y-project-row">
-        <a href="/projects/snk/">
-          <div class="y-project-header">
-            <div class="y-project-title-group">
-              <span class="label-tag">04 / E-commerce & AI-помощник</span>
-              <h3>SNK Cosmetics <span class="y-arrow">↗</span></h3>
-            </div>
-            <div class="y-project-scope">
-              <span class="label-tag">(Scope)</span>
-              <span>Интернет-магазин · AI-косметолог · Каталог брендов</span>
-            </div>
-            <div class="y-project-desc">
-              Сайт сибирской косметики с цифровым помощником по персональному подбору ухода. Главная страница, карточки брендов, история компании и адаптивный блог экспертов.
-            </div>
-          </div>
-          <div class="y-project-image-box">
-            <img src="/assets/snk-cover.webp" alt="Проект SNK" loading="lazy" decoding="async">
-          </div>
-        </a>
-      </article>
-
-      <!-- Project 05 -->
-      <article class="y-project-row">
-        <a href="/projects/kilev-lab/">
-          <div class="y-project-header">
-            <div class="y-project-title-group">
-              <span class="label-tag">05 / Агентство & Айдентика</span>
-              <h3>Kilev Lab <span class="y-arrow">↗</span></h3>
-            </div>
-            <div class="y-project-scope">
-              <span class="label-tag">(Scope)</span>
-              <span>Международный сайт · RU / EN · Нестандартная сетка</span>
-            </div>
-            <div class="y-project-desc">
-              Сайт международного брендингового агентства: две языковые версии, выразительное портфолио работ и выверенная адаптация для компьютеров, планшетов и телефонов.
-            </div>
-          </div>
-          <div class="y-project-image-box">
-            <img src="/assets/kilev-lab-cover.webp" alt="Проект Kilev Lab" loading="lazy" decoding="async">
-          </div>
-        </a>
-      </article>
-
-      <!-- Archive Drawer / Remaining 14 projects -->
-      <div class="y-archive-toggle-wrap">
-        <button class="y-archive-toggle" id="toggleArchiveBtn" onclick="toggleArchive()">
-          Смотреть все проекты (ещё 14 работ) ↓
+      <!-- Button to toggle extra projects -->
+      <div class="y-more-wrap">
+        <button class="y-more-btn" id="moreProjectsBtn" onclick="toggleExtraProjects()">
+          ( + ПОКАЗАТЬ ВСЕ ПРОЕКТЫ · ЕЩЁ 11 РАБОТ )
         </button>
       </div>
 
-      <div class="y-archive-grid" id="archiveGrid" style="display: none;">
-        <a class="y-archive-card" href="/projects/0not1/">
-          <div class="y-archive-img"><img src="/assets/0not1-cover.webp" alt="0not1" loading="lazy"></div>
-          <div class="y-archive-info">
-            <span class="label-tag">Интернет-магазин</span>
-            <h4>0not1 / Zero Not One ↗</h4>
-            <p>Одежда и манифест бренда, каталог и оптовое направление.</p>
-          </div>
-        </a>
-        <a class="y-archive-card" href="/projects/3r-agency/">
-          <div class="y-archive-img"><img src="/assets/3r-agency-cover.webp" alt="3R Agency" loading="lazy"></div>
-          <div class="y-archive-info">
-            <span class="label-tag">Сайт & Айдентика</span>
-            <h4>3R Agency ↗</h4>
-            <p>Сайт AI-агентства, логотип, гайдбук и фирменный стиль.</p>
-          </div>
-        </a>
-        <a class="y-archive-card" href="/projects/iceflow/">
-          <div class="y-archive-img"><img src="/assets/iceflow-cover.webp" alt="Iceflow" loading="lazy"></div>
-          <div class="y-archive-info">
-            <span class="label-tag">Сайт бренда</span>
-            <h4>Iceflow ↗</h4>
-            <p>Премиальный сайт напитков: продуктовая линейка и адаптив.</p>
-          </div>
-        </a>
-        <a class="y-archive-card" href="/projects/yodometics/">
-          <div class="y-archive-img"><img src="/assets/yodometics-cover.webp" alt="Yodometics" loading="lazy"></div>
-          <div class="y-archive-info">
-            <span class="label-tag">Интернет-магазин</span>
-            <h4>Yodometics ↗</h4>
-            <p>Каталог натуральной косметики и подбор ухода.</p>
-          </div>
-        </a>
-        <a class="y-archive-card" href="/projects/renom/">
-          <div class="y-archive-img"><img src="/assets/renom-cover.webp" alt="RENOM" loading="lazy"></div>
-          <div class="y-archive-info">
-            <span class="label-tag">Брендинг</span>
-            <h4>RENOM ↗</h4>
-            <p>Визуальная система для компании в сфере защиты информации.</p>
-          </div>
-        </a>
-        <a class="y-archive-card" href="/projects/status-compliance/">
-          <div class="y-archive-img"><img src="/assets/status-compliance-cover.webp" alt="Status Compliance" loading="lazy"></div>
-          <div class="y-archive-info">
-            <span class="label-tag">Брендинг</span>
-            <h4>Status Compliance ↗</h4>
-            <p>Фирменный стиль, строгая палитра и брендбук.</p>
-          </div>
-        </a>
-        <a class="y-archive-card" href="/projects/kosov/">
-          <div class="y-archive-img"><img src="/assets/kosov-cover.webp" alt="Kosov" loading="lazy"></div>
-          <div class="y-archive-info">
-            <span class="label-tag">Многостраничный</span>
-            <h4>Kosov ↗</h4>
-            <p>Архитектура страниц, проекты и команда.</p>
-          </div>
-        </a>
-        <a class="y-archive-card" href="/projects/wowflat/">
-          <div class="y-archive-img"><img src="/assets/wowflat-cover.webp" alt="Wowflat Agency" loading="lazy"></div>
-          <div class="y-archive-info">
-            <span class="label-tag">Сайт агентства</span>
-            <h4>Wowflat Agency ↗</h4>
-            <p>Крупные блоки, презентация услуг и ритм.</p>
-          </div>
-        </a>
-        <a class="y-archive-card" href="/projects/bali/">
-          <div class="y-archive-img"><img src="/assets/bali-cover.webp" alt="Bali" loading="lazy"></div>
-          <div class="y-archive-info">
-            <span class="label-tag">Лендинг</span>
-            <h4>Bali ↗</h4>
-            <p>Последовательная подача контента и атмосфера острова.</p>
-          </div>
-        </a>
-        <a class="y-archive-card" href="/projects/phuket/">
-          <div class="y-archive-img"><img src="/assets/phuket-cover.webp" alt="Get Your Phuket" loading="lazy"></div>
-          <div class="y-archive-info">
-            <span class="label-tag">Адаптивный сайт</span>
-            <h4>Get Your Phuket ↗</h4>
-            <p>Зеленая визуальная концепция и мобильные экраны.</p>
-          </div>
-        </a>
-        <a class="y-archive-card" href="/projects/christmas-present/">
-          <div class="y-archive-img"><img src="/assets/christmas-present-cover.webp" alt="Christmas Present" loading="lazy"></div>
-          <div class="y-archive-info">
-            <span class="label-tag">Сайт</span>
-            <h4>Christmas Present ↗</h4>
-            <p>Праздничный лендинг с выразительными акцентами.</p>
-          </div>
-        </a>
-        <a class="y-archive-card" href="/projects/credu/">
-          <div class="y-archive-img"><img src="/assets/credu-cover.webp" alt="CREDU" loading="lazy"></div>
-          <div class="y-archive-info">
-            <span class="label-tag">Концепция</span>
-            <h4>CREDU ↗</h4>
-            <p>Визуальная система для финтех-проекта.</p>
-          </div>
-        </a>
-        <a class="y-archive-card" href="/projects/arhistratig/">
-          <div class="y-archive-img"><img src="/assets/arhistratig-cover.webp" alt="Arhistratig" loading="lazy"></div>
-          <div class="y-archive-info">
-            <span class="label-tag">Сайт</span>
-            <h4>Arhistratig ↗</h4>
-            <p>Цельная страница с выверенной типографикой.</p>
-          </div>
-        </a>
-        <a class="y-archive-card" href="/projects/sananda/">
-          <div class="y-archive-img"><img src="/assets/sananda-cover.webp" alt="Sananda" loading="lazy"></div>
-          <div class="y-archive-info">
-            <span class="label-tag">Многостраничный</span>
-            <h4>Sananda ↗</h4>
-            <p>Четыре страницы: курсы, ретриты, консультации.</p>
-          </div>
-        </a>
-      </div>
-    </section>
+    </main>
 
-    <!-- About & Resume Section (For Employers) -->
-    <section class="y-about wrap" id="about">
+    <!-- About Section (Exact Yaeger Layout) -->
+    <section class="y-about-section" id="about">
       <div class="y-about-statement">
-        «Я создаю сайты и интерфейсы, в которых сильная визуальная подача помогает бизнесу вызывать доверие, а пользователям — моментально понимать продукт.»
+        Я Екатерина Зайцева, дизайнер сайтов и интерфейсов. Создаю визуальные системы и цифровые продукты, которые вызывают доверие пользователей и помогают бизнесу расти.
       </div>
 
-      <div class="y-about-grid">
-        <!-- Col 1: Skills & Tools -->
-        <div class="y-about-col" id="skills">
-          <h3>(Навыки и стек)</h3>
-          <ul class="y-skills-list">
-            <li>Проектирование сайтов и лендингов <span>Web Design</span></li>
-            <li>Интерфейсы сервисов и дашборды <span>UI / UX</span></li>
-            <li>Figma (Auto-layout, Components, Variables) <span>Tooling</span></li>
-            <li>Адаптивная верстка (Mobile-first, Desktop) <span>Responsive</span></li>
-            <li>Дизайн-системы и UI-киты <span>Systems</span></li>
-            <li>Подготовка макетов к разработке (Hand-off) <span>Dev-ready</span></li>
-            <li>UX-сценарии, User Flow & Прототипы <span>Prototyping</span></li>
+      <div class="y-about-subgrid">
+        <!-- Col Left: Services / Skills (5 cols) -->
+        <div class="y-about-services">
+          <span class="y-services-title">(SERVICES)</span>
+          <ul class="y-services-list">
+            <li>Веб-дизайн & Лендинги</li>
+            <li>UI/UX Интерфейсы & Дашборды</li>
+            <li>Дизайн-системы в Figma</li>
+            <li>Адаптивная верстка (Mobile / Desktop)</li>
+            <li>Auto-layout & Variables</li>
+            <li>Подготовка к разработке (Hand-off)</li>
           </ul>
         </div>
 
-        <!-- Col 2: Approach & Experience -->
-        <div class="y-about-col y-about-text">
-          <h3>(Опыт и подход для работодателя)</h3>
+        <!-- Col Right: Approach & Bio (7 cols) -->
+        <div class="y-about-text">
           <p>
-            Меня зовут Екатерина Зайцева. Я специализируюсь на создании понятных, современных сайтов и цифровых продуктов. Мой опыт включает работу со стартапами, e-commerce брендами, B2B-сервисами и агентствами.
+            Я работаю в тесном контакте с основателями и продуктовыми командами, которые готовы выйти на новый уровень. Вместе мы создаем сайты, которые звучат уверенно, понятно объясняют сложные продукты и выделяются в конкурентной среде.
           </p>
           <p>
-            В работе ориентируюсь на бизнес-цели: каждый блок макета проектируется с пониманием того, как он решает задачу пользователя и команды. Макеты всегда чистые, структурированные по слоям и стилям, готовые к быстрой верстке без хаоса.
+            Внимание к деталям для меня базовый стандарт: аккуратные сетки, продуманные микроанимации, высокая читаемость и уважение к времени пользователя и верстальщика.
           </p>
-
-          <div class="y-resume-actions">
-            <a class="y-btn-primary" href="https://t.me" target="_blank" rel="noopener">
-              Связаться в Telegram ↗
-            </a>
-            <a class="y-btn-secondary" href="mailto:ekaterina@example.com">
-              Написать на почту ↗
-            </a>
+          <div class="y-btn-group">
+            <a class="y-btn-pill" href="https://t.me" target="_blank" rel="noopener">Написать в Telegram ↗</a>
+            <a class="y-btn-pill" href="mailto:ekaterina@example.com">Email ↗</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Footer & CTA -->
-    <footer class="y-footer wrap" id="contact">
+    <!-- Footer -->
+    <footer class="y-footer">
       <div class="y-footer-cta">
-        <span>(Сотрудничество)</span>
-        <strong>Есть проект или открытая вакансия?<br>Давайте сделаем её наглядной.</strong>
-        <div class="y-footer-contacts">
-          <a class="y-btn-primary" href="https://t.me" target="_blank" rel="noopener">Telegram ↗</a>
-          <a class="y-btn-secondary" href="mailto:ekaterina@example.com">Email ↗</a>
-        </div>
+        Готовы обсудить проект<br>или позицию в команде?
       </div>
-
       <div class="y-footer-bottom">
-        <span>Екатерина Зайцева · Веб-дизайн & UI/UX · 2026</span>
-        <a href="#">Наверх ↑</a>
+        <div>ЕКАТЕРИНА ЗАЙЦЕВА · ВЕБ-ДИЗАЙН · 2026</div>
+        <a href="#works">НАВЕРХ ↑</a>
       </div>
     </footer>
-  </main>
+
+  </div>
 
   <script>
-    function toggleArchive() {
-      var grid = document.getElementById('archiveGrid');
-      var btn = document.getElementById('toggleArchiveBtn');
-      if (grid.style.display === 'none' || grid.style.display === '') {
-        grid.style.display = 'grid';
-        btn.textContent = 'Скрыть остальные проекты ↑';
+    function toggleExtraProjects() {
+      var box = document.getElementById('extraProjects');
+      var btn = document.getElementById('moreProjectsBtn');
+      if (box.style.display === 'none' || box.style.display === '') {
+        box.style.display = 'flex';
+        btn.textContent = '( — СКРЫТЬ ДОПОЛНИТЕЛЬНЫЕ ПРОЕКТЫ )';
       } else {
-        grid.style.display = 'none';
-        btn.textContent = 'Смотреть все проекты (ещё 14 работ) ↓';
+        box.style.display = 'none';
+        btn.textContent = '( + ПОКАЗАТЬ ВСЕ ПРОЕКТЫ · ЕЩЁ 11 РАБОТ )';
       }
     }
   </script>

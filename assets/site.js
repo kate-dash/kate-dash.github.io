@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-expand]').forEach(button=>{button.addEventListener('click',()=>{const target=document.getElementById(button.dataset.expand);const open=target.classList.toggle('expanded');button.textContent=open?'Свернуть просмотр':'Показать весь сайт';button.setAttribute('aria-expanded',String(open));});});

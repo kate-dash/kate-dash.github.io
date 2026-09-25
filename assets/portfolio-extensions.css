@@ -1,0 +1,44 @@
+/* Shared project list and browser framing. Change these rules once for every case. */
+.project-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:90px 28px}
+.project-card.featured{grid-column:1/-1}
+.project-card:not(.featured) .project-info{display:block;min-height:230px;padding:20px 0 25px}
+.project-card:not(.featured) .project-info h3{font-size:clamp(32px,4vw,62px);margin:14px 0 10px;overflow-wrap:anywhere}
+.project-card:not(.featured) .project-info p{font-size:15px;line-height:1.5;margin:0 0 14px;max-width:570px}
+.project-card:not(.featured) .project-info .scope{display:block;margin:0;font-size:11px}
+.project-card:not(.featured) .project-visual{height:clamp(300px,35vw,490px)}
+.project-card .project-visual{height:auto;aspect-ratio:1.55;max-height:790px}
+.project-card:not(.featured) .project-visual{height:auto;aspect-ratio:1.55;max-height:490px}
+.project-card .browser img{width:100%;height:auto;aspect-ratio:auto}
+.project-card.brand-work .project-visual{display:grid;place-items:center}
+.project-card.brand-work .brand-cover{width:100%;height:100%;object-fit:contain;transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.project-card.brand-work:hover .brand-cover{transform:scale(1.035)}
+.case-hero h1{font-size:clamp(56px,10vw,150px);overflow-wrap:anywhere}
+.case-viewers{display:flex;flex-wrap:wrap;gap:72px 34px;align-items:flex-start}
+.case-viewer{width:100%;min-width:0}
+.case-viewer:has(.phone){width:min(330px,100%)}
+.viewer-title,.viewer-controls{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.viewer-title{margin-bottom:20px}
+.viewer-title h2{margin:0;font-size:clamp(20px,2.4vw,31px);letter-spacing:-.055em}
+.viewer-title span,.viewer-controls span{font-size:11px;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.viewer-controls{margin-top:18px}
+.case-viewer .screen-body{height:min(65vw,720px)}
+.case-viewer .phone{max-width:310px}
+.case-viewer .phone-body{height:650px}
+.case-viewer .screen.expanded .screen-body,.case-viewer .phone.expanded .phone-body{height:auto}
+.case-viewer .screen img,.case-viewer .phone img{width:100%;height:auto;aspect-ratio:auto}
+.case-viewer .screen-body,.case-viewer .phone-body{overscroll-behavior-y:auto;overflow-x:hidden}
+/* The supplied Naglyadno mobile capture has black, noisy side margins. */
+.case-viewer .phone-body img[src="/assets/naglyadno-2.webp"]{width:114%;max-width:none;margin-left:-7%}
+.case-text-body p{max-width:780px}
+@media(max-width:760px){
+  .project-list{grid-template-columns:1fr;gap:72px}
+  .project-card.featured{grid-column:auto}
+  .project-card:not(.featured) .project-info{min-height:0}
+  .project-card:not(.featured) .project-info h3{font-size:42px}
+  .project-card .project-visual,.project-card:not(.featured) .project-visual{height:auto;aspect-ratio:1.55;min-height:0}
+  .viewer-title,.viewer-controls{align-items:flex-start}
+  .viewer-title span{max-width:120px;text-align:right}
+  .case-viewers{gap:55px}
+  .case-viewer .screen-body{height:500px}
+  .case-viewer .phone-body{height:540px}
+}

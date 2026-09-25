@@ -1,0 +1,798 @@
+{
+  "naglyadno": [
+    {
+      "label": "Десктоп",
+      "asset": "naglyadno-1.webp",
+      "width": 1440,
+      "height": 9241,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Наглядно Лэндинг/Landing Page Full - Naglyadno.jpg",
+      "bytes": 553014
+    },
+    {
+      "label": "Мобильная версия",
+      "asset": "naglyadno-2.webp",
+      "width": 441,
+      "height": 11888,
+      "mobile": true,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Наглядно Лэндинг/Landing Page Mob - Naglyadno.png",
+      "bytes": 394728
+    }
+  ],
+  "oiva": [
+    {
+      "label": "Десктоп",
+      "asset": "oiva-1.webp",
+      "width": 1451,
+      "height": 9630,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Oiva/Oiva/Landing/Web Light.jpg",
+      "bytes": 486336
+    }
+  ],
+  "christmas-present": [
+    {
+      "label": "Главная страница",
+      "asset": "christmas-present-1.webp",
+      "width": 1440,
+      "height": 8351,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/Preview WEB for fl.ru/Christmas Present web.jpg",
+      "bytes": 688252
+    }
+  ],
+  "wowflat": [
+    {
+      "label": "Главная страница",
+      "asset": "wowflat-1.webp",
+      "width": 1440,
+      "height": 4920,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/Preview WEB for fl.ru/Wowflat agency - web.png",
+      "bytes": 284084
+    }
+  ],
+  "bali": [
+    {
+      "label": "Главная страница",
+      "asset": "bali-1.webp",
+      "width": 1440,
+      "height": 14124,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/Preview WEB for fl.ru/Bali WEB.png",
+      "bytes": 1233990
+    }
+  ],
+  "phuket": [
+    {
+      "label": "Зелёная версия",
+      "asset": "phuket-1.webp",
+      "width": 1500,
+      "height": 7054,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/GetyourPhuket/GetyourPhuket - Green.png",
+      "bytes": 580194
+    },
+    {
+      "label": "Мобильная версия",
+      "asset": "phuket-2.webp",
+      "width": 520,
+      "height": 15000,
+      "mobile": true,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/GetyourPhuket/Get Your Phuket -mobile.png",
+      "bytes": 639618
+    }
+  ],
+  "snk": [
+    {
+      "label": "Главная страница",
+      "asset": "snk-1.webp",
+      "width": 1500,
+      "height": 4212,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/SNK/SNK Web.jpg",
+      "bytes": 357758
+    },
+    {
+      "label": "Страница для брендов",
+      "asset": "snk-brands.webp",
+      "width": 604,
+      "height": 1800,
+      "mobile": false,
+      "source": "https://www.figma.com/design/bNqNHiZ2YOemwHrjtqEerv/SNK-Kilev?node-id=4352-3810",
+      "figma_node_id": "4352:3810",
+      "design_width": 1920
+    },
+    {
+      "label": "О компании",
+      "asset": "snk-about.webp",
+      "width": 558,
+      "height": 1800,
+      "mobile": false,
+      "source": "https://www.figma.com/design/bNqNHiZ2YOemwHrjtqEerv/SNK-Kilev?node-id=4352-4120",
+      "figma_node_id": "4352:4120",
+      "design_width": 1920
+    },
+    {
+      "label": "Блог и новости",
+      "asset": "snk-blog.webp",
+      "width": 1748,
+      "height": 1800,
+      "mobile": false,
+      "source": "https://www.figma.com/design/bNqNHiZ2YOemwHrjtqEerv/SNK-Kilev?node-id=4352-3989",
+      "figma_node_id": "4352:3989",
+      "design_width": 1920
+    },
+    {
+      "label": "Доставка и оплата",
+      "asset": "snk-delivery.webp",
+      "width": 939,
+      "height": 1800,
+      "mobile": false,
+      "source": "https://www.figma.com/design/bNqNHiZ2YOemwHrjtqEerv/SNK-Kilev?node-id=4352-4338",
+      "figma_node_id": "4352:4338",
+      "design_width": 1920
+    },
+    {
+      "label": "Мобильная версия блога",
+      "asset": "snk-3.webp",
+      "width": 390,
+      "height": 3116,
+      "mobile": true,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/SNK/SNK Блог Web13.jpg",
+      "bytes": 92762
+    }
+  ],
+  "kosov": [
+    {
+      "label": "Главная",
+      "asset": "kosov-1.webp",
+      "width": 1440,
+      "height": 6491,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/Kosov_web/Kosov - Home (2).png",
+      "bytes": 664952
+    },
+    {
+      "label": "Проекты",
+      "asset": "kosov-2.webp",
+      "width": 1440,
+      "height": 4633,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/Kosov_web/Kosov - Projects.png",
+      "bytes": 476676
+    },
+    {
+      "label": "Команда",
+      "asset": "kosov-3.webp",
+      "width": 1440,
+      "height": 3228,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/Kosov_web/Kosov - Team.png",
+      "bytes": 257110
+    }
+  ],
+  "kilev-lab": [
+    {
+      "label": "Главная · английская версия",
+      "asset": "kilev-lab-1.webp",
+      "width": 1500,
+      "height": 8528,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/15.08 Kilev Lab Final Designs/Home v2.png",
+      "bytes": 536472
+    },
+    {
+      "label": "Главная · мобильная версия",
+      "asset": "kilev-lab-2.webp",
+      "width": 440,
+      "height": 13080,
+      "mobile": true,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/15.08 Kilev Lab Final Designs/Mobile.png",
+      "bytes": 369544
+    },
+    {
+      "label": "Айдентика · русская версия",
+      "asset": "kilev-lab-brand-identity-ru.webp",
+      "width": 960,
+      "height": 6196,
+      "mobile": false,
+      "source": "https://www.figma.com/design/E76PpuINqNsmSqm0kbDDRb/22.10-Kilev.RU-Lab-Final-Designs?node-id=7335-16327",
+      "bytes": 409926
+    },
+    {
+      "label": "Портфолио · мобильная версия",
+      "asset": "kilev-lab-portfolio-mobile.webp",
+      "width": 440,
+      "height": 5590,
+      "mobile": true,
+      "source": "https://www.figma.com/design/E76PpuINqNsmSqm0kbDDRb/22.10-Kilev.RU-Lab-Final-Designs?node-id=2005-1010",
+      "bytes": 181768
+    }
+  ],
+  "0not1": [
+    {
+      "label": "Главная",
+      "asset": "0not1-1.webp",
+      "width": 1440,
+      "height": 5692,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/0not1 Final (Copy)/Главная.png",
+      "bytes": 413602
+    },
+    {
+      "label": "Главная · мобильная версия",
+      "asset": "0not1-2.webp",
+      "width": 428,
+      "height": 4257,
+      "mobile": true,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/0not1 Final (Copy)/Главная-1.png",
+      "bytes": 163552
+    },
+    {
+      "label": "Карточка товара",
+      "asset": "0not1-3.webp",
+      "width": 1440,
+      "height": 3277,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/0not1 Final (Copy)/Карточка товара.png",
+      "bytes": 161288
+    },
+    {
+      "label": "Карточка товара · мобильная версия",
+      "asset": "0not1-4.webp",
+      "width": 428,
+      "height": 3169,
+      "mobile": true,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/0not1 Final (Copy)/Карточка товара-1.png",
+      "bytes": 76510
+    },
+    {
+      "label": "Контакты",
+      "asset": "0not1-5.webp",
+      "width": 1440,
+      "height": 2833,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/0not1 Final (Copy)/Контакты.png",
+      "bytes": 141862
+    },
+    {
+      "label": "Оптовым покупателям",
+      "asset": "0not1-6.webp",
+      "width": 1440,
+      "height": 6607,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/0not1 Final (Copy)/Оптовым покупателям.png",
+      "bytes": 404410
+    }
+  ],
+  "3r-agency": [
+    {
+      "label": "Сайт агентства",
+      "asset": "3r-agency-1.webp",
+      "width": 1440,
+      "height": 10725,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/3R agency.png",
+      "bytes": 606676
+    },
+    {
+      "label": "Идея трёх R",
+      "asset": "3r-brand-01.webp",
+      "width": 1600,
+      "height": 900,
+      "mobile": false,
+      "kind": "guidebook",
+      "group": "identity",
+      "source": "source-materials/3r-agency/guidebook.pdf",
+      "source_page": 1
+    },
+    {
+      "label": "Разработка знака",
+      "asset": "3r-brand-02.webp",
+      "width": 1600,
+      "height": 900,
+      "mobile": false,
+      "kind": "guidebook",
+      "group": "identity",
+      "source": "source-materials/3r-agency/guidebook.pdf",
+      "source_page": 2
+    },
+    {
+      "label": "Логотип и графическая система",
+      "asset": "3r-brand-03.webp",
+      "width": 1600,
+      "height": 900,
+      "mobile": false,
+      "kind": "guidebook",
+      "group": "identity",
+      "source": "source-materials/3r-agency/guidebook.pdf",
+      "source_page": 3
+    },
+    {
+      "label": "Деловые материалы",
+      "asset": "3r-brand-04.webp",
+      "width": 1600,
+      "height": 900,
+      "mobile": false,
+      "kind": "guidebook",
+      "group": "application",
+      "source": "source-materials/3r-agency/guidebook.pdf",
+      "source_page": 4
+    },
+    {
+      "label": "Наружный носитель",
+      "asset": "3r-brand-05.webp",
+      "width": 1600,
+      "height": 900,
+      "mobile": false,
+      "kind": "guidebook",
+      "group": "application",
+      "source": "source-materials/3r-agency/guidebook.pdf",
+      "source_page": 5
+    },
+    {
+      "label": "Мобильный носитель",
+      "asset": "3r-brand-06.webp",
+      "width": 1600,
+      "height": 900,
+      "mobile": false,
+      "kind": "guidebook",
+      "group": "application",
+      "source": "source-materials/3r-agency/guidebook.pdf",
+      "source_page": 6
+    },
+    {
+      "label": "Фирменные материалы",
+      "asset": "3r-brand-08.webp",
+      "width": 1600,
+      "height": 900,
+      "mobile": false,
+      "kind": "guidebook",
+      "group": "application",
+      "source": "source-materials/3r-agency/guidebook.pdf",
+      "source_page": 8
+    }
+  ],
+  "arhistratig": [
+    {
+      "label": "Главная страница",
+      "asset": "arhistratig-1.webp",
+      "width": 1500,
+      "height": 10798,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/Arhistratig/Arhistratig - Johan 1x.png",
+      "bytes": 869626
+    }
+  ],
+  "credu": [
+    {
+      "label": "Лендинг",
+      "asset": "credu-1.webp",
+      "width": 1440,
+      "height": 4668,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/Credu/CREDU_lp.png",
+      "bytes": 182176
+    },
+    {
+      "label": "Визуальная концепция",
+      "asset": "credu-2.webp",
+      "width": 1500,
+      "height": 6660,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/Credu/CREDU | Crypto Legion.jpg",
+      "bytes": 284416
+    }
+  ],
+  "sananda": [
+    {
+      "label": "Главная",
+      "asset": "sananda-1.webp",
+      "width": 1500,
+      "height": 9399,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/Sananda sacred vision/screencapture-sanandasacredvision-tilda-ws-en-2026-02-10-18_23_17.png",
+      "bytes": 377734
+    },
+    {
+      "label": "Курсы",
+      "asset": "sananda-2.webp",
+      "width": 1500,
+      "height": 12275,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/Sananda sacred vision/screencapture-sanandasacredvision-tilda-ws-courses-ru-2026-02-10-18_35_40.png",
+      "bytes": 663610
+    },
+    {
+      "label": "Ретриты",
+      "asset": "sananda-3.webp",
+      "width": 1500,
+      "height": 9344,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/Sananda sacred vision/screencapture-sanandasacredvision-tilda-ws-retreats-ru-2026-02-10-18_34_42.png",
+      "bytes": 583340
+    },
+    {
+      "label": "Консультации",
+      "asset": "sananda-4.webp",
+      "width": 1500,
+      "height": 9469,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/Sananda sacred vision/screencapture-sanandasacredvision-tilda-ws-consultations-ru-2026-02-10-18_36_40.png",
+      "bytes": 524972
+    }
+  ],
+  "yodometics": [
+    {
+      "label": "Главная страница",
+      "asset": "yodometics-1.webp",
+      "width": 1500,
+      "height": 3339,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/SNK/SNK Web6.jpg",
+      "bytes": 255614
+    }
+  ],
+  "capservice": [
+    {
+      "label": "Главная страница",
+      "asset": "capservice-main.webp",
+      "width": 1449,
+      "height": 9990,
+      "mobile": false,
+      "source": "https://www.figma.com/design/s40QtmxkmP5a1j3CFWL3We/Kap-Servis-Preview?node-id=18-3783",
+      "figma_node_id": "18:3783",
+      "design_width": 1440
+    },
+    {
+      "label": "Мобильная главная",
+      "asset": "capservice-mobile.webp",
+      "width": 390,
+      "height": 4419,
+      "mobile": true,
+      "source": "https://www.figma.com/design/s40QtmxkmP5a1j3CFWL3We/Kap-Servis-Preview?node-id=18-4017",
+      "figma_node_id": "18:4017",
+      "design_width": 390
+    },
+    {
+      "label": "О компании",
+      "asset": "capservice-about.webp",
+      "width": 1440,
+      "height": 3244,
+      "mobile": false,
+      "source": "https://www.figma.com/design/s40QtmxkmP5a1j3CFWL3We/Kap-Servis-Preview?node-id=18-3231",
+      "figma_node_id": "18:3231",
+      "design_width": 1440
+    },
+    {
+      "label": "Карточка кофемашины",
+      "asset": "capservice-machine.webp",
+      "width": 1449,
+      "height": 6300,
+      "mobile": false,
+      "source": "https://www.figma.com/design/s40QtmxkmP5a1j3CFWL3We/Kap-Servis-Preview?node-id=18-2015",
+      "figma_node_id": "18:2015",
+      "design_width": 1440
+    },
+    {
+      "label": "Доставка и оплата",
+      "asset": "capservice-delivery.webp",
+      "width": 1449,
+      "height": 3617,
+      "mobile": false,
+      "source": "https://www.figma.com/design/s40QtmxkmP5a1j3CFWL3We/Kap-Servis-Preview?node-id=18-2594",
+      "figma_node_id": "18:2594",
+      "design_width": 1440
+    },
+    {
+      "label": "Моя подписка",
+      "asset": "capservice-account.webp",
+      "width": 1440,
+      "height": 1517,
+      "mobile": false,
+      "source": "https://www.figma.com/design/s40QtmxkmP5a1j3CFWL3We/Kap-Servis-Preview?node-id=18-18068",
+      "figma_node_id": "18:18068",
+      "design_width": 1440
+    },
+    {
+      "label": "Оформление заказа",
+      "asset": "capservice-checkout.webp",
+      "width": 1449,
+      "height": 1851,
+      "mobile": false,
+      "source": "https://www.figma.com/design/s40QtmxkmP5a1j3CFWL3We/Kap-Servis-Preview?node-id=18-21527",
+      "figma_node_id": "18:21527",
+      "design_width": 1440
+    }
+  ],
+  "iceflow": [
+    {
+      "label": "Главная · десктоп",
+      "asset": "iceflow-1.webp",
+      "width": 1440,
+      "height": 7502,
+      "mobile": false,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Iceflow-home-4 (1).png",
+      "bytes": 478686
+    },
+    {
+      "label": "Главная · мобильная версия",
+      "asset": "iceflow-2.webp",
+      "width": 375,
+      "height": 9866,
+      "mobile": true,
+      "source": "/Users/ekaterinazaitseva/Documents/Design/V1 - Iceflow - home - mob (1).png",
+      "bytes": 257276
+    },
+    {
+      "label": "Напиток Recovery",
+      "asset": "iceflow-product.webp",
+      "width": 960,
+      "height": 3932,
+      "mobile": false,
+      "source": "https://www.figma.com/design/6oP1uuwborPS8MriOqnMHm/Iceflow-03.10.25?node-id=8199-2417",
+      "bytes": 240426
+    },
+    {
+      "label": "Как это работает",
+      "asset": "iceflow-how.webp",
+      "width": 960,
+      "height": 4119,
+      "mobile": false,
+      "source": "https://www.figma.com/design/6oP1uuwborPS8MriOqnMHm/Iceflow-03.10.25?node-id=8199-3285",
+      "bytes": 246398
+    }
+  ],
+  "renom": [
+    {
+      "label": "Обложка брендбука",
+      "asset": "renom-brandbook-cover.webp",
+      "width": 652,
+      "height": 403,
+      "mobile": false,
+      "group": "identity",
+      "source": "https://www.figma.com/design/7nLteyXH42mHnhyEvNUGKv/RENOM-Brand-Book--Copy-"
+    },
+    {
+      "label": "Фирменный знак и написание",
+      "asset": "renom-logo.webp",
+      "width": 652,
+      "height": 403,
+      "mobile": false,
+      "group": "identity",
+      "source": "https://www.figma.com/design/7nLteyXH42mHnhyEvNUGKv/RENOM-Brand-Book--Copy-"
+    },
+    {
+      "label": "Палитра",
+      "asset": "renom-palette.webp",
+      "width": 652,
+      "height": 403,
+      "mobile": false,
+      "group": "identity",
+      "source": "https://www.figma.com/design/7nLteyXH42mHnhyEvNUGKv/RENOM-Brand-Book--Copy-"
+    },
+    {
+      "label": "Типографика",
+      "asset": "renom-type.webp",
+      "width": 657,
+      "height": 403,
+      "mobile": false,
+      "group": "identity",
+      "source": "https://www.figma.com/design/7nLteyXH42mHnhyEvNUGKv/RENOM-Brand-Book--Copy-"
+    },
+    {
+      "label": "Деловые материалы",
+      "asset": "renom-stationery.webp",
+      "width": 652,
+      "height": 403,
+      "mobile": false,
+      "group": "applications",
+      "source": "https://www.figma.com/design/7nLteyXH42mHnhyEvNUGKv/RENOM-Brand-Book--Copy-"
+    },
+    {
+      "label": "Пакеты и подарочные носители",
+      "asset": "renom-gifts.webp",
+      "width": 652,
+      "height": 403,
+      "mobile": false,
+      "group": "applications",
+      "source": "https://www.figma.com/design/7nLteyXH42mHnhyEvNUGKv/RENOM-Brand-Book--Copy-"
+    },
+    {
+      "label": "Мерч",
+      "asset": "renom-merch.webp",
+      "width": 652,
+      "height": 403,
+      "mobile": false,
+      "group": "applications",
+      "source": "https://www.figma.com/design/7nLteyXH42mHnhyEvNUGKv/RENOM-Brand-Book--Copy-"
+    },
+    {
+      "label": "Цифровое применение",
+      "asset": "renom-laptop.webp",
+      "width": 652,
+      "height": 403,
+      "mobile": false,
+      "group": "applications",
+      "source": "https://www.figma.com/design/7nLteyXH42mHnhyEvNUGKv/RENOM-Brand-Book--Copy-"
+    },
+    {
+      "label": "Планшетный формат",
+      "asset": "renom-mobile.webp",
+      "width": 652,
+      "height": 403,
+      "mobile": false,
+      "group": "applications",
+      "source": "https://www.figma.com/design/7nLteyXH42mHnhyEvNUGKv/RENOM-Brand-Book--Copy-"
+    },
+    {
+      "label": "Наружный носитель",
+      "asset": "renom-signage.webp",
+      "width": 652,
+      "height": 403,
+      "mobile": false,
+      "group": "applications",
+      "source": "https://www.figma.com/design/7nLteyXH42mHnhyEvNUGKv/RENOM-Brand-Book--Copy-"
+    },
+    {
+      "label": "Титульный слайд",
+      "asset": "renom-presentation-cover.webp",
+      "width": 955,
+      "height": 544,
+      "mobile": false,
+      "group": "presentation",
+      "source": "https://www.figma.com/design/7nLteyXH42mHnhyEvNUGKv/RENOM-Brand-Book--Copy-"
+    },
+    {
+      "label": "О компании",
+      "asset": "renom-presentation-company.webp",
+      "width": 953,
+      "height": 544,
+      "mobile": false,
+      "group": "presentation",
+      "source": "https://www.figma.com/design/7nLteyXH42mHnhyEvNUGKv/RENOM-Brand-Book--Copy-"
+    },
+    {
+      "label": "Решения",
+      "asset": "renom-presentation-solutions.webp",
+      "width": 955,
+      "height": 545,
+      "mobile": false,
+      "group": "presentation",
+      "source": "https://www.figma.com/design/7nLteyXH42mHnhyEvNUGKv/RENOM-Brand-Book--Copy-"
+    },
+    {
+      "label": "Развитие компании",
+      "asset": "renom-presentation-timeline.webp",
+      "width": 955,
+      "height": 545,
+      "mobile": false,
+      "group": "presentation",
+      "source": "https://www.figma.com/design/7nLteyXH42mHnhyEvNUGKv/RENOM-Brand-Book--Copy-"
+    }
+  ],
+  "status-compliance": [
+    {
+      "label": "Построение знака",
+      "asset": "status-02.webp",
+      "width": 1400,
+      "height": 862,
+      "mobile": false,
+      "group": "identity",
+      "source": "https://www.figma.com/design/tfct97IcS6fnUTIFb12w6g/STATUS-BrandBook",
+      "wide": true,
+      "local_original": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/STATUS Brand Book XS 12.02.25.pdf"
+    },
+    {
+      "label": "Версии логотипа",
+      "asset": "status-04.webp",
+      "width": 1400,
+      "height": 862,
+      "mobile": false,
+      "group": "identity",
+      "source": "https://www.figma.com/design/tfct97IcS6fnUTIFb12w6g/STATUS-BrandBook",
+      "local_original": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/STATUS Brand Book XS 12.02.25.pdf"
+    },
+    {
+      "label": "Типографика",
+      "asset": "status-05.webp",
+      "width": 1400,
+      "height": 862,
+      "mobile": false,
+      "group": "identity",
+      "source": "https://www.figma.com/design/tfct97IcS6fnUTIFb12w6g/STATUS-BrandBook",
+      "local_original": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/STATUS Brand Book XS 12.02.25.pdf"
+    },
+    {
+      "label": "Фирменные цвета",
+      "asset": "status-07.webp",
+      "width": 1400,
+      "height": 862,
+      "mobile": false,
+      "group": "identity",
+      "source": "https://www.figma.com/design/tfct97IcS6fnUTIFb12w6g/STATUS-BrandBook",
+      "local_original": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/STATUS Brand Book XS 12.02.25.pdf"
+    },
+    {
+      "label": "Визитные карточки",
+      "asset": "status-10.webp",
+      "width": 1400,
+      "height": 862,
+      "mobile": false,
+      "group": "stationery",
+      "source": "https://www.figma.com/design/tfct97IcS6fnUTIFb12w6g/STATUS-BrandBook",
+      "local_original": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/STATUS Brand Book XS 12.02.25.pdf"
+    },
+    {
+      "label": "Деловая документация",
+      "asset": "status-11.webp",
+      "width": 1400,
+      "height": 862,
+      "mobile": false,
+      "group": "stationery",
+      "source": "https://www.figma.com/design/tfct97IcS6fnUTIFb12w6g/STATUS-BrandBook",
+      "local_original": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/STATUS Brand Book XS 12.02.25.pdf"
+    },
+    {
+      "label": "Фирменная упаковка",
+      "asset": "status-18.webp",
+      "width": 1400,
+      "height": 862,
+      "mobile": false,
+      "group": "applications",
+      "source": "https://www.figma.com/design/tfct97IcS6fnUTIFb12w6g/STATUS-BrandBook",
+      "local_original": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/STATUS Brand Book XS 12.02.25.pdf"
+    },
+    {
+      "label": "Мерч",
+      "asset": "status-21.webp",
+      "width": 1400,
+      "height": 862,
+      "mobile": false,
+      "group": "applications",
+      "source": "https://www.figma.com/design/tfct97IcS6fnUTIFb12w6g/STATUS-BrandBook",
+      "local_original": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/STATUS Brand Book XS 12.02.25.pdf"
+    },
+    {
+      "label": "Веб-применение",
+      "asset": "status-32.webp",
+      "width": 1400,
+      "height": 862,
+      "mobile": false,
+      "group": "applications",
+      "source": "https://www.figma.com/design/tfct97IcS6fnUTIFb12w6g/STATUS-BrandBook",
+      "local_original": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/STATUS Brand Book XS 12.02.25.pdf"
+    },
+    {
+      "label": "Наружная реклама",
+      "asset": "status-34.webp",
+      "width": 1400,
+      "height": 862,
+      "mobile": false,
+      "group": "applications",
+      "source": "https://www.figma.com/design/tfct97IcS6fnUTIFb12w6g/STATUS-BrandBook",
+      "local_original": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/STATUS Brand Book XS 12.02.25.pdf"
+    },
+    {
+      "label": "Презентационный носитель",
+      "asset": "status-35.webp",
+      "width": 1400,
+      "height": 862,
+      "mobile": false,
+      "group": "applications",
+      "source": "https://www.figma.com/design/tfct97IcS6fnUTIFb12w6g/STATUS-BrandBook",
+      "local_original": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/STATUS Brand Book XS 12.02.25.pdf"
+    },
+    {
+      "label": "Вывеска",
+      "asset": "status-38.webp",
+      "width": 1400,
+      "height": 862,
+      "mobile": false,
+      "group": "applications",
+      "source": "https://www.figma.com/design/tfct97IcS6fnUTIFb12w6g/STATUS-BrandBook",
+      "local_original": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/STATUS Brand Book XS 12.02.25.pdf"
+    }
+  ]
+}

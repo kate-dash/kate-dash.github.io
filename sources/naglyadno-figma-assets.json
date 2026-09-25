@@ -1,0 +1,19 @@
+{
+  "file": "https://www.figma.com/design/NkzUuMLrB6OVZTZpcA1oTJ/Naglyadno-Landing-Page",
+  "pages": {
+    "landing_and_dashboard": "51:1125",
+    "vk": "75:11116"
+  },
+  "assets": [
+    {"local": "dist/assets/naglyadno-case/hero-laptop.png", "node": "77:11133", "part": "background image without the post headline"},
+    {"local": "dist/assets/naglyadno-case/dashboard-main.png", "node": "73:10014"},
+    {"local": "dist/assets/naglyadno-case/dashboard-metrics.png", "node": "112:4424"},
+    {"local": "dist/assets/naglyadno-case/dashboard-cashflow.png", "node": "51:5750"},
+    {"local": "dist/assets/naglyadno-case/vk-banner.png", "node": "101:12655"},
+    {"local": "dist/assets/naglyadno-case/vk-avatar.png", "node": "102:12720"},
+    {"local": "dist/assets/naglyadno-case/vk-post-01.png", "node": "77:11118"},
+    {"local": "dist/assets/naglyadno-case/vk-post-02.png", "node": "77:11125"},
+    {"local": "dist/assets/naglyadno-case/vk-post-05.png", "node": "77:11182"},
+    {"local": "dist/assets/naglyadno-case/vk-post-09.png", "node": "77:11255"}
+  ]
+}

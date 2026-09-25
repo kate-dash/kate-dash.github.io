@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0a0a0a">
+  <meta name="theme-color" content="#0d0e0d">
   <title>Екатерина Зайцева — Дизайн сайтов & UI/UX</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a0a0a'/%3E%3Cpath d='M16 18h32v7H23v8h22v7H23v7h25v7H16z' fill='%23e5e6df'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="/assets/yaeger-preview.css">
@@ -20,31 +20,90 @@
 </head>
 <body>
 
-  <div class="y-page-wrap">
+  <!-- =========================================
+       1. HERO SCREEN (Exact 100vh Yaeger layout)
+       ========================================= -->
+  <section class="y-hero-section">
+    <!-- Background Portrait & Texture -->
+    <div class="y-hero-bg">
+      <img src="/assets/yaeger/portrait-bg.jpg" alt="Екатерина Зайцева">
+    </div>
+    <div class="y-hero-grain"></div>
+    <div class="y-hero-vignette"></div>
 
-    <!-- Top Bar: Logo stacked & Nav Links -->
-    <header class="y-top-nav">
-      <div class="y-logo">
-        <div>ЕКАТЕРИНА</div>
-        <div>ЗАЙЦЕВА</div>
-      </div>
-      <nav class="y-nav-links">
-        <a href="#works">WORKS</a>
+    <!-- Top Navigation -->
+    <header class="y-hero-header">
+      <nav class="y-hero-nav">
+        <a href="#">HOME</a>
+        <a href="#works">PROJECTS</a>
         <a href="#about">ABOUT</a>
         <a href="https://t.me" target="_blank" rel="noopener">CONTACT</a>
       </nav>
     </header>
 
-    <!-- Works Header Section (Giant WORKS on left, Editorial Text on right) -->
-    <section class="y-works-hero" id="works">
+    <!-- Center: Giant Stacked Name & Terracotta Block -->
+    <div class="y-hero-main">
+      <h1 class="y-hero-title">
+        <span>ЕКАТЕРИНА</span>
+        <span>ЗАЙЦЕВА</span>
+      </h1>
+
+      <div class="y-terracotta-card">
+        <div class="y-terracotta-box"></div>
+        <div class="y-terracotta-meta">
+          <div>
+            <div>РОССИЯ</div>
+            <div>Москва / Удаленно</div>
+          </div>
+          <div class="role">(ВЕБ-ДИЗАЙНЕР)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom: Feature Card & Center Touch Link -->
+    <div class="y-hero-bottom">
+      <div class="y-hero-feature-card">
+        <div class="y-hero-feature-thumb">
+          <img src="/assets/yaeger/hero-thumb.jpg" alt="Дизайн">
+        </div>
+        <p>ДИЗАЙНЕР, СФОКУСИРОВАННЫЙ НА ЯСНОСТИ, ЧИСТОТЕ И УВЕРЕННОСТИ ХОРОШЕГО ДИЗАЙНА. ДОСТУПНА ДЛЯ ПРОЕКТОВ ПО ВСЕМУ МИРУ.</p>
+      </div>
+
+      <a class="y-hero-touch-link" href="#works">СВЯЗАТЬСЯ →</a>
+
+      <div></div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       2. WORKS SECTION (Exact Yaeger composition)
+       ========================================= -->
+  <div class="y-page-wrap" id="works">
+
+    <!-- Top Bar above Works -->
+    <div class="y-works-top-nav">
+      <div class="y-works-logo">
+        <div>ЕКАТЕРИНА</div>
+        <div>ЗАЙЦЕВА</div>
+      </div>
+      <a class="y-works-touch-center" href="https://t.me" target="_blank" rel="noopener">СВЯЗАТЬСЯ →</a>
+      <nav class="y-nav-links">
+        <a href="#">HOME</a>
+        <a href="#works">PROJECTS</a>
+        <a href="#about">ABOUT</a>
+      </nav>
+    </div>
+
+    <!-- Works Header (WORKS on left, text on right — NO OVERLAP) -->
+    <div class="y-works-hero">
       <div class="y-works-hero-title">
-        <h1>WORKS</h1>
+        <h2>WORKS</h2>
       </div>
       <div class="y-works-hero-desc">
         <p>Небольшая подборка недавних проектов, выбранных по смыслу и пользе для продукта, а не просто по внешней картинке. Каждый проект — баланс структуры, эстетики и бизнес-задачи.</p>
         <span class="y-period">(2024 — ПО НАСТ. ВРЕМЯ)</span>
       </div>
-    </section>
+    </div>
 
     <!-- Projects List: 3-column rows (Title | Description + Scope | Visual) -->
     <main class="y-projects-list">
@@ -53,7 +112,7 @@
       <a class="y-project-item" href="/projects/naglyadno/preview.html">
         <div class="y-project-grid">
           <div class="y-col-title">
-            <h3>НАГЛЯДНО <span class="arrow">↗</span></h3>
+            <h3>НАГЛЯДНО ↗</h3>
           </div>
           <div class="y-col-desc">
             <p class="y-project-p">
@@ -71,6 +130,8 @@
           <div class="y-col-visual">
             <div class="y-visual-frame">
               <img src="/assets/naglyadno-case/hero-laptop.png" alt="Наглядно" loading="lazy">
+              <div class="y-corner-badge">↗</div>
+              <span class="y-view-more-tag">Смотреть кейс ↗</span>
             </div>
           </div>
         </div>
@@ -80,7 +141,7 @@
       <a class="y-project-item" href="/projects/oiva/">
         <div class="y-project-grid">
           <div class="y-col-title">
-            <h3>OIVA FEEDBACK <span class="arrow">↗</span></h3>
+            <h3>OIVA FEEDBACK ↗</h3>
           </div>
           <div class="y-col-desc">
             <p class="y-project-p">
@@ -98,6 +159,8 @@
           <div class="y-col-visual">
             <div class="y-visual-frame">
               <img src="/assets/oiva-cover.webp" alt="Oiva Feedback" loading="lazy">
+              <div class="y-corner-badge">↗</div>
+              <span class="y-view-more-tag">Смотреть кейс ↗</span>
             </div>
           </div>
         </div>
@@ -107,7 +170,7 @@
       <a class="y-project-item" href="/projects/capservice/">
         <div class="y-project-grid">
           <div class="y-col-title">
-            <h3>CAPSERVICE <span class="arrow">↗</span></h3>
+            <h3>CAPSERVICE ↗</h3>
           </div>
           <div class="y-col-desc">
             <p class="y-project-p">
@@ -125,6 +188,8 @@
           <div class="y-col-visual">
             <div class="y-visual-frame">
               <img src="/assets/capservice-cover.webp" alt="CapService" loading="lazy">
+              <div class="y-corner-badge">↗</div>
+              <span class="y-view-more-tag">Смотреть кейс ↗</span>
             </div>
           </div>
         </div>
@@ -134,7 +199,7 @@
       <a class="y-project-item" href="/projects/snk/">
         <div class="y-project-grid">
           <div class="y-col-title">
-            <h3>SNK <span class="arrow">↗</span></h3>
+            <h3>SNK COSMETICS ↗</h3>
           </div>
           <div class="y-col-desc">
             <p class="y-project-p">
@@ -152,6 +217,8 @@
           <div class="y-col-visual">
             <div class="y-visual-frame">
               <img src="/assets/snk-cover.webp" alt="SNK" loading="lazy">
+              <div class="y-corner-badge">↗</div>
+              <span class="y-view-more-tag">Смотреть кейс ↗</span>
             </div>
           </div>
         </div>
@@ -161,7 +228,7 @@
       <a class="y-project-item" href="/projects/kilev-lab/">
         <div class="y-project-grid">
           <div class="y-col-title">
-            <h3>KILEV LAB <span class="arrow">↗</span></h3>
+            <h3>KILEV LAB ↗</h3>
           </div>
           <div class="y-col-desc">
             <p class="y-project-p">
@@ -179,6 +246,8 @@
           <div class="y-col-visual">
             <div class="y-visual-frame">
               <img src="/assets/kilev-lab-cover.webp" alt="Kilev Lab" loading="lazy">
+              <div class="y-corner-badge">↗</div>
+              <span class="y-view-more-tag">Смотреть кейс ↗</span>
             </div>
           </div>
         </div>
@@ -188,7 +257,7 @@
       <a class="y-project-item" href="/projects/0not1/">
         <div class="y-project-grid">
           <div class="y-col-title">
-            <h3>0NOT1 <span class="arrow">↗</span></h3>
+            <h3>0NOT1 ↗</h3>
           </div>
           <div class="y-col-desc">
             <p class="y-project-p">
@@ -206,6 +275,8 @@
           <div class="y-col-visual">
             <div class="y-visual-frame">
               <img src="/assets/0not1-cover.webp" alt="0not1" loading="lazy">
+              <div class="y-corner-badge">↗</div>
+              <span class="y-view-more-tag">Смотреть кейс ↗</span>
             </div>
           </div>
         </div>
@@ -215,7 +286,7 @@
       <a class="y-project-item" href="/projects/iceflow/">
         <div class="y-project-grid">
           <div class="y-col-title">
-            <h3>ICEFLOW <span class="arrow">↗</span></h3>
+            <h3>ICEFLOW ↗</h3>
           </div>
           <div class="y-col-desc">
             <p class="y-project-p">
@@ -233,6 +304,8 @@
           <div class="y-col-visual">
             <div class="y-visual-frame">
               <img src="/assets/iceflow-cover.webp" alt="Iceflow" loading="lazy">
+              <div class="y-corner-badge">↗</div>
+              <span class="y-view-more-tag">Смотреть кейс ↗</span>
             </div>
           </div>
         </div>
@@ -242,7 +315,7 @@
       <a class="y-project-item" href="/projects/renom/">
         <div class="y-project-grid">
           <div class="y-col-title">
-            <h3>RENOM <span class="arrow">↗</span></h3>
+            <h3>RENOM ↗</h3>
           </div>
           <div class="y-col-desc">
             <p class="y-project-p">
@@ -260,303 +333,125 @@
           <div class="y-col-visual">
             <div class="y-visual-frame">
               <img src="/assets/renom-cover.webp" alt="RENOM" loading="lazy">
+              <div class="y-corner-badge">↗</div>
+              <span class="y-view-more-tag">Смотреть кейс ↗</span>
             </div>
           </div>
         </div>
       </a>
 
-      <!-- More Projects Container (Collapsed / Expandable) -->
+      <!-- Extra Projects Container -->
       <div id="extraProjects" style="display: none; flex-direction: column; gap: 80px;">
-
-        <!-- 3R Agency -->
         <a class="y-project-item" href="/projects/3r-agency/">
           <div class="y-project-grid">
-            <div class="y-col-title">
-              <h3>3R AGENCY <span class="arrow">↗</span></h3>
-            </div>
+            <div class="y-col-title"><h3>3R AGENCY ↗</h3></div>
             <div class="y-col-desc">
-              <p class="y-project-p">
-                Сайт AI-агентства и фирменный стиль: от идеи трех R до логотипа, гайдбука и применения на разных носителях.
-              </p>
-              <div class="y-scope-block">
-                <span class="y-scope-label">(SCOPE)</span>
-                <div class="y-scope-tags">
-                  <div>Веб-дизайн</div>
-                  <div>Логотип</div>
-                  <div>Фирменный стиль</div>
-                </div>
-              </div>
+              <p class="y-project-p">Сайт AI-агентства и фирменный стиль: от идеи трех R до логотипа, гайдбука и применения на разных носителях.</p>
+              <div class="y-scope-block"><span class="y-scope-label">(SCOPE)</span><div class="y-scope-tags"><div>Веб-дизайн</div><div>Логотип</div><div>Фирменный стиль</div></div></div>
             </div>
-            <div class="y-col-visual">
-              <div class="y-visual-frame">
-                <img src="/assets/3r-agency-cover.webp" alt="3R Agency" loading="lazy">
-              </div>
-            </div>
+            <div class="y-col-visual"><div class="y-visual-frame"><img src="/assets/3r-agency-cover.webp" alt="3R Agency" loading="lazy"><div class="y-corner-badge">↗</div></div></div>
           </div>
         </a>
-
-        <!-- Status Compliance -->
         <a class="y-project-item" href="/projects/status-compliance/">
           <div class="y-project-grid">
-            <div class="y-col-title">
-              <h3>STATUS COMPLIANCE <span class="arrow">↗</span></h3>
-            </div>
+            <div class="y-col-title"><h3>STATUS COMPLIANCE ↗</h3></div>
             <div class="y-col-desc">
-              <p class="y-project-p">
-                Фирменный стиль с выразительным знаком, контрастной палитрой и применением в печати, цифровой среде и пространстве.
-              </p>
-              <div class="y-scope-block">
-                <span class="y-scope-label">(SCOPE)</span>
-                <div class="y-scope-tags">
-                  <div>Брендинг</div>
-                  <div>Фирменный стиль</div>
-                  <div>Брендбук</div>
-                </div>
-              </div>
+              <p class="y-project-p">Фирменный стиль с выразительным знаком, контрастной палитрой и применением в печати, цифровой среде и пространстве.</p>
+              <div class="y-scope-block"><span class="y-scope-label">(SCOPE)</span><div class="y-scope-tags"><div>Брендинг</div><div>Фирменный стиль</div><div>Брендбук</div></div></div>
             </div>
-            <div class="y-col-visual">
-              <div class="y-visual-frame">
-                <img src="/assets/status-compliance-cover.webp" alt="Status Compliance" loading="lazy">
-              </div>
-            </div>
+            <div class="y-col-visual"><div class="y-visual-frame"><img src="/assets/status-compliance-cover.webp" alt="Status Compliance" loading="lazy"><div class="y-corner-badge">↗</div></div></div>
           </div>
         </a>
-
-        <!-- Yodometics -->
         <a class="y-project-item" href="/projects/yodometics/">
           <div class="y-project-grid">
-            <div class="y-col-title">
-              <h3>YODOMETICS <span class="arrow">↗</span></h3>
-            </div>
+            <div class="y-col-title"><h3>YODOMETICS ↗</h3></div>
             <div class="y-col-desc">
-              <p class="y-project-p">
-                Дизайн магазина натуральной косметики: подбор ухода через AI-помощника и каталог продуктов.
-              </p>
-              <div class="y-scope-block">
-                <span class="y-scope-label">(SCOPE)</span>
-                <div class="y-scope-tags">
-                  <div>Веб-дизайн</div>
-                  <div>Косметика</div>
-                  <div>Интернет-магазин</div>
-                </div>
-              </div>
+              <p class="y-project-p">Дизайн магазина натуральной косметики: подбор ухода через AI-помощника и каталог продуктов.</p>
+              <div class="y-scope-block"><span class="y-scope-label">(SCOPE)</span><div class="y-scope-tags"><div>Веб-дизайн</div><div>Косметика</div><div>Интернет-магазин</div></div></div>
             </div>
-            <div class="y-col-visual">
-              <div class="y-visual-frame">
-                <img src="/assets/yodometics-cover.webp" alt="Yodometics" loading="lazy">
-              </div>
-            </div>
+            <div class="y-col-visual"><div class="y-visual-frame"><img src="/assets/yodometics-cover.webp" alt="Yodometics" loading="lazy"><div class="y-corner-badge">↗</div></div></div>
           </div>
         </a>
-
-        <!-- Kosov -->
         <a class="y-project-item" href="/projects/kosov/">
           <div class="y-project-grid">
-            <div class="y-col-title">
-              <h3>KOSOV <span class="arrow">↗</span></h3>
-            </div>
+            <div class="y-col-title"><h3>KOSOV ↗</h3></div>
             <div class="y-col-desc">
-              <p class="y-project-p">
-                Три ключевых раздела: главная, проекты и команда. Показ сайта целиком без лишних повторов.
-              </p>
-              <div class="y-scope-block">
-                <span class="y-scope-label">(SCOPE)</span>
-                <div class="y-scope-tags">
-                  <div>Веб-дизайн</div>
-                  <div>Многостраничный сайт</div>
-                </div>
-              </div>
+              <p class="y-project-p">Три ключевых раздела: главная, проекты и команда. Показ сайта целиком без лишних повторов.</p>
+              <div class="y-scope-block"><span class="y-scope-label">(SCOPE)</span><div class="y-scope-tags"><div>Веб-дизайн</div><div>Многостраничный сайт</div></div></div>
             </div>
-            <div class="y-col-visual">
-              <div class="y-visual-frame">
-                <img src="/assets/kosov-cover.webp" alt="Kosov" loading="lazy">
-              </div>
-            </div>
+            <div class="y-col-visual"><div class="y-visual-frame"><img src="/assets/kosov-cover.webp" alt="Kosov" loading="lazy"><div class="y-corner-badge">↗</div></div></div>
           </div>
         </a>
-
-        <!-- Wowflat -->
         <a class="y-project-item" href="/projects/wowflat/">
           <div class="y-project-grid">
-            <div class="y-col-title">
-              <h3>WOWFLAT <span class="arrow">↗</span></h3>
-            </div>
+            <div class="y-col-title"><h3>WOWFLAT ↗</h3></div>
             <div class="y-col-desc">
-              <p class="y-project-p">
-                Сайт агентства: крупные блоки, презентация услуг и собственный визуальный ритм.
-              </p>
-              <div class="y-scope-block">
-                <span class="y-scope-label">(SCOPE)</span>
-                <div class="y-scope-tags">
-                  <div>Веб-дизайн</div>
-                  <div>Агентство</div>
-                </div>
-              </div>
+              <p class="y-project-p">Сайт агентства: крупные блоки, презентация услуг и собственный визуальный ритм.</p>
+              <div class="y-scope-block"><span class="y-scope-label">(SCOPE)</span><div class="y-scope-tags"><div>Веб-дизайн</div><div>Агентство</div></div></div>
             </div>
-            <div class="y-col-visual">
-              <div class="y-visual-frame">
-                <img src="/assets/wowflat-cover.webp" alt="Wowflat" loading="lazy">
-              </div>
-            </div>
+            <div class="y-col-visual"><div class="y-visual-frame"><img src="/assets/wowflat-cover.webp" alt="Wowflat" loading="lazy"><div class="y-corner-badge">↗</div></div></div>
           </div>
         </a>
-
-        <!-- Bali -->
         <a class="y-project-item" href="/projects/bali/">
           <div class="y-project-grid">
-            <div class="y-col-title">
-              <h3>BALI <span class="arrow">↗</span></h3>
-            </div>
+            <div class="y-col-title"><h3>BALI ↗</h3></div>
             <div class="y-col-desc">
-              <p class="y-project-p">
-                Длинная страница проекта о Бали с последовательной и плавной подачей контента.
-              </p>
-              <div class="y-scope-block">
-                <span class="y-scope-label">(SCOPE)</span>
-                <div class="y-scope-tags">
-                  <div>Веб-дизайн</div>
-                  <div>Лендинг</div>
-                </div>
-              </div>
+              <p class="y-project-p">Длинная страница проекта о Бали с последовательной и плавной подачей контента.</p>
+              <div class="y-scope-block"><span class="y-scope-label">(SCOPE)</span><div class="y-scope-tags"><div>Веб-дизайн</div><div>Лендинг</div></div></div>
             </div>
-            <div class="y-col-visual">
-              <div class="y-visual-frame">
-                <img src="/assets/bali-cover.webp" alt="Bali" loading="lazy">
-              </div>
-            </div>
+            <div class="y-col-visual"><div class="y-visual-frame"><img src="/assets/bali-cover.webp" alt="Bali" loading="lazy"><div class="y-corner-badge">↗</div></div></div>
           </div>
         </a>
-
-        <!-- Phuket -->
         <a class="y-project-item" href="/projects/phuket/">
           <div class="y-project-grid">
-            <div class="y-col-title">
-              <h3>GET YOUR PHUKET <span class="arrow">↗</span></h3>
-            </div>
+            <div class="y-col-title"><h3>GET YOUR PHUKET ↗</h3></div>
             <div class="y-col-desc">
-              <p class="y-project-p">
-                Проект с несколькими визуальными версиями: зеленая концепция и мобильный экран.
-              </p>
-              <div class="y-scope-block">
-                <span class="y-scope-label">(SCOPE)</span>
-                <div class="y-scope-tags">
-                  <div>Веб-дизайн</div>
-                  <div>Адаптив</div>
-                </div>
-              </div>
+              <p class="y-project-p">Проект с несколькими визуальными версиями: зеленая концепция и мобильный экран.</p>
+              <div class="y-scope-block"><span class="y-scope-label">(SCOPE)</span><div class="y-scope-tags"><div>Веб-дизайн</div><div>Адаптив</div></div></div>
             </div>
-            <div class="y-col-visual">
-              <div class="y-visual-frame">
-                <img src="/assets/phuket-cover.webp" alt="Phuket" loading="lazy">
-              </div>
-            </div>
+            <div class="y-col-visual"><div class="y-visual-frame"><img src="/assets/phuket-cover.webp" alt="Phuket" loading="lazy"><div class="y-corner-badge">↗</div></div></div>
           </div>
         </a>
-
-        <!-- Christmas Present -->
         <a class="y-project-item" href="/projects/christmas-present/">
           <div class="y-project-grid">
-            <div class="y-col-title">
-              <h3>CHRISTMAS PRESENT <span class="arrow">↗</span></h3>
-            </div>
+            <div class="y-col-title"><h3>CHRISTMAS PRESENT ↗</h3></div>
             <div class="y-col-desc">
-              <p class="y-project-p">
-                Праздничный сайт с длинной главной страницей и выразительными типографическими акцентами.
-              </p>
-              <div class="y-scope-block">
-                <span class="y-scope-label">(SCOPE)</span>
-                <div class="y-scope-tags">
-                  <div>Веб-дизайн</div>
-                  <div>Праздничный лендинг</div>
-                </div>
-              </div>
+              <p class="y-project-p">Праздничный сайт с длинной главной страницей и выразительными типографическими акцентами.</p>
+              <div class="y-scope-block"><span class="y-scope-label">(SCOPE)</span><div class="y-scope-tags"><div>Веб-дизайн</div><div>Праздничный лендинг</div></div></div>
             </div>
-            <div class="y-col-visual">
-              <div class="y-visual-frame">
-                <img src="/assets/christmas-present-cover.webp" alt="Christmas Present" loading="lazy">
-              </div>
-            </div>
+            <div class="y-col-visual"><div class="y-visual-frame"><img src="/assets/christmas-present-cover.webp" alt="Christmas Present" loading="lazy"><div class="y-corner-badge">↗</div></div></div>
           </div>
         </a>
-
-        <!-- CREDU -->
         <a class="y-project-item" href="/projects/credu/">
           <div class="y-project-grid">
-            <div class="y-col-title">
-              <h3>CREDU <span class="arrow">↗</span></h3>
-            </div>
+            <div class="y-col-title"><h3>CREDU ↗</h3></div>
             <div class="y-col-desc">
-              <p class="y-project-p">
-                Лендинг и отдельная визуальная концепция для проекта Crypto Legion.
-              </p>
-              <div class="y-scope-block">
-                <span class="y-scope-label">(SCOPE)</span>
-                <div class="y-scope-tags">
-                  <div>Веб-дизайн</div>
-                  <div>Визуальная система</div>
-                </div>
-              </div>
+              <p class="y-project-p">Лендинг и отдельная визуальная концепция для проекта Crypto Legion.</p>
+              <div class="y-scope-block"><span class="y-scope-label">(SCOPE)</span><div class="y-scope-tags"><div>Веб-дизайн</div><div>Визуальная система</div></div></div>
             </div>
-            <div class="y-col-visual">
-              <div class="y-visual-frame">
-                <img src="/assets/credu-cover.webp" alt="CREDU" loading="lazy">
-              </div>
-            </div>
+            <div class="y-col-visual"><div class="y-visual-frame"><img src="/assets/credu-cover.webp" alt="CREDU" loading="lazy"><div class="y-corner-badge">↗</div></div></div>
           </div>
         </a>
-
-        <!-- Arhistratig -->
         <a class="y-project-item" href="/projects/arhistratig/">
           <div class="y-project-grid">
-            <div class="y-col-title">
-              <h3>ARHISTRATIG <span class="arrow">↗</span></h3>
-            </div>
+            <div class="y-col-title"><h3>ARHISTRATIG ↗</h3></div>
             <div class="y-col-desc">
-              <p class="y-project-p">
-                Цельная версия страницы Johan с выверенной типографикой и аккуратным ритмом.
-              </p>
-              <div class="y-scope-block">
-                <span class="y-scope-label">(SCOPE)</span>
-                <div class="y-scope-tags">
-                  <div>Веб-дизайн</div>
-                  <div>Лендинг</div>
-                </div>
-              </div>
+              <p class="y-project-p">Цельная версия страницы Johan с выверенной типографикой и аккуратным ритмом.</p>
+              <div class="y-scope-block"><span class="y-scope-label">(SCOPE)</span><div class="y-scope-tags"><div>Веб-дизайн</div><div>Лендинг</div></div></div>
             </div>
-            <div class="y-col-visual">
-              <div class="y-visual-frame">
-                <img src="/assets/arhistratig-cover.webp" alt="Arhistratig" loading="lazy">
-              </div>
-            </div>
+            <div class="y-col-visual"><div class="y-visual-frame"><img src="/assets/arhistratig-cover.webp" alt="Arhistratig" loading="lazy"><div class="y-corner-badge">↗</div></div></div>
           </div>
         </a>
-
-        <!-- Sananda -->
         <a class="y-project-item" href="/projects/sananda/">
           <div class="y-project-grid">
-            <div class="y-col-title">
-              <h3>SANANDA <span class="arrow">↗</span></h3>
-            </div>
+            <div class="y-col-title"><h3>SANANDA ↗</h3></div>
             <div class="y-col-desc">
-              <p class="y-project-p">
-                Подборка из четырех страниц: главная, курсы, ретриты и консультации.
-              </p>
-              <div class="y-scope-block">
-                <span class="y-scope-label">(SCOPE)</span>
-                <div class="y-scope-tags">
-                  <div>Веб-дизайн</div>
-                  <div>Многостраничный сайт</div>
-                </div>
-              </div>
+              <p class="y-project-p">Подборка из четырех страниц: главная, курсы, ретриты и консультации.</p>
+              <div class="y-scope-block"><span class="y-scope-label">(SCOPE)</span><div class="y-scope-tags"><div>Веб-дизайн</div><div>Многостраничный сайт</div></div></div>
             </div>
-            <div class="y-col-visual">
-              <div class="y-visual-frame">
-                <img src="/assets/sananda-cover.webp" alt="Sananda" loading="lazy">
-              </div>
-            </div>
+            <div class="y-col-visual"><div class="y-visual-frame"><img src="/assets/sananda-cover.webp" alt="Sananda" loading="lazy"><div class="y-corner-badge">↗</div></div></div>
           </div>
         </a>
-
       </div>
 
       <!-- Button to toggle extra projects -->
@@ -605,7 +500,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="y-footer">
+    <footer class="y-footer" id="contact">
       <div class="y-footer-cta">
         Готовы обсудить проект<br>или позицию в команде?
       </div>

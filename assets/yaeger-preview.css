@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 :root {
-  --bg: #0a0a0a;
+  --bg: #0d0e0d;
+  --bg-hero: #1a1b19;
   --text: #e5e6df;
   --text-muted: #a6a7a2;
   --text-dim: #6b6c67;
   --border: #222321;
-  --border-subtle: #1c1d1b;
   --surface: #141514;
+  --terracotta: #b86235;
   --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
@@ -37,29 +38,217 @@ a {
   text-decoration: none;
 }
 
-/* Base Page Padding: 32px padding on desktop, 16px on mobile */
+/* =========================================
+   1. HERO SCREEN (Full 100vh viewport as in Yaeger)
+   ========================================= */
+.y-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px 48px 40px;
+  background-color: var(--bg-hero);
+  overflow: hidden;
+}
+
+/* Background image & Grain overlay */
+.y-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.y-hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  opacity: 0.85;
+}
+
+.y-hero-grain {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background-image: url('/assets/yaeger/grain.png');
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.y-hero-vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: radial-gradient(circle at 60% 40%, rgba(20,22,20,0.1) 0%, rgba(13,14,13,0.85) 85%);
+  pointer-events: none;
+}
+
+/* Top Navigation in Hero */
+.y-hero-header {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.y-hero-nav {
+  display: flex;
+  gap: 36px;
+}
+
+.y-hero-nav a {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text);
+  transition: opacity 0.2s;
+}
+
+.y-hero-nav a:hover {
+  opacity: 0.6;
+}
+
+/* Hero Center: Giant Name + Terracotta Box */
+.y-hero-main {
+  position: relative;
+  z-index: 10;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+}
+
+.y-hero-title {
+  font-size: clamp(68px, 14vw, 205px);
+  font-weight: 800;
+  line-height: 0.82;
+  letter-spacing: -0.06em;
+  text-transform: uppercase;
+  color: var(--text);
+  user-select: none;
+}
+
+.y-hero-title span {
+  display: block;
+}
+
+/* Terracotta overlay card and location */
+.y-terracotta-card {
+  position: absolute;
+  top: 48%;
+  left: 45%;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.y-terracotta-box {
+  width: clamp(240px, 28vw, 420px);
+  height: clamp(100px, 12vw, 175px);
+  background: var(--terracotta);
+  opacity: 0.92;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+.y-terracotta-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
+
+.y-terracotta-meta .role {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+
+/* Hero Bottom: Thumbnail Card + Center Contact Link */
+.y-hero-bottom {
+  position: relative;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.y-hero-feature-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 250px;
+}
+
+.y-hero-feature-thumb {
+  width: 100%;
+  aspect-ratio: 1.7;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.y-hero-feature-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.y-hero-feature-card p {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.45;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.y-hero-touch-link {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text);
+  border-bottom: 1.5px solid var(--text);
+  padding-bottom: 4px;
+  transition: opacity 0.2s;
+  justify-self: center;
+}
+
+.y-hero-touch-link:hover {
+  opacity: 0.7;
+}
+
+/* =========================================
+   2. WORKS SECTION (Exact Yaeger composition)
+   ========================================= */
 .y-page-wrap {
   width: 100%;
   max-width: 1720px;
   margin: 0 auto;
-  padding: 32px 40px;
+  padding: 60px 48px 100px;
 }
 
-@media (max-width: 900px) {
-  .y-page-wrap {
-    padding: 20px 20px;
-  }
-}
-
-/* Header & Top Bar */
-.y-top-nav {
+/* Top bar above Works */
+.y-works-top-nav {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 24px;
+  align-items: center;
+  padding-bottom: 40px;
 }
 
-.y-logo {
+.y-works-logo {
   font-size: 13px;
   font-weight: 800;
   line-height: 1.1;
@@ -68,8 +257,18 @@ a {
   color: var(--text);
 }
 
-.y-logo div {
-  margin: 0;
+.y-works-touch-center {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text);
+  border-bottom: 1px solid var(--text);
+  padding-bottom: 2px;
+}
+
+.y-works-touch-center:hover {
+  opacity: 0.7;
 }
 
 .y-nav-links {
@@ -90,13 +289,13 @@ a {
   color: var(--text);
 }
 
-/* Works Hero Section (Split: Giant WORKS on left, Intro on right) */
+/* Works Hero Section: WORKS on left, text on right (NO OVERLAP) */
 .y-works-hero {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 24px;
   align-items: baseline;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 90px;
 }
 
@@ -104,11 +303,11 @@ a {
   grid-column: span 5;
 }
 
-.y-works-hero-title h1 {
-  font-size: clamp(72px, 12vw, 175px);
+.y-works-hero-title h2 {
+  font-size: clamp(64px, 8.8vw, 128px);
   font-weight: 800;
-  letter-spacing: -0.065em;
-  line-height: 0.82;
+  letter-spacing: -0.06em;
+  line-height: 0.85;
   text-transform: uppercase;
   color: var(--text);
   margin: 0;
@@ -123,9 +322,9 @@ a {
 }
 
 .y-works-hero-desc p {
-  font-size: clamp(20px, 2.2vw, 30px);
+  font-size: clamp(19px, 2vw, 28px);
   font-weight: 500;
-  line-height: 1.32;
+  line-height: 1.35;
   letter-spacing: -0.035em;
   color: var(--text);
   max-width: 680px;
@@ -139,7 +338,9 @@ a {
   color: var(--text-muted);
 }
 
-/* Projects List: Strict 12-column Yaeger Grid */
+/* =========================================
+   3. 3-COLUMN PROJECTS LIST (Strict 2 | 3 | 7)
+   ========================================= */
 .y-projects-list {
   display: flex;
   flex-direction: column;
@@ -166,7 +367,7 @@ a {
 }
 
 .y-col-title h3 {
-  font-size: 13px;
+  font-size: 13.5px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -179,7 +380,7 @@ a {
   grid-column: span 3;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 36px;
   padding-right: 16px;
 }
 
@@ -217,7 +418,7 @@ a {
 
 .y-visual-frame {
   width: 100%;
-  aspect-ratio: 1.778; /* 16:9 widescreen */
+  aspect-ratio: 1.778;
   overflow: hidden;
   background: var(--surface);
   position: relative;
@@ -236,18 +437,38 @@ a {
   transform: scale(1.02);
 }
 
-/* Arrow indicator on hover */
-.y-col-title .arrow {
-  display: inline-block;
-  transition: transform 0.2s ease;
-  font-weight: 400;
+/* Top-right arrow badge over the image per Yaeger */
+.y-corner-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  background: var(--terracotta);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  transition: transform 0.25s ease;
 }
 
-.y-project-item:hover .y-col-title .arrow {
+.y-project-item:hover .y-corner-badge {
   transform: translate(2px, -2px);
 }
 
-/* Toggle Archive / More Works */
+/* View More subtle button in center of image */
+.y-view-more-tag {
+  position: absolute;
+  bottom: 20px;
+  left: 24px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.7);
+  letter-spacing: -0.02em;
+}
+
+/* More Projects Toggle */
 .y-more-wrap {
   text-align: left;
   border-top: 1px solid var(--border);
@@ -277,7 +498,7 @@ a {
   opacity: 0.7;
 }
 
-/* About / Resume Section (Identical to Yaeger About layout) */
+/* About Section */
 .y-about-section {
   border-top: 1px solid var(--border);
   margin-top: 120px;
@@ -303,7 +524,6 @@ a {
   padding-top: 50px;
 }
 
-/* Services / Skills: left 5 columns */
 .y-about-services {
   grid-column: span 5;
   display: flex;
@@ -331,11 +551,10 @@ a {
   font-weight: 500;
   letter-spacing: -0.02em;
   color: var(--text);
-  border-bottom: 1px solid var(--border-subtle);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   padding-bottom: 10px;
 }
 
-/* Approach & Bio: right 7 columns */
 .y-about-text {
   grid-column: 6 / span 7;
   display: flex;
@@ -403,11 +622,34 @@ a {
   color: var(--text-dim);
 }
 
-/* Responsive adjustments */
+/* =========================================
+   RESPONSIVE ADJUSTMENTS
+   ========================================= */
 @media (max-width: 1080px) {
-  .y-works-hero {
+  .y-hero-section {
+    padding: 24px 24px 32px;
+  }
+  .y-terracotta-card {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin-top: 30px;
+  }
+  .y-hero-bottom {
     grid-template-columns: 1fr;
     gap: 30px;
+    align-items: flex-start;
+  }
+  .y-hero-touch-link {
+    justify-self: flex-start;
+  }
+  .y-works-top-nav {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .y-works-hero {
+    grid-template-columns: 1fr;
+    gap: 24px;
   }
   .y-works-hero-title,
   .y-works-hero-desc {

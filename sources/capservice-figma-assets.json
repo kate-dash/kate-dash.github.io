@@ -1,0 +1,13 @@
+{
+  "file": "https://www.figma.com/design/s40QtmxkmP5a1j3CFWL3We/Kap-Servis-Preview",
+  "note": "Макеты экспортированы из Figma 25.09.2026 и сохранены в dist/assets. Временные ссылки Figma для работы сайта не нужны. Главная называется KapServis-Main — system cleanup v1 в исходном файле; публичное название проекта — CapService.",
+  "assets": [
+    {"node_id": "18:3783", "title": "Главная", "asset": "dist/assets/capservice-main.webp", "size": [1449, 9990]},
+    {"node_id": "18:4017", "title": "Главная, мобильная версия", "asset": "dist/assets/capservice-mobile.webp", "size": [390, 4419]},
+    {"node_id": "18:3231", "title": "О компании", "asset": "dist/assets/capservice-about.webp", "size": [1440, 3244]},
+    {"node_id": "18:2015", "title": "Карточка кофемашины", "asset": "dist/assets/capservice-machine.webp", "size": [1449, 6300]},
+    {"node_id": "18:2594", "title": "Доставка и оплата", "asset": "dist/assets/capservice-delivery.webp", "size": [1449, 3617]},
+    {"node_id": "18:18068", "title": "Личный кабинет: моя подписка", "asset": "dist/assets/capservice-account.webp", "size": [1440, 1517]},
+    {"node_id": "18:21527", "title": "Магазин: оформление заказа", "asset": "dist/assets/capservice-checkout.webp", "size": [1449, 1851]}
+  ]
+}

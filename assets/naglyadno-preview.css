@@ -1,0 +1,677 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --bg: #0a0a0a;
+  --bg-card: #131413;
+  --bg-viewer: #111211;
+  --text: #e5e6df;
+  --text-muted: #a6a7a2;
+  --text-dim: #6b6c67;
+  --border: #222321;
+  --border-light: #2e302d;
+  --accent: #dbe4d8;
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body.naglyadno-preview {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  width: min(100% - 48px, 1400px);
+  margin-inline: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Header */
+.np-header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 50px;
+}
+
+.np-back {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.2s;
+}
+
+.np-back:hover {
+  color: var(--text);
+}
+
+.np-brand {
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* Case Hero */
+.nag-case-heading {
+  padding-bottom: 60px;
+}
+
+.nag-case-heading h1 {
+  font-size: clamp(64px, 11vw, 160px);
+  font-weight: 800;
+  letter-spacing: -0.06em;
+  line-height: 0.9;
+  text-transform: uppercase;
+  margin: 20px 0 35px;
+}
+
+.case-summary {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 40px;
+  border-top: 1px solid var(--border);
+  padding-top: 30px;
+}
+
+.eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  margin-bottom: 16px;
+}
+
+.case-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  border: 1px solid var(--border-light);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  background: var(--bg-card);
+}
+
+.case-summary p {
+  font-size: clamp(18px, 2vw, 28px);
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+  color: var(--text);
+  max-width: 820px;
+}
+
+/* Hero Image: fixed container height issue on mobile */
+.nag-hero-image {
+  width: 100%;
+  max-width: 1540px;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  background: transparent;
+  height: auto;
+  min-height: 0;
+}
+
+.nag-hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+}
+
+/* Section Index */
+.nag-section-index {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+/* Introduction Section */
+.nag-introduction {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
+  padding: 120px 0 100px;
+  border-top: 1px solid var(--border);
+  margin-top: 80px;
+}
+
+.nag-introduction h2,
+.nag-chapter h2,
+.nag-vk h2,
+.nag-closing h2 {
+  font-size: clamp(40px, 5.2vw, 84px);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+  font-weight: 750;
+  margin: 0 0 36px;
+  color: var(--text);
+}
+
+.nag-lead {
+  font-size: clamp(20px, 2.2vw, 32px);
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+  color: var(--text);
+  margin-bottom: 24px;
+}
+
+.nag-introduction p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  max-width: 760px;
+}
+
+/* 3-Column Scope: Hierarchy corrected per user instruction */
+.nag-work-scope {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  padding-bottom: 120px;
+}
+
+.nag-work-scope > div {
+  border-top: 1px solid var(--border);
+  padding-top: 24px;
+}
+
+.nag-work-scope span {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  margin-bottom: 20px;
+}
+
+.nag-work-scope strong {
+  display: block;
+  font-size: clamp(24px, 2.5vw, 38px);
+  font-weight: 750;
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+
+.nag-work-scope p {
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--text-muted);
+}
+
+/* Chapter Section (Without awkward cut image) */
+.nag-chapter {
+  padding: 80px 0 100px;
+  border-top: 1px solid var(--border);
+}
+
+.nag-chapter-copy {
+  max-width: 900px;
+}
+
+.nag-chapter-copy .nag-section-index {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.nag-chapter-copy p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+/* Landing Viewers: Dark background seamless, clean typography */
+.case-display.nag-landing-viewers {
+  background: var(--bg-viewer);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 90px max(24px, calc((100vw - 1400px) / 2)) 120px;
+}
+
+.case-viewers {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.case-viewer {
+  display: flex;
+  flex-direction: column;
+}
+
+.case-viewer:first-child {
+  flex: 1;
+}
+
+.case-viewer.viewer-mobile {
+  width: 380px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.viewer-title {
+  margin-bottom: 20px;
+}
+
+.viewer-title h2 {
+  font-size: 24px;
+  font-weight: 750;
+  letter-spacing: -0.03em;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.viewer-title span {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+}
+
+/* Screen (Desktop viewer) */
+.screen {
+  background: #181918;
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+  position: relative;
+}
+
+.screen-top {
+  height: 36px;
+  background: #141514;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 14px;
+}
+
+.screen-top .dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #333633;
+}
+
+.screen-body {
+  height: min(65vw, 760px);
+  min-height: 420px;
+  overflow-y: auto;
+  background: #fff;
+  overscroll-behavior: contain;
+}
+
+.screen-body img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.screen.expanded .screen-body {
+  height: auto;
+  max-height: none;
+  overflow: visible;
+}
+
+/* Phone (Mobile viewer) */
+.phone {
+  border: 10px solid #222522;
+  border-radius: 36px;
+  background: #222522;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 360px;
+}
+
+.phone-top {
+  height: 24px;
+  background: #222522;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.phone-body {
+  height: 680px;
+  overflow-y: auto;
+  background: #fff;
+}
+
+.phone-body img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.phone.expanded .phone-body {
+  height: auto;
+  max-height: none;
+  overflow: visible;
+}
+
+/* Viewer Controls */
+.viewer-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+}
+
+.case-viewer.viewer-mobile .viewer-controls {
+  justify-content: center;
+}
+
+.expand-btn {
+  background: var(--bg-card);
+  color: var(--text);
+  border: 1px solid var(--border-light);
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.expand-btn:hover {
+  background: var(--text);
+  color: var(--bg);
+}
+
+/* Sticky close bar when expanded */
+.sticky-collapse-bar {
+  display: none;
+  position: sticky;
+  top: 16px;
+  z-index: 50;
+  text-align: right;
+  padding-right: 16px;
+  margin-bottom: -50px;
+  pointer-events: none;
+}
+
+.sticky-collapse-bar button {
+  pointer-events: auto;
+  background: rgba(10, 10, 10, 0.85);
+  backdrop-filter: blur(12px);
+  color: #fff;
+  border: 1px solid var(--border-light);
+  padding: 10px 22px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  transition: background 0.2s;
+}
+
+.sticky-collapse-bar button:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* Dashboard Section */
+.nag-dashboard {
+  padding: 120px 0 140px;
+  border-top: 1px solid var(--border);
+}
+
+.nag-chapter-dashboard {
+  margin-bottom: 80px;
+}
+
+.nag-dashboard-feature img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+
+.nag-dashboard figcaption {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  margin-top: 14px;
+}
+
+.nag-dashboard-pair {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 50px;
+  align-items: center;
+  padding-top: 80px;
+  border-top: 1px solid var(--border);
+}
+
+.nag-dashboard-pair.reverse {
+  grid-template-columns: 1fr 1.4fr;
+}
+
+.nag-dashboard-pair.reverse figure {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.nag-dashboard-pair.reverse .nag-pair-copy {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.nag-dashboard-pair figure img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+
+.nag-pair-copy span {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  margin-bottom: 16px;
+}
+
+.nag-pair-copy h3 {
+  font-size: clamp(32px, 3.8vw, 56px);
+  font-weight: 750;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: var(--text);
+}
+
+.nag-pair-copy p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+/* VK Section: Clean simple grid per Yaeger style, NO long texts */
+.nag-vk {
+  padding: 120px 0 140px;
+  border-top: 1px solid var(--border);
+}
+
+.nag-vk-heading {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
+  margin-bottom: 70px;
+}
+
+.nag-vk-heading p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.nag-vk-banner {
+  width: 100%;
+  margin-bottom: 60px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.nag-vk-banner img {
+  width: 100%;
+  display: block;
+}
+
+.nag-vk-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+.nag-vk-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.nag-vk-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--border-light);
+}
+
+.nag-vk-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Closing Section */
+.nag-closing {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
+  border-top: 1px solid var(--border);
+  padding: 100px 0 140px;
+}
+
+.nag-closing p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+/* Next Project Link */
+.next-project-link {
+  border-top: 1px solid var(--border);
+  padding: 60px 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  transition: opacity 0.2s;
+}
+
+.next-project-link:hover {
+  opacity: 0.8;
+}
+
+.next-project-link span {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
+.next-project-link strong {
+  font-size: clamp(32px, 5vw, 72px);
+  font-weight: 750;
+  letter-spacing: -0.04em;
+  color: var(--text);
+}
+
+/* Responsive */
+@media (max-width: 990px) {
+  .case-summary {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .nag-introduction,
+  .nag-vk-heading,
+  .nag-closing {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .nag-work-scope {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .case-viewers {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .case-viewer.viewer-mobile {
+    width: 100%;
+  }
+  .nag-dashboard-pair,
+  .nag-dashboard-pair.reverse {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .nag-dashboard-pair.reverse figure,
+  .nag-dashboard-pair.reverse .nag-pair-copy {
+    grid-column: 1;
+    grid-row: auto;
+  }
+  .nag-vk-grid {
+    grid-template-columns: 1fr;
+  }
+}

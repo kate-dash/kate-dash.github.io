@@ -1,0 +1,147 @@
+/* Strict targeted fixes for Naglyadno case study per user feedback */
+
+/* 1. Mobile hero container size fix */
+@media (max-width: 760px) {
+  .nag-hero-image {
+    height: auto !important;
+    min-height: 0 !important;
+    background: transparent !important;
+  }
+  .nag-hero-image img {
+    height: auto !important;
+  }
+}
+
+/* 2. Seamless dark background for viewers and dashboard */
+.nag-landing-viewers,
+.nag-dashboard {
+  background: #1b1d1b !important;
+  color: #f3f4ef !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.nag-dashboard .nag-section-index,
+.nag-dashboard-pair .nag-pair-copy span {
+  color: #aab8ac !important;
+}
+
+.nag-dashboard-pair .nag-pair-copy p,
+.nag-dashboard .nag-chapter p+p {
+  color: #aebbb1 !important;
+}
+
+.nag-dashboard figcaption {
+  color: #8c9b8e !important;
+}
+
+/* 3. Screen and Phone Unified Device Frames */
+.screen,
+.phone {
+  background: #252b28 !important;
+  border: 1px solid #38423e !important;
+  border-radius: 15px !important;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45) !important;
+  overflow: hidden !important;
+}
+
+.screen-top,
+.phone-top {
+  height: 35px !important;
+  background: #252b28 !important;
+  border-bottom: 1px solid #38423e !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: 0 14px !important;
+}
+
+.screen-top .dot {
+  width: 7px !important;
+  height: 7px !important;
+  border-radius: 50% !important;
+  background: #4a5651 !important;
+}
+
+.phone-top:after {
+  display: none !important;
+}
+
+.screen-body,
+.phone-body {
+  background: #fff !important;
+}
+
+/* Un-stretch phone image so it's sharp and not blurry */
+.case-viewer .phone-body img {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  height: auto !important;
+  display: block !important;
+}
+
+/* Centered mobile viewer titles and controls */
+.case-viewer.viewer-mobile .viewer-title {
+  text-align: center !important;
+}
+
+.case-viewer.viewer-mobile .viewer-controls {
+  justify-content: center !important;
+}
+
+.case-viewer.viewer-mobile .phone {
+  margin: 0 auto !important;
+  width: 320px !important;
+}
+
+/* 4. Dashboard layout and images natural aspect ratio (NO DISTORTION) */
+.nag-dashboard-feature img,
+.nag-dashboard-pair figure img {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  object-fit: contain !important;
+  border-radius: 15px !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35) !important;
+}
+
+/* NO divider lines between dashboard blocks */
+.nag-dashboard-pair {
+  border-top: none !important;
+  padding-top: 80px !important;
+}
+
+.nag-dashboard-pair.reverse {
+  border-top: none !important;
+  padding-top: 100px !important;
+}
+
+/* 5. VK Clean Grid: 2x2 without long text captions */
+.nag-post-grid-clean {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+.nag-post-grid-clean figure {
+  margin: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #252b28;
+  border: 1px solid #38423e;
+}
+
+.nag-post-grid-clean figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 760px) {
+  .nag-post-grid-clean {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

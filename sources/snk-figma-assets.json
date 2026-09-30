@@ -1,0 +1,10 @@
+{
+  "file": "https://www.figma.com/design/bNqNHiZ2YOemwHrjtqEerv/SNK-Kilev",
+  "note": "Внутренние страницы экспортированы напрямую из Figma 25.09.2026. Копии находятся в dist/assets и не зависят от временных ссылок Figma.",
+  "assets": [
+    {"node_id": "4352:3810", "title": "Для брендов", "asset": "dist/assets/snk-brands.webp", "source_size": [1920, 5728], "export_size": [604, 1800]},
+    {"node_id": "4352:3989", "title": "Блог", "asset": "dist/assets/snk-blog.webp", "source_size": [1920, 1978], "export_size": [1748, 1800]},
+    {"node_id": "4352:4120", "title": "О компании", "asset": "dist/assets/snk-about.webp", "source_size": [1920, 6195], "export_size": [558, 1800]},
+    {"node_id": "4352:4338", "title": "Доставка и оплата", "asset": "dist/assets/snk-delivery.webp", "source_size": [1920, 3683], "export_size": [939, 1800]}
+  ]
+}

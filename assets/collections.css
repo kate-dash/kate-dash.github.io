@@ -1,0 +1,60 @@
+.y-footer-collections {
+  margin-top: 72px;
+  margin-bottom: 56px;
+}
+
+.y-footer-collections h2 {
+  margin: 0 0 22px;
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.y-footer-collections-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.y-footer-collections-pills .y-btn-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 10px 20px;
+}
+
+.y-footer-collections-pills .y-btn-pill[aria-current="page"] {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+
+.y-footer-collections-pills .y-btn-pill:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 3px;
+}
+
+.y-collection-title h2 {
+  font-size: clamp(44px, 5vw, 76px);
+  line-height: .95;
+  overflow-wrap: anywhere;
+}
+
+.y-collection-group-label {
+  margin-bottom: -55px;
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 760px) {
+  .y-footer-collections { margin-top: 56px; margin-bottom: 40px; }
+  .y-footer-collections-pills { gap: 8px; }
+  .y-footer-collections-pills .y-btn-pill { padding: 10px 15px; }
+  .y-collection-title h2 { font-size: clamp(38px, 10vw, 56px); }
+  .y-collection-group-label { margin-bottom: -58px; }
+}

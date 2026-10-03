@@ -21,6 +21,8 @@
 .cap-main-views .case-viewer:has(.phone){width:100%}
 .cap-main-views .screen-body{height:680px}
 .cap-main-views .phone{max-width:310px}
+.cap-main-views>div:has(.phone){justify-self:center;margin-inline:auto}
+.cap-main-views .case-viewer:has(.phone){margin-inline:auto}
 .cap-main-views .viewer-title h2{font-size:clamp(21px,2.2vw,30px)}
 .cap-main-views .viewer-title span{max-width:110px;text-align:right}
 .cap-about{padding-top:125px;padding-bottom:125px;grid-template-columns:1fr 1.3fr;align-items:start}
@@ -39,8 +41,12 @@
 .cap-system-head p{color:#d5e0e4}
 .cap-system-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
 .cap-system-grid figure{min-width:0;background:#f4f6f5;border-radius:15px;overflow:hidden;color:#1b3048}
-.cap-system-image{height:320px;overflow:hidden;background:white}
+.cap-system-image{background:white}
 .cap-system-image img{width:100%;height:auto}
+.cap-pages-overview{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px;margin-bottom:55px}
+.cap-pages-overview figure{min-width:0;margin:0}
+.cap-pages-overview img{display:block;width:100%;height:215px;object-fit:cover;object-position:top;background:#fff;border-radius:8px}
+.cap-pages-overview figcaption{font-size:12px;line-height:1.3;margin-top:12px;color:#d5e0e4}
 .cap-system-grid figcaption{padding:24px 28px 31px}
 .cap-system-grid figcaption span{display:block;font-size:11px;font-weight:800;letter-spacing:.1em;color:#ed6544}
 .cap-system-grid figcaption strong{display:block;font-size:clamp(25px,3vw,42px);letter-spacing:-.06em;font-weight:600;margin:10px 0}
@@ -48,5 +54,5 @@
 .cap-end{border-top:1px solid #bbc9ce;padding-top:38px;padding-bottom:145px;margin-top:120px}
 .cap-end h2,.cap-end p{grid-column:2}
 .cap-end h2{margin:0}
-@media(max-width:850px){.cap-hero-title{display:block}.cap-hero-title p{margin-top:35px}.cap-intro,.cap-section-head,.cap-about,.cap-delivery,.cap-system-head,.cap-end{grid-template-columns:1fr;gap:22px}.cap-about-copy,.cap-delivery-copy{position:static}.cap-main-views{grid-template-columns:1fr}.cap-main-views>div:nth-child(2){width:min(310px,100%)}.cap-main,.cap-product,.cap-system{padding:75px 0 85px}.cap-intro,.cap-about,.cap-delivery{padding-top:75px;padding-bottom:85px}.cap-end{margin-top:80px;padding-bottom:90px}.cap-end h2,.cap-end p{grid-column:auto}}
-@media(max-width:600px){.cap-hero{padding-bottom:65px}.cap-hero .back{margin-top:45px}.cap-hero-title{margin-top:30px;padding-bottom:30px}.cap-hero-title h1{font-size:clamp(70px,20vw,125px);margin-top:30px}.cap-hero-preview{border-radius:10px}.cap-main-views .screen-body,.cap-about-view .screen-body,.cap-product-view .screen-body,.cap-delivery-view .screen-body{height:470px}.cap-system-grid{grid-template-columns:1fr}.cap-system-image{height:240px}.capservice-story .viewer-title span{max-width:92px}.capservice-story .viewer-controls span{font-size:9px}}
+@media(max-width:850px){.cap-hero-title{display:block}.cap-hero-title p{margin-top:35px}.cap-intro,.cap-section-head,.cap-about,.cap-delivery,.cap-system-head,.cap-end{grid-template-columns:1fr;gap:22px}.cap-about-copy,.cap-delivery-copy{position:static}.cap-main-views{grid-template-columns:1fr}.cap-main-views>div:nth-child(2){width:min(310px,100%)}.cap-main,.cap-product,.cap-system{padding:75px 0 85px}.cap-intro,.cap-about,.cap-delivery{padding-top:75px;padding-bottom:85px}.cap-end{margin-top:80px;padding-bottom:90px}.cap-end h2,.cap-end p{grid-column:auto}.cap-pages-overview{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.cap-hero{padding-bottom:65px}.cap-hero .back{margin-top:45px}.cap-hero-title{margin-top:30px;padding-bottom:30px}.cap-hero-title h1{font-size:clamp(70px,20vw,125px);margin-top:30px}.cap-hero-preview{border-radius:10px}.cap-main-views .screen-body,.cap-about-view .screen-body,.cap-product-view .screen-body,.cap-delivery-view .screen-body{height:470px}.cap-system-grid{grid-template-columns:1fr}.cap-pages-overview{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.cap-pages-overview img{height:190px}.capservice-story .viewer-title span{max-width:92px}.capservice-story .viewer-controls span{font-size:9px}}

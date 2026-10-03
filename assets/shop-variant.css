@@ -1,0 +1,12 @@
+.y-variant-label {
+  margin-bottom: -55px;
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 760px) {
+  .y-variant-label { margin-bottom: -58px; }
+}

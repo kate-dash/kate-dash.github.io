@@ -238,3 +238,15 @@
     margin-right: 0 !important;
   }
 }
+.kilev-story .kl-hero-image.case-hero-mockup,
+.iceflow-story .if-hero-visual.case-hero-mockup {
+  height: auto;
+}
+.case-hero-mockup img,
+.kilev-story .kl-hero-image.case-hero-mockup img,
+.iceflow-story .if-hero-visual.case-hero-mockup img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}

@@ -19,8 +19,21 @@ for match in re.finditer(r'<article class="y-project-item">.*?</article>', HOME,
         raise ValueError(f'Missing case page: {slug}')
     cards[slug] = card
 
+# This case remains in the client collections and at its direct URL, but is
+# intentionally absent from the home page until its presentation is ready.
+hidden_card = (ROOT / 'sources' / 'life-revival-card.html').read_text().strip()
+hidden_link = re.search(r'href="/projects/([^/]+)/"', hidden_card)
+if not hidden_link or hidden_link.group(1) != 'life-revival':
+    raise ValueError('Invalid hidden Life Revival card')
+if 'life-revival' in cards:
+    raise ValueError('Life Revival should be hidden from the home page')
+ordered_cards = list(cards.items())
+insert_at = next(index + 1 for index, (slug, _) in enumerate(ordered_cards) if slug == '3r-agency')
+ordered_cards.insert(insert_at, ('life-revival', hidden_card))
+cards = dict(ordered_cards)
+
 if len(cards) != 24:
-    raise ValueError(f'Expected 24 home-page projects, found {len(cards)}; review collections')
+    raise ValueError(f'Expected 24 project cards, found {len(cards)}; review collections')
 
 COLLECTIONS = {
     'shops': {

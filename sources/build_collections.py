@@ -2,6 +2,7 @@
 
 from pathlib import Path
 import re
+import json
 
 ROOT = Path(__file__).resolve().parents[1]
 HOME = (ROOT / 'index.html').read_text()
@@ -56,7 +57,7 @@ COLLECTIONS = {
     'branding': {
         'title': 'Брендинг',
         'description': 'Логотипы, фирменный стиль и визуальные системы в цифровых и печатных материалах.',
-        'projects': ['renom', 'status-compliance', 'avioagroalliance', '3r-agency', 'life-revival', 'kosov', 'credu'],
+        'projects': ['unity-branding', 'svetlana-delle', 'avioagroalliance', 'kosov', 'renom', 'status-compliance', '3r-agency', 'life-revival', 'credu'],
     },
     'real-estate': {
         'title': 'Недвижимость',
@@ -70,22 +71,25 @@ end = HOME.index('    </main>', start)
 function_re = re.compile(r'    function toggleExtraProjects\(\) \{.*?\n    \}', re.S)
 
 for route, data in COLLECTIONS.items():
+    page_cards = dict(cards)
+    if route == 'branding':
+        page_cards.update(json.loads((ROOT / 'sources' / 'branding-collection-cards.json').read_text()))
     primary = data['projects']
     related = data.get('related', [])
     featured = primary + related
-    if len(featured) != len(set(featured)) or not set(featured) <= set(cards):
+    if len(featured) != len(set(featured)) or not set(featured) <= set(page_cards):
         raise ValueError(f'Invalid project list for {route}')
-    remaining = [slug for slug in cards if slug not in featured]
+    remaining = [slug for slug in page_cards if slug not in featured]
 
-    content = ['      ' + cards[slug] for slug in primary]
+    content = ['      ' + page_cards[slug] for slug in primary]
     if related:
         content.append(
             '      <div class="y-collection-group-label" role="heading" aria-level="3">'
             + data['related_heading'] + '</div>'
         )
-        content.extend('      ' + cards[slug] for slug in related)
+        content.extend('      ' + page_cards[slug] for slug in related)
     content.append('      <div id="extraProjects" style="display:none;flex-direction:column;gap:80px;">')
-    content.extend('        ' + cards[slug] for slug in remaining)
+    content.extend('        ' + page_cards[slug] for slug in remaining)
     content.append('      </div>')
     content.append(
         '      <div class="y-more-wrap"><button class="y-more-btn" id="moreProjectsBtn" '

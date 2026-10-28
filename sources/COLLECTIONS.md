@@ -13,7 +13,9 @@ Life Revival Universe временно скрыт с главной. Пряма�
 | `/shops/` | KAP Service, SNK, 0not1, Yodometics | 4 интернет-магазина; следом 5 многостраничных сайтов как смежные работы |
 | `/multipage/` | Kilev Lab, Iceflow, Kosov Group, Sananda, Arhistratig, KAP Service, SNK | Сайты с несколькими разделами; магазины включены, потому что они тоже многостраничные |
 | `/landings/` | Oiva, Наглядно, 3R Agency, Life Revival Universe, Lumedge, Wowflat, Credu | Посадочные страницы продукта или услуги |
-| `/branding/` | RENOM, Status Compliance, АвиоАгроАльянс, 3R Agency, Life Revival Universe, Kosov Group, Credu | Логотип, фирменный стиль, брендбук или арт-дирекшн |
+| `/branding/` | Unity, Svetlana Delle, АвиоАгроАльянс (расширенный кейс), Kosov Group (существующий кейс), RENOM, Status Compliance, 3R Agency, Life Revival Universe, Credu | Логотип, фирменный стиль, брендбук или арт-дирекшн |
 | `/real-estate/` | Lumedge, обе концепции Get Your Phuket, Wowflat, Kosov Group | Девелопмент, продажа или аренда недвижимости |
 
 В каждой подборке остальные проекты находятся под кнопкой «Остальные проекты». Главная и все подборки связаны пиллами в футере. Отдельные категории «SaaS» и «Тёмная тема» пока не созданы: в них слишком мало однозначных кейсов.
+
+Карточки Unity, Svetlana Delle и расширенного АвиоАгроАльянса хранятся в `branding-collection-cards.json` и применяются только для `/branding/`. На главную они не добавляются.

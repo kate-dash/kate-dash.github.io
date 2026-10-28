@@ -1,5 +1,5 @@
 {
-  "status": "Прямые ссылки для проверки; не добавлять на главную до согласования",
+  "status": "Добавлены в подборку брендинга; на главной не показаны",
   "projects": [
     {
       "slug": "unity-branding",
@@ -99,51 +99,6 @@
       "questions": [
         "Уточнить год проекта.",
         "Подтвердить, какие применения были выпущены."
-      ]
-    },
-    {
-      "slug": "kosov-branding",
-      "name": "Kosov Group",
-      "pdf": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Branding portfolio/Kosov group style 2 copy.pdf",
-      "year": "2022",
-      "industry": "Девелопмент и работа с территориями",
-      "scope": [
-        "Логотип",
-        "Фирменный стиль",
-        "Гайдлайн",
-        "Арт-дирекшн сайта"
-      ],
-      "hero": 7,
-      "summary": "Разработала фирменный стиль Kosov Group вокруг идеи «Всё начинается с земли». Топографические линии, отпечаток пальца и знак плюса связывают землю, человека и разные направления компании.",
-      "sections": [
-        [
-          "Ландшафт как часть айдентики",
-          "Фотографии природных территорий становятся основой коммуникации. Поверх них работают топографические линии и сетка плюсов: графика связывает отдельные изображения в единую систему.",
-          [
-            4,
-            8,
-            5
-          ]
-        ],
-        [
-          "Земля и человек",
-          "В знаке соединены образы топографической карты и отпечатка пальца. Это поддерживает идею участия человека в развитии территории. Плюс объединяет направления деятельности компании.",
-          [
-            2,
-            3
-          ]
-        ],
-        [
-          "Гибкая графическая система",
-          "Знак и название допускают разные взаимные положения. Паттерн существует в двух вариантах — линии и разметка: их можно использовать отдельно или сочетать в одной композиции.",
-          [
-            6,
-            9
-          ]
-        ]
-      ],
-      "questions": [
-        "Уточнить личное распределение работы над лендингом: ранее Екатерина указала арт-дирекшн совместно с дизайнером и верстальщиком."
       ]
     },
     {
@@ -369,62 +324,6 @@
       "height": 1397
     },
     {
-      "asset": "assets/branding-review/kosov-branding-02.webp",
-      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Branding portfolio/Kosov group style 2 copy.pdf",
-      "page": 2,
-      "width": 2200,
-      "height": 1238
-    },
-    {
-      "asset": "assets/branding-review/kosov-branding-03.webp",
-      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Branding portfolio/Kosov group style 2 copy.pdf",
-      "page": 3,
-      "width": 2200,
-      "height": 1238
-    },
-    {
-      "asset": "assets/branding-review/kosov-branding-04.webp",
-      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Branding portfolio/Kosov group style 2 copy.pdf",
-      "page": 4,
-      "width": 2200,
-      "height": 1238
-    },
-    {
-      "asset": "assets/branding-review/kosov-branding-05.webp",
-      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Branding portfolio/Kosov group style 2 copy.pdf",
-      "page": 5,
-      "width": 2200,
-      "height": 1238
-    },
-    {
-      "asset": "assets/branding-review/kosov-branding-06.webp",
-      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Branding portfolio/Kosov group style 2 copy.pdf",
-      "page": 6,
-      "width": 2200,
-      "height": 1238
-    },
-    {
-      "asset": "assets/branding-review/kosov-branding-07.webp",
-      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Branding portfolio/Kosov group style 2 copy.pdf",
-      "page": 7,
-      "width": 2200,
-      "height": 1238
-    },
-    {
-      "asset": "assets/branding-review/kosov-branding-08.webp",
-      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Branding portfolio/Kosov group style 2 copy.pdf",
-      "page": 8,
-      "width": 2200,
-      "height": 1238
-    },
-    {
-      "asset": "assets/branding-review/kosov-branding-09.webp",
-      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Branding portfolio/Kosov group style 2 copy.pdf",
-      "page": 9,
-      "width": 2200,
-      "height": 1238
-    },
-    {
       "asset": "assets/branding-review/avioagroalliance-branding-02.webp",
       "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/AAA_guidelines 1.pdf",
       "page": 2,
@@ -486,15 +385,6 @@
       "page": 11,
       "width": 2200,
       "height": 1238
-    },
-    {
-      "asset": "assets/branding-review/unity-web-first.webp",
-      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/Unity /screencapture-unity-club-2026-02-09-17_42_09.png",
-      "region": "Первый экран, y=0..1900; дизайн не изменён"
-    },
-    {
-      "asset": "assets/branding-review/unity-web-detail.webp",
-      "source": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Web-sites portfolio/Unity /screencapture-unity-club-2026-02-09-17_42_09-2.png"
     }
   ]
 }

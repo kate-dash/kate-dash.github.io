@@ -1,0 +1,20 @@
+/* Review pages only; existing cases keep their established art direction. */
+.branding-review{background:#1b1d1b;color:#f3f2ef}
+.branding-review .site-header{background:#1b1d1b;color:#f3f2ef}
+.branding-review .brand-hero{background:#1b1d1b;padding-bottom:64px}
+.branding-review .brand-hero h1{font-size:clamp(42px,7vw,104px);letter-spacing:-.065em;line-height:1.02;overflow-wrap:normal}
+.branding-review .brand-hero-meta{margin-top:42px}
+.branding-review .brand-hero-image{margin-top:40px;height:auto;max-height:none;box-shadow:none}
+.branding-review .brand-section{padding-block:40px 64px;border-color:#ffffff35}
+.branding-review .brand-section-heading{margin-bottom:32px;align-items:start}
+.branding-review .brand-section-heading h2{font-size:clamp(28px,3.2vw,46px);letter-spacing:-.045em;line-height:1.12}
+.branding-review .brand-section-heading p{font-size:clamp(17px,1.4vw,21px);line-height:1.5}
+.branding-review .brand-section-heading a{text-decoration:underline}
+.branding-review .brand-gallery{gap:24px}
+.branding-review .brand-slide img{height:auto;object-fit:contain}
+.branding-review .review-web-detail{width:min(800px,100%);justify-self:center}
+.branding-review .footer{color:#c4c6c0}
+.review-mid-cta{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-block:24px 56px;font-size:17px}
+.review-mid-cta a{display:inline-flex;align-items:center;gap:12px;text-decoration:underline;text-underline-offset:6px}
+.review-mid-cta svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5}
+@media(max-width:760px){.branding-review .brand-hero-meta{margin-top:24px}.branding-review .brand-hero h1{font-size:clamp(36px,9vw,64px)}.branding-review .brand-section{padding-block:28px 42px}.branding-review .brand-section-heading{gap:16px}.review-mid-cta{flex-direction:column;align-items:flex-start;padding-bottom:36px}}

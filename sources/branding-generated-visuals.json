@@ -1,0 +1,198 @@
+[
+  {
+    "key": "marketing-up-stationery-v1",
+    "brand": "marketing-up",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/marketing-up-branding-02.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/marketing-up-branding-04.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/marketing-up-branding-05.webp"
+    ],
+    "prompt": "Create a sophisticated Marketing Up STATIONERY scene. Ivory letterhead, open indigo document folder, two substantial business cards (front and back) and a slim envelope. Modern tightly composed angled arrangement on pale warm-gray architectural surface, one low brushed-aluminum ledge, clean raking sunlight. Exact original two overlapping blue/orange triangle mountains and Marketing Up wordmark (arrow U). Indigo #414CA0, burnt orange #E56642, blush #E2A6A7, ivory #F7F1E1, tiny cyan. Use the reference modular circles/quarter circles/triangles as a restrained border on the letterhead, bold large graphics on folder and card backs. Restrained beautiful Jost-like typesetting. Exact text 'Marketing Up', 'IDEAS INTO ACTION', 'STRATEGY / EDUCATION'. Letterhead is a real designed document with short natural typographic lines and clear margins, no excessive tiny text. Focus on paper, ink and geometry. Not the same composition as a workbook scene. Use case: product-mockup. One premium photorealistic modern editorial brand-application photograph, landscape 3:2, 1536x1024 style. Original identity from references is mandatory: reproduce logo, typography character, palette and graphic vocabulary accurately; no redesign. Strong art direction, real materials, contemporary natural light and precise print/screen detail, asymmetrical balanced composition. All important text and complete logos comfortably inside frame. Exact short text only as specified; no lorem ipsum, fake contacts, dates, claims or metrics. No watermark, stock office clutter, coffee, plants, floating objects, 3D blobs, collages or multi-panel boards. This depicts a new proposed application of the existing identity, not evidence of historical production.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-5f29b976-cc27-4962-9522-695b60bd3384.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/marketing-up-stationery-v1.png",
+    "asset": "assets/branding-applications/marketing-up-stationery-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Концептуальное применение существующей айдентики",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "finance-workbook-v1",
+    "brand": "finance",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-01.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-05.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-07.webp"
+    ],
+    "prompt": "FINANCES & SALES educational workbook application: an open large workbook with intelligent real financial teaching content, one closed course book and two oversized topic cards in a sharply composed editorial scene on white mineral surface with an orange translucent acrylic sheet. Original logo is thin black outlined rectangle divided vertically: F / S in left cell, widely tracked 'FINANCES & SALES' in right cell. This exact mark and spelling, no alternate Know How or Elena names. White, black, gradients orange-to-red on oversized percentage and multiplication symbols, turquoise/green plus and lime sigma as in refs. Bold Proxima Nova-like sans typography, minimalist grid, large expressive % and + symbols, use math symbols as original brand vocabulary. Exact headings 'FINANCES & SALES', 'FINANCIAL PLANNING', 'WORKBOOK', 'COSTS / REVENUE / PROFIT'. The open spread includes a crisp simple expense table with category labels and empty writing lines, one large % symbolic graphic, no invented performance values. Soft directional morning light, tactile uncoated paper, visual richness from the original symbols rather than decorative random shapes. Use case: product-mockup. One premium photorealistic modern editorial brand-application photograph, landscape 3:2, 1536x1024 style. Original identity from references is mandatory: reproduce logo, typography character, palette and graphic vocabulary accurately; no redesign. Strong art direction, real materials, contemporary natural light and precise print/screen detail, asymmetrical balanced composition. All important text and complete logos comfortably inside frame. Exact short text only as specified; no lorem ipsum, fake contacts, dates, claims or metrics. No watermark, stock office clutter, coffee, plants, floating objects, 3D blobs, collages or multi-panel boards. This depicts a new proposed application of the existing identity, not evidence of historical production.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-19ffbcd1-461b-457f-96f2-724c8f85e414.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/finance-workbook-v1.png",
+    "asset": "assets/branding-applications/finance-workbook-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Концептуальное применение существующей айдентики",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "finance-digital-v1",
+    "brand": "finance",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-01.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-05.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-07.webp"
+    ],
+    "prompt": "FINANCES & SALES digital webinar campaign application. A beautifully framed slim silver laptop on a warm ivory architectural bench, with three separate printed social-format cards positioned alongside on the surface, no floating panels. Laptop shows a refined title slide 'FINANCIAL PLANNING' and 'LIVE WEBINAR', the exact boxed F/S FINANCES & SALES logo top left and huge translucent orange-red percentage symbol. Cards show 'COSTS', 'REVENUE', 'PROFIT' with original oversized plus, sigma and percent symbols in turquoise, lime and orange. Clear highly designed type in Proxima Nova-like bold and light weights, whitespace and black fine rectangular frames from the logo. Palette white/black with gradients restricted to the original math symbols. Low oblique camera, warm directional light, brushed aluminum and pale architectural concrete, expensive contemporary editorial photography. No charts suggesting actual business results. Use case: product-mockup. One premium photorealistic modern editorial brand-application photograph, landscape 3:2, 1536x1024 style. Original identity from references is mandatory: reproduce logo, typography character, palette and graphic vocabulary accurately; no redesign. Strong art direction, real materials, contemporary natural light and precise print/screen detail, asymmetrical balanced composition. All important text and complete logos comfortably inside frame. Exact short text only as specified; no lorem ipsum, fake contacts, dates, claims or metrics. No watermark, stock office clutter, coffee, plants, floating objects, 3D blobs, collages or multi-panel boards. This depicts a new proposed application of the existing identity, not evidence of historical production.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-ebb631d9-2891-4e2e-92f6-3bdc149a3b40.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/finance-digital-v1.png",
+    "asset": "assets/branding-applications/finance-digital-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Концептуальное применение существующей айдентики",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "finance-stationery-v1",
+    "brand": "finance",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-01.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-05.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-07.webp"
+    ],
+    "prompt": "FINANCES & SALES contemporary STATIONERY application. A tall white letterhead on top of a slim orange-red folder, a charcoal open envelope revealing crisp white lining, two business cards one white with original boxed logo and one reverse with oversize orange-red percentage symbol. Layered off-center arrangement on light gray fine stone with a single glass edge, no pens. Original exact thin black rectangular logo: divided frame with F / S and FINANCES & SALES. Quiet Proxima Nova-like typography, lots of white, thin black rules, oversized math symbols used sparingly at crop edges. Exact text only 'FINANCES & SALES', 'FINANCIAL EDUCATION', 'F / S'. Do not invent people's names or contact data. Very modern restrained financial education identity, no luxury gold, no blue financial-corporate generic look. Strong diagonal daylight shadows. Use case: product-mockup. One premium photorealistic modern editorial brand-application photograph, landscape 3:2, 1536x1024 style. Original identity from references is mandatory: reproduce logo, typography character, palette and graphic vocabulary accurately; no redesign. Strong art direction, real materials, contemporary natural light and precise print/screen detail, asymmetrical balanced composition. All important text and complete logos comfortably inside frame. Exact short text only as specified; no lorem ipsum, fake contacts, dates, claims or metrics. No watermark, stock office clutter, coffee, plants, floating objects, 3D blobs, collages or multi-panel boards. This depicts a new proposed application of the existing identity, not evidence of historical production.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-1eba0d7a-5417-418d-9d54-d87e8c5ee38a.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/finance-stationery-v1.png",
+    "asset": "assets/branding-applications/finance-stationery-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Концептуальное применение существующей айдентики",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "insurance-publications-v1",
+    "brand": "insurance",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/insurance-branding-02.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/insurance-branding-04.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/insurance-branding-05.webp"
+    ],
+    "prompt": "Russian insurance brand «Страховки в Германии»: a modern photorealistic editorial shot of three designed educational campaign posters, two large portrait sheets leaning against an off-white wall on a deep teal shelf and one smaller sheet lying in front. Preserve the exact green shield-with-human-face logo and exact Russian brand name from refs. Palette lime #C4DA4C, green #109447, teal #3F8F74, deep teal #1B4647 with white. Original Memphis communication vocabulary: thin arcs, plus grids, punctuation and small triangles. Contemporary Avenir Next-like type and purposeful large margins. Exact main poster headings: 'Страховки в Германии', 'Защита для жизни', 'Разберёмся вместе'. Small natural secondary words 'Дом', 'Семья', 'Путешествия'. Use one tasteful editorial photo of hands and a document on one sheet, not the stock shouting man from guideline. Graphic design is clear and sophisticated, signs are accents not wallpaper, rich green print areas balanced by white. Avoid legal coverage promises. Use case: product-mockup. One premium photorealistic modern editorial brand-application photograph, landscape 3:2, 1536x1024 style. Original identity from references is mandatory: reproduce logo, typography character, palette and graphic vocabulary accurately; no redesign. Strong art direction, real materials, contemporary natural light and precise print/screen detail, asymmetrical balanced composition. All important text and complete logos comfortably inside frame. Exact short text only as specified; no lorem ipsum, fake contacts, dates, claims or metrics. No watermark, stock office clutter, coffee, plants, floating objects, 3D blobs, collages or multi-panel boards. This depicts a new proposed application of the existing identity, not evidence of historical production.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-99e1935d-1c4f-4053-9143-75b36e6df1ae.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/insurance-publications-v1.png",
+    "asset": "assets/branding-applications/insurance-publications-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Концептуальное применение существующей айдентики",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "insurance-digital-v1",
+    "brand": "insurance",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/insurance-branding-02.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/insurance-branding-04.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/insurance-branding-05.webp"
+    ],
+    "prompt": "Modern digital application of Russian insurance brand «Страховки в Германии». A slim landscape tablet resting on its understated dark-green stand and a portrait smartphone beside it on white surface with softly lit green translucent glass architectural panel behind. Preserve exact shield/face logo and exact Cyrillic name from references. Tablet presents a sophisticated minimal proposed service information screen: accurate logo upper left, heading 'Страхование без сложностей', subline 'Разберёмся вместе', three clean service cards labeled 'Дом', 'Семья', 'Путешествия', small CTA 'Задать вопрос'. Phone shows coordinated educational social card with heading 'Защита для жизни'. Original palette lime, mid green, deep teal and white; original thin arcs, plus grids and punctuation as restrained accents. Avenir Next-like confident typography, precise grid, generous margins, sharp flat screen artwork and subtle realistic glass reflections. No fake metrics, no fabricated terms or guarantees, no website address. Photograph is contemporary, soft bright daylight, devices completely visible. Use case: product-mockup. One premium photorealistic modern editorial brand-application photograph, landscape 3:2, 1536x1024 style. Original identity from references is mandatory: reproduce logo, typography character, palette and graphic vocabulary accurately; no redesign. Strong art direction, real materials, contemporary natural light and precise print/screen detail, asymmetrical balanced composition. All important text and complete logos comfortably inside frame. Exact short text only as specified; no lorem ipsum, fake contacts, dates, claims or metrics. No watermark, stock office clutter, coffee, plants, floating objects, 3D blobs, collages or multi-panel boards. This depicts a new proposed application of the existing identity, not evidence of historical production.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-42718a4f-1d02-4dcf-9bab-04668378e0d1.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/insurance-digital-v1.png",
+    "asset": "assets/branding-applications/insurance-digital-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Концептуальное применение существующей айдентики",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "insurance-stationery-v1",
+    "brand": "insurance",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/insurance-branding-02.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/insurance-branding-04.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/insurance-branding-05.webp"
+    ],
+    "prompt": "STATIONERY for «Страховки в Германии». A modern green document folder standing partly open, ivory letterhead slightly slid out, slim white envelope with deep-green interior and two business cards front/back on warm pale surface with angled deep-green architectural plinth. Precise original two-tone shield/face logo with exact Cyrillic wordmark; do not replace shield with a generic icon. Palette white, deep #1B4647, green #109447, lime #C4DA4C. Original curved lines and small plus grids used as tiny restrained edge graphic. Letterhead title 'Личная консультация', brand text 'Страховки в Германии', card descriptor 'Страховые услуги'. No made-up names, addresses or phone numbers. Premium matte uncoated paper, subtle blind embossing, contemporary trustworthy not stiff-corporate, soft light and one dramatic diagonal shadow. Clear editorial hierarchy. Use case: product-mockup. One premium photorealistic modern editorial brand-application photograph, landscape 3:2, 1536x1024 style. Original identity from references is mandatory: reproduce logo, typography character, palette and graphic vocabulary accurately; no redesign. Strong art direction, real materials, contemporary natural light and precise print/screen detail, asymmetrical balanced composition. All important text and complete logos comfortably inside frame. Exact short text only as specified; no lorem ipsum, fake contacts, dates, claims or metrics. No watermark, stock office clutter, coffee, plants, floating objects, 3D blobs, collages or multi-panel boards. This depicts a new proposed application of the existing identity, not evidence of historical production.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-368b698f-2edf-4092-9170-49cf4fcc7275.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/insurance-stationery-v1.png",
+    "asset": "assets/branding-applications/insurance-stationery-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Концептуальное применение существующей айдентики",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "venediktov-programme-v1",
+    "brand": "venediktov",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/venediktov-branding-02.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/venediktov-branding-06.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/venediktov-branding-07.webp"
+    ],
+    "prompt": "Create a premium modern programme book mockup for personal brand Andrey Venediktov. One open large-format training book and one closed thin programme on natural charcoal slate at an architectural window, soft directional light with a faint water-caustic reflection on surrounding wall only. Preserve exact AV serif monogram from ref1, including distinctive negative shapes; small thin sans 'Andrey Venediktov'. Original deep midnight #1b1e29, rich ocean teal, cyan and white palette; Playfair Display-like elegant large serif with italic accent, Open Sans-like body type. Cover features a tasteful aerial ocean photograph integrated with midnight field and large exact title 'Go deeper', small 'LEADERSHIP PROGRAMME'. Open spread has disciplined heading 'Focus. Lead. Grow.' and three clean sections 'Clarity', 'Practice', 'Reflection' with writing space, small AV logo, fine rules. Original nature/depth imagery, no borrowed colored geometric graphics from other brands. Sophisticated tactile uncoated print, strong restrained composition. No people posing, no luxury gold, no fake claims. Use case: product-mockup. One premium photorealistic modern editorial brand-application photograph, landscape 3:2, 1536x1024 style. Original identity from references is mandatory: reproduce logo, typography character, palette and graphic vocabulary accurately; no redesign. Strong art direction, real materials, contemporary natural light and precise print/screen detail, asymmetrical balanced composition. All important text and complete logos comfortably inside frame. Exact short text only as specified; no lorem ipsum, fake contacts, dates, claims or metrics. No watermark, stock office clutter, coffee, plants, floating objects, 3D blobs, collages or multi-panel boards. This depicts a new proposed application of the existing identity, not evidence of historical production.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-078b3540-45b1-4736-81a8-486d629d67de.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/venediktov-programme-v1.png",
+    "asset": "assets/branding-applications/venediktov-programme-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Концептуальное применение существующей айдентики",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "venediktov-digital-v1",
+    "brand": "venediktov",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/venediktov-branding-02.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/venediktov-branding-06.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/venediktov-branding-07.webp"
+    ],
+    "prompt": "Personal brand Andrey Venediktov digital keynote application: a slender black tablet displaying a compelling presentation title slide, accompanied by one portrait black phone with coordinated social announcement, physically standing on textured pale-gray stone step with deep ocean-toned glass background. Exact original AV serif monogram and small 'Andrey Venediktov' from reference; retain original brand, do not substitute ordinary letters. Title slide combines a dark underwater photograph with a tiny distant diver, generous midnight negative space, large Playfair Display-like title 'Go deeper', italic teal accent on 'deeper', small descriptor 'LEADERSHIP / COACHING'. Phone shows 'Believe in yourself' on dark teal with tasteful mountain silhouette at lower edge, small exact monogram. Fine Open Sans-like secondary typography, precise alignment. A sophisticated brand presentation rather than a busy app UI. Soft natural raking light, believable screen reflections, complete device silhouettes inside frame, no motivational stock business portrait, no fake achievements. Use case: product-mockup. One premium photorealistic modern editorial brand-application photograph, landscape 3:2, 1536x1024 style. Original identity from references is mandatory: reproduce logo, typography character, palette and graphic vocabulary accurately; no redesign. Strong art direction, real materials, contemporary natural light and precise print/screen detail, asymmetrical balanced composition. All important text and complete logos comfortably inside frame. Exact short text only as specified; no lorem ipsum, fake contacts, dates, claims or metrics. No watermark, stock office clutter, coffee, plants, floating objects, 3D blobs, collages or multi-panel boards. This depicts a new proposed application of the existing identity, not evidence of historical production.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-203ed156-6411-43b3-8523-956d9f2b5b7f.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/venediktov-digital-v1.png",
+    "asset": "assets/branding-applications/venediktov-digital-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Концептуальное применение существующей айдентики",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "venediktov-stationery-v1",
+    "brand": "venediktov",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/venediktov-branding-02.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/venediktov-branding-06.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/venediktov-branding-07.webp"
+    ],
+    "prompt": "Andrey Venediktov STATIONERY: exceptionally restrained modern editorial identity photograph. One midnight-blue slim presentation folder, white letterhead with tiny ocean-teal rule, one narrow envelope with dark teal interior, and two thick business cards white and midnight with original white AV monogram embossed, on a cool pale limestone surface. A narrow crop of aerial ocean photograph is used only on inside folder flap, not all papers. Exact distinctive original AV serif monogram from reference; 'Andrey Venediktov' set in thin understated sans, small descriptor 'LEADERSHIP / COACHING'. Original palette midnight #1b1e29, white, teal and cyan accents. Playfair Display-like small elegant headings, Open Sans-like document text. Premium paper, matte ink, believable subtle letterpress, controlled side lighting and fine shadows. Architectural asymmetric arrangement, no repetitive full flatlay grid, no gold or metallic foil, no watches or pens, no fabricated personal contacts. Use case: product-mockup. One premium photorealistic modern editorial brand-application photograph, landscape 3:2, 1536x1024 style. Original identity from references is mandatory: reproduce logo, typography character, palette and graphic vocabulary accurately; no redesign. Strong art direction, real materials, contemporary natural light and precise print/screen detail, asymmetrical balanced composition. All important text and complete logos comfortably inside frame. Exact short text only as specified; no lorem ipsum, fake contacts, dates, claims or metrics. No watermark, stock office clutter, coffee, plants, floating objects, 3D blobs, collages or multi-panel boards. This depicts a new proposed application of the existing identity, not evidence of historical production.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-3211ced7-4083-49d9-9c27-fa820a25e238.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/venediktov-stationery-v1.png",
+    "asset": "assets/branding-applications/venediktov-stationery-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Концептуальное применение существующей айдентики",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "marketing-up-workshop-v1",
+    "brand": "marketing-up",
+    "path": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/marketing-up/previews/marketing-up-workshop-v1.png",
+    "prompt": "Use case: product-mockup. Create ONE exceptional contemporary editorial brand application photograph for Marketing Up, landscape 3:2. Input references: image 1 is the exact existing logo (two overlapping mountain triangles, blue and orange, wordmark Marketing Up with upward arrow on U); image 2 palette; image 3 exact modular geometric graphic vocabulary. These are brand references, not page layouts to reproduce. Preserve the original logo design and brand identity accurately. Palette deep indigo #414CA0 / #2C387A, vivid burnt orange #E56642, pale blush #E2A6A7, warm ivory #F7F1E1 and small cyan #4BAFE6. Strong precisely aligned modular circles, quarter circles, semicircles and triangles from reference 3. Subject: a beautifully art-directed physical learning/marketing workshop kit, an oversized thin softcover course workbook with bold graphic cover, an open editorial spread with large typographic hierarchy, two loose seminar invitation cards. Realistic uncoated premium paper with subtle texture, sharp folds and credible printing. Arrange objects with intentional asymmetric composition and striking overlaps on a matte indigo architectural work surface with one restrained brushed aluminum element, photographed at a low oblique top-down angle. Bright sophisticated directional daylight, long clean shadows, tactile and credible high-end design studio photography, fresh 2026 graphic design portfolio art direction. Objects fill most of frame, no empty generic studio. Some covers predominantly ivory and others bold geometric pattern; use pattern with restraint, not everywhere. Exact short typesetting only: 'Marketing Up', 'WORKSHOP', '01', 'STRATEGY', 'IDEAS INTO ACTION'. Type in a geometric grotesk akin Jost with confident scale and generous space. Keep all important objects and logos completely inside frame. No people, no coffee mugs, no plants, no tote bags, no stationery template flatlay, no floating objects, no gradients, no rounded 3D blobs, no watermarks, no invented alternate logos. This is a proposed brand application, not a photograph of a historically produced item. Do not show a guideline document or color swatches; show compelling usable brand touchpoints.",
+    "refs": [],
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/marketing-up-workshop-v1.png",
+    "asset": "assets/branding-applications/marketing-up-workshop-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Концептуальное применение существующей айдентики",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "marketing-up-digital-v1",
+    "brand": "marketing-up",
+    "path": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/marketing-up/previews/marketing-up-digital-v1.png",
+    "prompt": "Use case: product-mockup. Produce ONE contemporary premium editorial digital-brand mockup photograph for Marketing Up, landscape 3:2, photorealistic 2026 design portfolio art direction. Reference image 1: exact original Marketing Up logo with two overlapping blue/orange mountain triangles and black wordmark with up-arrow incorporated into U. Reference image 2: brand palette. Reference image 3: authentic modular circle, quarter-circle, semicircle, rectangle, triangle pattern. Use original logo accurately, do not redraw it into another logo. Scene: a very thin landscape tablet in satin aluminum sitting naturally on a deep-indigo folded-metal desk stand on a matte warm-ivory work surface; beside it one contemporary black slim-bezel smartphone upright at a slightly different angle. A single precisely trimmed print postcard with brand pattern lies nearby, only a supporting accent. Thoughtfully composed architectural studio setting, pale blue background with a clean diagonal sunlight shadow, a subtle brushed aluminum wall surface. Devices physically supported and believable, no floating. Tablet screen shows a sophisticated Marketing Up webinar title slide: generous ivory field, small accurate logo upper left, large dark indigo geometric sans-serif Jost-like title 'MARKETING STRATEGY', secondary 'LIVE WORKSHOP', small '01 / 04'; lower third strong modular brand pattern using exact graphic vocabulary. Phone shows a distinct highly designed mobile event announcement with large short text 'LEVEL UP', 'LIVE WORKSHOP', accurate logo, orange and blush modular circle graphic. Screen graphics must be sharply legible, flat vector-like artwork with no perspective artifacts; premium typographic hierarchy and clean margins. Palette only #414CA0, #2C387A, #E56642, #E2A6A7, #F7F1E1 and cyan accent #4BAFE6. Visual connection to the original guideline must be very clear. Realistic soft reflections that do not hide screens, tactile metal, controlled natural daylight, exquisite subtle shadow detail. Dynamic asymmetrical composition with generous breathing room, devices fill most of frame, entire screen boundaries visible. Avoid stock office mockup, laptop, coffee, plants, flowers, tote bag, pens, rainbow gradients, 3D blobs, watermarks, lorem ipsum, dashboards, charts, extra logos, camera notches protruding into screen graphics. This is a proposed new brand application for visual exploration.",
+    "refs": [],
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/marketing-up-digital-v1.png",
+    "asset": "assets/branding-applications/marketing-up-digital-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Концептуальное применение существующей айдентики",
+    "generator": "built-in imagegen"
+  }
+]

@@ -482,5 +482,57 @@
     "brand": "credu",
     "generator": "built-in image_gen",
     "kind": "graphite background and simplified gradient correction"
+  },
+  {
+    "key": "credu-laptop-stickers-v5",
+    "old": "credu-laptop-stickers-v3",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-laptop-stickers-v2.png",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/credu-1.webp"
+    ],
+    "prompt": "Precise-object-edit. Reference1 exact laptop photo; final reference is ORIGINAL CREDU WEBSITE BACKGROUND COLOR STYLE. Backdrop must MATCH THE CREDU LANDING PAGE in last reference: deep blue-black #0f1925 (NOT portfolio off-black #1b1d1b, NOT gray/graphite concrete). Clean silky extremely smooth low-noise dark navy with a very restrained broad diffuse teal glow and a subtle muted purple glow, like the original CREDU website. No concrete, grain, speckles, vignette blotches, paper texture, scratches, cloudy patches or dirty gray. Professional pristine high-resolution studio quality. Keep same silver laptop, precise diagonal camera crop and EVERY sticker artwork/text exactly. Change only background lavender to CREDU site dark navy. Repair lower-right speaker vent as a flawless precision-machined regular array of small uniform holes in straight evenly spaced rows, following planar perspective. No wavy lines, melted dots, bumps or scratches; smooth aluminum, no grain. Preserve object dimensions and all brand symbols. Output opaque image, no transparency.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-72343bf9-cb91-4b85-b786-3b79c48c2a31.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-laptop-stickers-v5.png",
+    "asset": "/assets/branding-applications/credu-laptop-stickers-v5.webp",
+    "width": 1536,
+    "height": 1024,
+    "brand": "credu",
+    "generator": "built-in image_gen",
+    "kind": "original CREDU landing page background #0f1925 and original unicorn restoration"
+  },
+  {
+    "key": "credu-bottles-v5",
+    "old": "credu-bottles-v3",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-bottles-v3.png",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/credu-1.webp"
+    ],
+    "prompt": "Precise-object-edit. Reference1 exact bottles and their positions; final ref ORIGINAL CREDU WEBSITE. Backdrop must MATCH THE CREDU LANDING PAGE in last reference: deep blue-black #0f1925 (NOT portfolio off-black #1b1d1b, NOT gray/graphite concrete). Clean silky extremely smooth low-noise dark navy with a very restrained broad diffuse teal glow and a subtle muted purple glow, like the original CREDU website. No concrete, grain, speckles, vignette blotches, paper texture, scratches, cloudy patches or dirty gray. Professional pristine high-resolution studio quality. Preserve three bottle silhouettes, positions, original colors and exact printed shield, VR goggles, cap, unicorn and CREDU typography. No added ribbons or solid arbitrary abstract shapes. Retain only existing soft diffuse gradient near base of mint bottle. All bottle materials smooth, sharp print, clean realistic reflections. Same square composition. Output opaque image, no transparency.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-e57ccabb-8b33-47c3-8ebd-8aa4d9cacda9.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-bottles-v5.png",
+    "asset": "/assets/branding-applications/credu-bottles-v5.webp",
+    "width": 1254,
+    "height": 1254,
+    "brand": "credu",
+    "generator": "built-in image_gen",
+    "kind": "original CREDU landing page background #0f1925 and original unicorn restoration"
+  },
+  {
+    "key": "credu-stationery-flatlay-v5",
+    "old": "credu-stationery-flatlay-v3",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-stationery-flatlay-v3.png",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/credu/unicorn-original-detail.png",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/credu-1.webp"
+    ],
+    "prompt": "Precise-object-edit. Image1 composition to preserve. Image2 LARGE DETAIL OF THE EXACT ORIGINAL UNICORN ICON; final image ORIGINAL CREDU WEBSITE. Backdrop must MATCH THE CREDU LANDING PAGE in last reference: deep blue-black #0f1925 (NOT portfolio off-black #1b1d1b, NOT gray/graphite concrete). Clean silky extremely smooth low-noise dark navy with a very restrained broad diffuse teal glow and a subtle muted purple glow, like the original CREDU website. No concrete, grain, speckles, vignette blotches, paper texture, scratches, cloudy patches or dirty gray. Professional pristine high-resolution studio quality. Keep all original stationery objects and arrangement, same top-down orthographic perspective. Specific corrections: upper-right navy poster is a complete clean RECTANGLE with four square 90-degree corners, no chamfer at top-left, no clipped or missing corner, no page curl; move slightly inside canvas so complete perimeter visible. Replace deformed unicorn on poster with EXACT icon from image2, proportionally enlarged WITHOUT changing aspect ratio, anatomy, contours, stroke width relationships, ear, closed eye, horn, nose, neck or mane. Use the ORIGINAL THIN LINE HORSE HEAD, no redrawing of thick mascot, only recolor navy stroke from ref to emerald on poster. Do not reproduce surrounding shield frame from image2. Keep CREDU and PLAY / LEARN / EARN on poster with clear margins, unicorn completely visible. Top-middle small business cards: remove ALL solid cyan/blue sharp curved wedge shapes; replace those backgrounds with only soft diffuse teal/purple gradient spots. Cap plain navy with small shield and wordmark, notebook soft gradient spot, bottles no hard bands. No shape leftovers anywhere. Sharp clean high-resolution professional materials, no noise or grime. Output opaque image, no transparency.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-05891a9f-8d6a-4576-88e2-b216d8dd0e7a.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-stationery-flatlay-v5.png",
+    "asset": "/assets/branding-applications/credu-stationery-flatlay-v5.webp",
+    "width": 1672,
+    "height": 941,
+    "brand": "credu",
+    "generator": "built-in image_gen",
+    "kind": "original CREDU landing page background #0f1925 and original unicorn restoration"
   }
 ]

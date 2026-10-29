@@ -404,5 +404,35 @@
     "generator": "built-in image_gen",
     "brand": "credu",
     "kind": "brand application with user-supplied composition reference"
+  },
+  {
+    "key": "credu-tote-person-v4",
+    "prompt": "Precise-object-edit. In this photo change ONLY the oversized WHITE shield printed on the lower-right of the tote bag. It is currently visibly rotated counterclockwise. ROTATE ITS ARTWORK CLOCKWISE about 10 degrees so the shield is exactly upright relative to the image. The TOP EDGE OF SHIELD MUST BE A LEVEL HORIZONTAL LINE (zero degrees), left endpoint and right endpoint at EXACTLY SAME HEIGHT in image. The white central divider MUST BE VERTICAL (zero lean), straight down parallel to image edge. The crossbar MUST BE HORIZONTAL, same y coordinate across. Keep the shield VERY LARGE, crop out right and bottom at bag boundary. Shield top edge starts about halfway down front panel, white vertical divider close to right side. Four original white outlined icons in quadrants correctly upright, without rotation. This is a flat head-on bag, NOT a perspective rotated print. Keep existing small navy shield and CREDU at upper-left exactly as is; keep CRYPTO EDUCATION / PLAY / LEARN / EARN lower-left exactly as is. Preserve all fabric, pose, hand, handles, green hue, shoes, background, camera and crop unchanged. Do not change small logo. Main goal: make every horizontal/vertical WHITE line on shield level/upright, unlike current diagonal artwork.",
+    "refs": [
+      "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-f5f62e1d-a1af-4b37-9d12-c881de27a8b5.png"
+    ],
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-c9e20d6f-0cb7-4827-ac3c-27f9d166b209.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-tote-person-v4.png",
+    "asset": "/assets/branding-applications/credu-tote-person-v4.webp",
+    "width": 1024,
+    "height": 1536,
+    "brand": "credu",
+    "generator": "built-in image_gen",
+    "kind": "targeted correction of approved application"
+  },
+  {
+    "key": "credu-badges-v3",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-badges-v2.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Correct ONLY planar geometry and print perspective in this CREDU conference badge photo. Keep two overlapping diagonal passes, colors, actual CREDU graphics, original wording, lighting, gray background and overall composition. Each badge must be a physically plausible flat rectangle with four straight edges, consistent rounded corners, proper perspective, no warped or curved silhouette. Especially green badge: all text CREDU, COMMUNITY, lower CREDU and PLAY / LEARN / EARN must lie on same perfectly flat card plane; text baselines parallel to that badge's top/bottom edges and letters vertically aligned to its side-edge perspective. Correct lower rounded corners and side edges, without making new composition. Keep dark badge ALEX / MEMBER and shield. Fix text perspective there only if needed. Metallic clips clean coherent and realistic. Do not bend paper, distort typography or alter brand/logo. The cards remain angled in image but printed artwork follows their exact perspective. High-quality photorealistic precision.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-00f2ad74-8a51-4906-a9c1-af6162c4cb0c.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-badges-v3.png",
+    "asset": "/assets/branding-applications/credu-badges-v3.webp",
+    "width": 1024,
+    "height": 1536,
+    "brand": "credu",
+    "generator": "built-in image_gen",
+    "kind": "targeted correction of approved application"
   }
 ]

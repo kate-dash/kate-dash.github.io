@@ -5,3 +5,8 @@
 .credu-media{margin-block:clamp(28px,5vw,72px)}
 .credu-media img{display:block;width:100%;height:auto}
 @media(min-width:901px){.credu-media{padding-left:calc(var(--case-info-column) + var(--case-info-gap))}}
+
+/* Separate contemporary application shots; preserve full uncropped compositions. */
+.credu-application-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,2vw,24px);align-items:start}
+.credu-application-grid figure{margin:0;min-width:0}
+@media(max-width:600px){.credu-application-grid{grid-template-columns:1fr;gap:24px}}

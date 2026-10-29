@@ -302,5 +302,107 @@
     "asset": "/assets/branding-applications/credu-event-kit-v1.webp",
     "width": 1536,
     "height": 1024
+  },
+  {
+    "key": "credu-tote-person-v2",
+    "ref": "/Users/ekaterinazaitseva/Downloads/372d39b00b7b7042d7293eb3fa4383f3.jpg",
+    "prompt": "Use case: product-mockup. Create one modern premium brand application image for CREDU, crypto education and gaming project. Reference image 1 supplies ONLY shot composition/framing, object positions, camera, lighting and material feeling. Reference image 2 is the authoritative CREDU identity: reproduce its fine outlined quartered shield with VR goggles, graduation cap, bitcoin and unicorn, spaced CREDU wordmark. Replace ALL other brand graphics and writing in composition reference. CREDU colors: electric emerald green (not lime), midnight navy, graphite, white, subtle cyan/purple accents from identity reference. Use the existing shield and its four actual symbols as a graphic vocabulary, not random cryptocurrency decorations. Exact short text only CREDU, CRYPTO EDUCATION, PLAY / LEARN / EARN as applicable. No other brand names, watermarks, invented logos or generic office mockup staging. Match reference composition closely. Portrait 2:3 editorial photograph. Match reference: faceless cropped standing person in oversized black shirt and loose black trousers, sneakers, hands holding two cloth tote handles centrally in front of body, charcoal textured concrete wall and paving. Tote is the large hero in lower central frame, the full bag and shoes visible. Change tote from yellow-lime to CREDU emerald green. Black CREDU wordmark and small exact shield near upper portion; oversized thin white CREDU shield linework across lower bag, no globe from reference. Natural fabric folds and stitching, realistic anatomically correct hands. No other products.",
+    "refs": [
+      "/Users/ekaterinazaitseva/Downloads/372d39b00b7b7042d7293eb3fa4383f3.jpg",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/credu/guide-0-1.png"
+    ],
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-8bcf739d-486a-44fa-bc2d-e289780bc486.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-tote-person-v2.png",
+    "asset": "/assets/branding-applications/credu-tote-person-v2.webp",
+    "width": 1024,
+    "height": 1536,
+    "generator": "built-in image_gen",
+    "brand": "credu",
+    "kind": "brand application with user-supplied composition reference"
+  },
+  {
+    "key": "credu-laptop-stickers-v2",
+    "ref": "/Users/ekaterinazaitseva/Downloads/773b01be340f8b53aec22c2ee35419c6.jpg",
+    "prompt": "Use case: product-mockup. Create one modern premium brand application image for CREDU, crypto education and gaming project. Reference image 1 supplies ONLY shot composition/framing, object positions, camera, lighting and material feeling. Reference image 2 is the authoritative CREDU identity: reproduce its fine outlined quartered shield with VR goggles, graduation cap, bitcoin and unicorn, spaced CREDU wordmark. Replace ALL other brand graphics and writing in composition reference. CREDU colors: electric emerald green (not lime), midnight navy, graphite, white, subtle cyan/purple accents from identity reference. Use the existing shield and its four actual symbols as a graphic vocabulary, not random cryptocurrency decorations. Exact short text only CREDU, CRYPTO EDUCATION, PLAY / LEARN / EARN as applicable. No other brand names, watermarks, invented logos or generic office mockup staging. Match reference composition closely. Landscape 3:2 close-up of back of a partly open matte silver laptop, same diagonal lid and rear hinge composition as reference, pale soft violet surface occupying background on right, soft diffuse daylight. Laptop lid decorated with 10 distinct crisp die-cut CREDU stickers: exact shield and wordmark; outline VR goggles; graduation cap; bitcoin inside circle; unicorn head matching shield; CREDU lettermark text sticker; PLAY / LEARN / EARN typography. Balanced different sticker shapes sizes and rotations as reference. Emerald/navy/white and limited violet, contemporary playful crypto education aesthetic. No fruit, rockets, other company logos, no marketing analytics labels. Physical vinyl stickers with clean thin white diecut borders.",
+    "refs": [
+      "/Users/ekaterinazaitseva/Downloads/773b01be340f8b53aec22c2ee35419c6.jpg",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/credu/guide-0-1.png"
+    ],
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-71b1be5f-74a7-45f2-bfbe-67ae8723a58b.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-laptop-stickers-v2.png",
+    "asset": "/assets/branding-applications/credu-laptop-stickers-v2.webp",
+    "width": 1536,
+    "height": 1024,
+    "generator": "built-in image_gen",
+    "brand": "credu",
+    "kind": "brand application with user-supplied composition reference"
+  },
+  {
+    "key": "credu-bottles-v2",
+    "ref": "/Users/ekaterinazaitseva/Downloads/021b89c6a77651c7960ec7b487dbfdde.jpg",
+    "prompt": "Use case: product-mockup. Create one modern premium brand application image for CREDU, crypto education and gaming project. Reference image 1 supplies ONLY shot composition/framing, object positions, camera, lighting and material feeling. Reference image 2 is the authoritative CREDU identity: reproduce its fine outlined quartered shield with VR goggles, graduation cap, bitcoin and unicorn, spaced CREDU wordmark. Replace ALL other brand graphics and writing in composition reference. CREDU colors: electric emerald green (not lime), midnight navy, graphite, white, subtle cyan/purple accents from identity reference. Use the existing shield and its four actual symbols as a graphic vocabulary, not random cryptocurrency decorations. Exact short text only CREDU, CRYPTO EDUCATION, PLAY / LEARN / EARN as applicable. No other brand names, watermarks, invented logos or generic office mockup staging. Match reference composition closely. Square studio product render. Same three reusable metal water bottles with rectangular loop screw caps floating in a close diagonal fan arrangement: center nearly upright bottle forward and largest; left bottle angles left behind it; right bottle angles right behind, realistic coherent caps and cylinders, soft light gray seamless background. Central bottle midnight navy with small white CREDU wordmark and emerald shield; left emerald bottle with large navy outline shield graphic; right pale cool mint with oversized dark navy VR goggles/graduation-cap icons from shield, slight violet accents. Strong minimal contemporary graphic applications, no wavy pattern copied from other brand, no added props, no pedestal. All three bottles comfortably inside frame.",
+    "refs": [
+      "/Users/ekaterinazaitseva/Downloads/021b89c6a77651c7960ec7b487dbfdde.jpg",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/credu/guide-0-1.png"
+    ],
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-8ece1aec-8c51-4463-a94a-2406be212b6c.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-bottles-v2.png",
+    "asset": "/assets/branding-applications/credu-bottles-v2.webp",
+    "width": 1254,
+    "height": 1254,
+    "generator": "built-in image_gen",
+    "brand": "credu",
+    "kind": "brand application with user-supplied composition reference"
+  },
+  {
+    "key": "credu-stationery-flatlay-v2",
+    "ref": "/Users/ekaterinazaitseva/Downloads/28010969b9eb7bbfd4c3dd0b22b4ac3f.jpg",
+    "prompt": "Use case: product-mockup. Create one modern premium brand application image for CREDU, crypto education and gaming project. Reference image 1 supplies ONLY shot composition/framing, object positions, camera, lighting and material feeling. Reference image 2 is the authoritative CREDU identity: reproduce its fine outlined quartered shield with VR goggles, graduation cap, bitcoin and unicorn, spaced CREDU wordmark. Replace ALL other brand graphics and writing in composition reference. CREDU colors: electric emerald green (not lime), midnight navy, graphite, white, subtle cyan/purple accents from identity reference. Use the existing shield and its four actual symbols as a graphic vocabulary, not random cryptocurrency decorations. Exact short text only CREDU, CRYPTO EDUCATION, PLAY / LEARN / EARN as applicable. No other brand names, watermarks, invented logos or generic office mockup staging. Match reference composition closely. Landscape 16:9 strict top-down orthographic flatlay / knolling. Reproduce reference dense precise orderly rectangular layout on uniform medium-light gray tabletop: tall vertical print partly cropped at far left, closed dark presentation box top left, 6 small arranged business cards top middle, two tape rolls and two branded woven straps across top center, large thin printed poster cropped upper right, black cap lower left, slim notebook and pen lower middle, diecut stickers centrally, three matching reusable bottles lower right aligned vertical. Recolor all CREDU emerald navy graphite white, subtle teal/violet gradient graphic on box/cards/poster. Apply exact shield, wordmark and four icons from identity ref across objects. Main poster CREDU / PLAY / LEARN / EARN. Straight clean shadows consistent across all items, precise physically plausible box and notebook corners. No envelopes. Not an angled luxury stationery scene; copy the overhead contemporary modular composition.",
+    "refs": [
+      "/Users/ekaterinazaitseva/Downloads/28010969b9eb7bbfd4c3dd0b22b4ac3f.jpg",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/credu/guide-0-1.png"
+    ],
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-e29ad19d-8a16-4583-af8a-eaf26efa3565.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-stationery-flatlay-v2.png",
+    "asset": "/assets/branding-applications/credu-stationery-flatlay-v2.webp",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "brand": "credu",
+    "kind": "brand application with user-supplied composition reference"
+  },
+  {
+    "key": "credu-badges-v2",
+    "ref": "/Users/ekaterinazaitseva/Downloads/27f97b4f524952400b1d349f564718a7.jpg",
+    "prompt": "Use case: product-mockup. Create one modern premium brand application image for CREDU, crypto education and gaming project. Reference image 1 supplies ONLY shot composition/framing, object positions, camera, lighting and material feeling. Reference image 2 is the authoritative CREDU identity: reproduce its fine outlined quartered shield with VR goggles, graduation cap, bitcoin and unicorn, spaced CREDU wordmark. Replace ALL other brand graphics and writing in composition reference. CREDU colors: electric emerald green (not lime), midnight navy, graphite, white, subtle cyan/purple accents from identity reference. Use the existing shield and its four actual symbols as a graphic vocabulary, not random cryptocurrency decorations. Exact short text only CREDU, CRYPTO EDUCATION, PLAY / LEARN / EARN as applicable. No other brand names, watermarks, invented logos or generic office mockup staging. Match reference composition closely. Portrait 2:3 single photograph using ONLY bottom-left quadrant reference composition: two large conference badges diagonally overlapping, first dark badge upper left forward, second emerald badge lower right partly behind. Each hangs from real metallic clip entering top edge, neutral gray background. NO FOUR PANEL COLLAGE. Dark badge text ALEX / MEMBER, emerald badge text CREDU / COMMUNITY. Small precise CREDU shield and wordmark, thin large graduation-cap/unicorn outline motifs from CREDU original shield in place of chrome abstract ribbons. Contemporary uncluttered typography, accurate slots and realistic clips, crisp printed plastic/paper passes. All important typography inside frame. Subtle believable shadows.",
+    "refs": [
+      "/Users/ekaterinazaitseva/Downloads/27f97b4f524952400b1d349f564718a7.jpg",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/credu/guide-0-1.png"
+    ],
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-b4265c21-506e-48b0-a29d-ce0d9a0d878f.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-badges-v2.png",
+    "asset": "/assets/branding-applications/credu-badges-v2.webp",
+    "width": 1024,
+    "height": 1536,
+    "generator": "built-in image_gen",
+    "brand": "credu",
+    "kind": "brand application with user-supplied composition reference"
+  },
+  {
+    "key": "credu-phone-hand-v2",
+    "ref": "/Users/ekaterinazaitseva/Downloads/27f97b4f524952400b1d349f564718a7.jpg",
+    "prompt": "Use case: product-mockup. Create one modern premium brand application image for CREDU, crypto education and gaming project. Reference image 1 supplies ONLY shot composition/framing, object positions, camera, lighting and material feeling. Reference image 2 is the authoritative CREDU identity: reproduce its fine outlined quartered shield with VR goggles, graduation cap, bitcoin and unicorn, spaced CREDU wordmark. Replace ALL other brand graphics and writing in composition reference. CREDU colors: electric emerald green (not lime), midnight navy, graphite, white, subtle cyan/purple accents from identity reference. Use the existing shield and its four actual symbols as a graphic vocabulary, not random cryptocurrency decorations. Exact short text only CREDU, CRYPTO EDUCATION, PLAY / LEARN / EARN as applicable. No other brand names, watermarks, invented logos or generic office mockup staging. Match reference composition closely. Portrait 2:3 single photograph using ONLY bottom-right quadrant reference composition. One natural hand entering lower right holding black smartphone at gentle diagonal, screen facing camera centered with black and dark navy background upper field and textured sunlit pavement lower left. NO COLLAGE. Phone screen a beautifully restrained CREDU brand splash: exact large thin emerald quartered shield centrally, spaced CREDU below, small CRYPTO EDUCATION at bottom, soft navy/teal gradient backdrop, no invented app widgets. Match natural lighting and perspective, realistic hand anatomy and screen edge reflections, clear shield and type.",
+    "refs": [
+      "/Users/ekaterinazaitseva/Downloads/27f97b4f524952400b1d349f564718a7.jpg",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/credu/guide-0-1.png"
+    ],
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-1cedb0c6-e95f-44f3-9043-8815010c19aa.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-phone-hand-v2.png",
+    "asset": "/assets/branding-applications/credu-phone-hand-v2.webp",
+    "width": 1024,
+    "height": 1536,
+    "generator": "built-in image_gen",
+    "brand": "credu",
+    "kind": "brand application with user-supplied composition reference"
   }
 ]

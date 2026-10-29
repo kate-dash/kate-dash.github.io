@@ -194,5 +194,59 @@
     "height": 1024,
     "kind": "Концептуальное применение существующей айдентики",
     "generator": "built-in imagegen"
+  },
+  {
+    "key": "finance-workbook-v2",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-01.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-05.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-06.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-07.webp"
+    ],
+    "prompt": "Redesign the Finance learning-kit scene. A premium closed workshop workbook, open spread, and TWO REAL BUSINESS CARDS for founders ELENA and JULIA, placed at a considered angle on a seamless pale mineral table. No topic flashcards. Book cover features an elegant monochrome professional female portrait with an oversized flat translucent ORANGE-RED MULTIPLICATION SYMBOL graphically overlaid across the photograph exactly as reference 3, not a literal 3D object; generous upper white area with title 'Планирование финансов', small 'FINANCES & SALES'. Open spread uses typography and writing lines plus a photographic inset with turquoise plus overlay, minimal short text 'Практика' and 'Заметки'. Each business card contains the exact logo and the person's name 'ELENA' or 'JULIA'; reverse side has cropped translucent percentage shape over a monochrome photo, no literal symbol names. Paper feels real, tasteful soft warm sunlight, confident close composition, no busy props. Keep the tabletop one simple physically continuous plane; avoid recesses, impossible corners or ledges. Product-mockup, one photorealistic contemporary editorial photograph, landscape 3:2. Preserve original boxed F/S FINANCES & SALES logo exactly: thin black rectangle split into two cells, F slash S left and widely spaced brand right. References: 1 exact logo, 2 math graphic vocabulary, 3 and 4 REQUIRED examples of using large flat translucent gradient math symbols OVER photographs. These are decorative graphic layers, NEVER standalone educational labels or isolated symbol cards. White, black, orange-red, turquoise-green and lime gradients ONLY inside flat printed/screen graphic shapes. Bold Proxima Nova-like typography, fine rectangular rules, white space. No 3D math objects. No COST, REVENUE, PROFIT anywhere. No fake contacts, lorem ipsum, watermarks, floating items or stock stationery template. All complete logos and important text within image. This is a proposed application of an existing brand, not historical production.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-605eb3e3-6c0f-4e39-8c96-fce8602f7fbf.png",
+    "brand": "finance",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/finance-workbook-v2.png",
+    "asset": "assets/branding-applications/finance-workbook-v2.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Исправленное концептуальное применение существующей айдентики",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "finance-digital-v2",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-01.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-05.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-06.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-07.webp"
+    ],
+    "prompt": "Replace the previous laptop-and-labeled-cards scene with a brighter sophisticated LAPTOP AND SMARTPHONE scene. One slim silver laptop naturally open on a continuous warm ivory table, one upright contemporary smartphone beside it on a discreet real support. No loose cards. Laptop screen has a striking editorial webinar poster rather than app dashboard: title '5 ошибок в планировании финансов', small 'ОНЛАЙН-ВЕБИНАР', boxed original FINANCES & SALES logo; large black-and-white portrait of a confident professional woman occupies lower two thirds, a huge FLAT translucent ORANGE-RED X shape graphically overlays photograph (just like reference 3), with cropped edge of percentage arc. Phone has coordinated alternate poster: title 'Финансы без сложностей', black-white portrait with huge translucent turquoise-green PLUS graphic overlay. These are brand decorative graphics layered on photos, not buttons or illustrated explanations. Bright fresh neutral architectural setting, precise glass/metal reflections, dimensional believable devices, strong directional natural light, clear readable typography, no fabricated numbers/metrics, no separate math symbol cards. Product-mockup, one photorealistic contemporary editorial photograph, landscape 3:2. Preserve original boxed F/S FINANCES & SALES logo exactly: thin black rectangle split into two cells, F slash S left and widely spaced brand right. References: 1 exact logo, 2 math graphic vocabulary, 3 and 4 REQUIRED examples of using large flat translucent gradient math symbols OVER photographs. These are decorative graphic layers, NEVER standalone educational labels or isolated symbol cards. White, black, orange-red, turquoise-green and lime gradients ONLY inside flat printed/screen graphic shapes. Bold Proxima Nova-like typography, fine rectangular rules, white space. No 3D math objects. No COST, REVENUE, PROFIT anywhere. No fake contacts, lorem ipsum, watermarks, floating items or stock stationery template. All complete logos and important text within image. This is a proposed application of an existing brand, not historical production.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-16e763f6-58a4-4b0b-97f9-6d60e8d2ba93.png",
+    "brand": "finance",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/finance-digital-v2.png",
+    "asset": "assets/branding-applications/finance-digital-v2.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Исправленное концептуальное применение существующей айдентики",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "finance-stationery-v2",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-01.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-05.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-06.webp",
+      "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/assets/branding-round2/finance-branding-07.webp"
+    ],
+    "prompt": "Regenerate FINANCES & SALES STATIONERY with completely correct physical paper geometry. A crisp closed charcoal envelope with a simple centered conventional triangular flap, NOT open, corners intact and folded seams realistic. White A4 letterhead, slim orange folder, and two business cards for 'ELENA' and 'JULIA'. Photograph at low oblique top-down angle on ONE seamless light-gray concrete plane, no glass table edges, no stairs or disappearing surfaces. Exact original boxed F/S logo with FINANCES & SALES on letterhead, envelope and cards. Large decorative orange-red gradient percentage cropped onto folder background; one business-card reverse combines monochrome professional photo and flat semi-transparent turquoise plus overlay from ref3; the other card is restrained white with logo and name. Fine black line at letterhead top, short text 'Финансовое образование'. Modern typography and tasteful spacing, premium paper with fine realistic fibers, restrained warm daylight, clean complete edges and plausible object shadows. Avoid any warped, bent or missing envelope corners, merged papers, floating flaps, no cost/revenue/profit labels. Product-mockup, one photorealistic contemporary editorial photograph, landscape 3:2. Preserve original boxed F/S FINANCES & SALES logo exactly: thin black rectangle split into two cells, F slash S left and widely spaced brand right. References: 1 exact logo, 2 math graphic vocabulary, 3 and 4 REQUIRED examples of using large flat translucent gradient math symbols OVER photographs. These are decorative graphic layers, NEVER standalone educational labels or isolated symbol cards. White, black, orange-red, turquoise-green and lime gradients ONLY inside flat printed/screen graphic shapes. Bold Proxima Nova-like typography, fine rectangular rules, white space. No 3D math objects. No COST, REVENUE, PROFIT anywhere. No fake contacts, lorem ipsum, watermarks, floating items or stock stationery template. All complete logos and important text within image. This is a proposed application of an existing brand, not historical production.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-add01075-1cc8-442c-9b80-0890555ea201.png",
+    "brand": "finance",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/finance-stationery-v2.png",
+    "asset": "assets/branding-applications/finance-stationery-v2.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Исправленное концептуальное применение существующей айдентики",
+    "generator": "built-in imagegen"
   }
 ]

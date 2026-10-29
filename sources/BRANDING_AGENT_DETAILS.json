@@ -1,0 +1,254 @@
+{
+  "purpose": "Актуальная база брендингового портфолио для агентов откликов. Читать краткую карту, затем конкретный проект.",
+  "updated": "2026-10-29",
+  "collection": "https://kate-dash.github.io/branding/",
+  "site": "https://kate-dash.github.io/",
+  "checkout": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy",
+  "projects": [
+    {
+      "slug": "marketing-up-branding",
+      "title": "Marketing Up",
+      "url": "https://kate-dash.github.io/projects/marketing-up-branding/",
+      "industry": "Маркетинг и образовательные коммуникации",
+      "personal_role": "Логотип, фирменный стиль и гайдлайн",
+      "description": "Разработала знак, объединяющий букву M и горные вершины, палитру и модульный геометрический паттерн. В кейсе есть исходные правила, типографические и цветовые образцы, а также новые концептуальные применения: цифровой анонс, учебный комплект и stationery. Подходит для задач, где нужно развивать айдентику на нескольких носителях. Новые мокапы не следует описывать как выпущенную продукцию.",
+      "use_for": "Бренд-системы, образовательные проекты, визуальные коммуникации, анонсы, stationery",
+      "html": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/projects/marketing-up-branding/index.html",
+      "read_detail": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/sources/branding-round2.json",
+      "pdf": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Branding portfolio/VI_marketing_up_06.05.21 copy.pdf",
+      "figma_urls": [],
+      "user_facts": [],
+      "limitations": [
+        "В тексте PDF упомянут Nunito, а в образцах показан Jost; уточнить окончательный шрифт.",
+        "Проверить, относится ли проект к агентству, образовательному направлению или обоим.",
+        "Уточнить личный объём веб-дизайна и найти готовый лендинг."
+      ]
+    },
+    {
+      "slug": "unity-branding",
+      "title": "Unity",
+      "url": "https://kate-dash.github.io/projects/unity-branding/",
+      "industry": "Кэмп, школа и верёвочный парк на Бали",
+      "personal_role": "Логотип, фирменный стиль, гайдлайн; Екатерина также делала лендинг",
+      "description": "Айдентика построена как гибкая система: буквы и тематические иконки меняются для Camp, Park и School, а компактная версия используется на небольших носителях. В документе показаны палитра, Lens Grotesk, одежда, посуда, печатные материалы и наружные применения. В кейсе сейчас только стиль: два слабых изображения сайта убраны до замены. Можно показывать для бренда с несколькими направлениями и для системной работы с носителями.",
+      "use_for": "Зонтичный бренд, образование, отдых, мерч, развитие айдентики",
+      "html": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/projects/unity-branding/index.html",
+      "read_detail": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/sources/branding-review.json",
+      "pdf": "/Users/ekaterinazaitseva/Documents/Design/Unity/Unity brand/Unity Style 2024/Unity style_26.04.24.pdf",
+      "figma_urls": [],
+      "user_facts": [],
+      "limitations": [
+        "Подтвердить год дизайна лендинга: 2024 относится к версии стиля.",
+        "Уточнить, какие носители были реализованы, а какие остались визуализациями."
+      ]
+    },
+    {
+      "slug": "svetlana-delle",
+      "title": "Svetlana Delle",
+      "url": "https://kate-dash.github.io/projects/svetlana-delle/",
+      "industry": "Личный бренд, голосовые и музыкальные практики",
+      "personal_role": "Логотип, монограммы, фирменный стиль, гайдлайн и лендинг",
+      "description": "Система личного бренда включает полное имя, монограмму YARA и печать. Визуальная идея голоса передана волновыми и круговыми композициями, плавными градиентами, песочными и фиолетовыми оттенками. В кейсе представлены материалы PDF: печатные носители и цифровые коммуникации. Год ещё уточняется. Не трактовать формулировки клиента о голосовых практиках как доказанные медицинские эффекты.",
+      "use_for": "Личный бренд, эксперт, мягкая выразительная айдентика, печать и социальные материалы",
+      "html": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/projects/svetlana-delle/index.html",
+      "read_detail": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/sources/branding-review.json",
+      "pdf": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Branding portfolio/Delle_Svetlana_Guideline.pdf",
+      "figma_urls": [],
+      "user_facts": [],
+      "limitations": [
+        "Уточнить год проекта.",
+        "Подтвердить, какие применения были выпущены."
+      ]
+    },
+    {
+      "slug": "venediktov-branding",
+      "title": "Андрей Венедиктов",
+      "url": "https://kate-dash.github.io/projects/venediktov-branding/",
+      "industry": "Личный бренд, обучение и коучинг",
+      "personal_role": "Монограмма AV, визуальная концепция и руководство по стилю",
+      "description": "Визуальная концепция соединяет монограмму AV с природной фотографией, темой глубины и сине-бирюзовой палитрой. Типографическая система — Playfair Display и Open Sans. Помимо исходных идей показаны современные концептуальные применения: программа обучения, stationery, презентационный экран и мобильный анонс. Исходный документ называется Visual identity ideas: не заявлять без подтверждения, что все варианты утверждены и реализованы.",
+      "use_for": "Личный бренд, коучинг, обучение, презентации, представительские материалы",
+      "html": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/projects/venediktov-branding/index.html",
+      "read_detail": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/sources/branding-round2.json",
+      "pdf": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Branding portfolio/venedictov_VI copy.pdf",
+      "figma_urls": [],
+      "user_facts": [],
+      "limitations": [
+        "В исходнике стоит Visual identity ideas: подтвердить, какие решения были утверждены.",
+        "Уточнить актуальное позиционирование и год завершения; PDF датирован декабрём 2020.",
+        "Найти существующий лендинг, если он есть."
+      ]
+    },
+    {
+      "slug": "finance-branding",
+      "title": "Finances & Sales / Finance",
+      "url": "https://kate-dash.github.io/projects/finance-branding/",
+      "industry": "Финансы и образовательные материалы",
+      "personal_role": "Концепция логотипа, визуальная система и оформление вебинаров",
+      "description": "В основе знака — образ процента и инициалы в прямоугольной рамке. В презентации есть варианты Finances & Sales, Know How и Elena & Julia, поэтому финальное название и утверждённый знак ещё нужно сверить. Градиентные математические символы работают как декоративные слои поверх фотографий. В кейсе — исходная концепция, учебный комплект с визитками, stationery и цифровой анонс на ноутбуке и телефоне. Год 2020 пока выставлен условно для единообразия, не использовать его как подтверждённую историческую дату.",
+      "use_for": "Образовательный бренд, финансы, оформление вебинаров, графические коммуникации",
+      "html": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/projects/finance-branding/index.html",
+      "read_detail": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/sources/branding-round2.json",
+      "pdf": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Branding portfolio/K:H_Logo_2 copy.pdf",
+      "figma_urls": [],
+      "user_facts": [],
+      "limitations": [
+        "Подтвердить финальное название: в исходнике есть Finances & Sales, Know How и Elena & Julia.",
+        "Уточнить, какой вариант логотипа был принят и год проекта.",
+        "Есть ли готовый лендинг или другие материалы этого проекта?"
+      ]
+    },
+    {
+      "slug": "insurance-branding",
+      "title": "Страховки в Германии / Insurance",
+      "url": "https://kate-dash.github.io/projects/insurance-branding/",
+      "industry": "Страховые услуги",
+      "personal_role": "Логотип, фирменный стиль и гайдлайн",
+      "description": "Знак объединяет щит и лицо — идею защиты и внимания к человеку. Фирменная система включает зелёные оттенки, Avenir Next и паттерн со знаками коммуникации. Показаны исходные правила и новые концептуальные применения: плакаты, деловой комплект и цифровая подача услуг. Insurance — рабочая метка папки; публичное название из PDF — «Страховки в Германии». Не приписывать проектирование действующего страхового сервиса или гарантии покрытия.",
+      "use_for": "Услуги, страхование, понятная коммуникация, логотип, деловые материалы",
+      "html": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/projects/insurance-branding/index.html",
+      "read_detail": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/sources/branding-round2.json",
+      "pdf": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Branding portfolio/VI_insurance_GUIDELINES copy.pdf",
+      "figma_urls": [],
+      "user_facts": [],
+      "limitations": [
+        "Подтвердить публичное название компании; рабочее Insurance не является названием из PDF.",
+        "Уточнить статус показанных в гайдлайне применений.",
+        "Найти готовый лендинг, если он сохранился."
+      ]
+    },
+    {
+      "slug": "avioagroalliance-branding",
+      "title": "АвиоАгроАльянс",
+      "url": "https://kate-dash.github.io/projects/avioagroalliance-branding/",
+      "industry": "Авиация и виноградарство",
+      "personal_role": "Фирменный стиль и гайдлайн на основе предоставленного логотипа",
+      "description": "Логотип предоставил заказчик. Екатерина разработала фирменный стиль: градиенты восхода и заката, самолёт и линию полёта, палитру, типографические правила и носители. В кейсе есть самолёт, визитки, папка, конверты, бейджи и винные этикетки; в PDF также показан первый экран сайта. Полный лендинг ещё не найден. Для отклика это пример развития предоставленного знака в систему; не писать, что Екатерина создала сам логотип.",
+      "use_for": "Развитие существующего логотипа, айдентика на разных носителях, авиация, винная этикетка",
+      "html": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/projects/avioagroalliance-branding/index.html",
+      "read_detail": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/sources/branding-review.json",
+      "pdf": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/AAA_guidelines 1.pdf",
+      "figma_urls": [],
+      "user_facts": [],
+      "limitations": [
+        "Уточнить год проекта.",
+        "Уточнить описание бизнес-направлений компании и найти полный макет лендинга."
+      ]
+    },
+    {
+      "slug": "renom",
+      "title": "RENOM",
+      "url": "https://kate-dash.github.io/projects/renom/",
+      "industry": "Информационная безопасность",
+      "personal_role": "Фирменный стиль, брендбук и презентационная подача",
+      "description": "В кейсе показаны знак, палитра, типографика и применения айдентики: деловые материалы, подарочные носители, мерч, цифровые форматы и презентация. Оранжевый акцент сочетается с чёрно-белой основой и крупной геометрической типографикой. Можно использовать для задач полного визуального комплекса, брендбука и презентации. Источники включают PDF и Figma. Бизнес-метрики и сведения о фактическом производстве не подтверждены.",
+      "use_for": "Технологическая компания, айдентика, брендбук, презентация, несколько носителей",
+      "html": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/projects/renom/index.html",
+      "read_detail": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/../portfolio-site/PROJECT_KNOWLEDGE.json",
+      "pdf": null,
+      "figma_urls": [
+        "https://www.figma.com/design/7nLteyXH42mHnhyEvNUGKv/RENOM-Brand-Book--Copy-"
+      ],
+      "user_facts": [
+        "RENOM — один из двух брендбуков в Figma, который пользовательница попросила показать; в файле есть и презентация."
+      ],
+      "limitations": [
+        "Подтвердить личную роль и точную сферу компании."
+      ]
+    },
+    {
+      "slug": "status-compliance",
+      "title": "Status Compliance",
+      "url": "https://kate-dash.github.io/projects/status-compliance/",
+      "industry": "Брендинг компании; точное описание отрасли сверять по исходникам",
+      "personal_role": "Фирменный стиль и брендбук",
+      "description": "Айдентика строится на монограмме, контрастной палитре с лаймовым и синим и единой системе применений. Кейс показывает правила знака, графику, типографику и носители, включая вывеску, печатные и цифровые форматы. Подходит для брендбуков и системной визуальной коммуникации. Не выводить юридическую специализацию только из названия Compliance; точное позиционирование читать в исходных материалах или уточнять.",
+      "use_for": "Фирменный стиль, брендбук, монограмма, вывеска, масштабирование системы",
+      "html": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/projects/status-compliance/index.html",
+      "read_detail": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/../portfolio-site/PROJECT_KNOWLEDGE.json",
+      "pdf": null,
+      "figma_urls": [
+        "https://www.figma.com/design/tfct97IcS6fnUTIFb12w6g/STATUS-BrandBook"
+      ],
+      "user_facts": [
+        "Status Compliance — второй брендбук в Figma, который пользовательница попросила показать."
+      ],
+      "limitations": [
+        "Подтвердить личную роль, значения букв монограммы и детали деятельности компании."
+      ]
+    },
+    {
+      "slug": "kosov",
+      "title": "Kosov Group",
+      "url": "https://kate-dash.github.io/projects/kosov/",
+      "industry": "Девелопмент и работа с территориями",
+      "personal_role": "Фирменный стиль; арт-дирекшн сайта совместно с дизайнером и верстальщиком",
+      "description": "Бренд основан на идее «Всё начинается с земли»: топографические линии, образ отпечатка пальца и плюс соединяют землю, человека и направления компании. В существующем полном кейсе представлены стиль, сайт и презентационные материалы. Екатерина подтвердила разработку фирменного стиля; роль в сайте ранее уточнила как арт-дирекшн в сотрудничестве с дизайнером и верстальщиком. Отдельный новый кейс kosov-branding удалён: использовать только /projects/kosov/.",
+      "use_for": "Девелопмент, айдентика плюс сайт, арт-дирекшн и визуальная система",
+      "html": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/projects/kosov/index.html",
+      "read_detail": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/../portfolio-site/PROJECT_KNOWLEDGE.json",
+      "pdf": null,
+      "figma_urls": [],
+      "user_facts": [
+        "Из многостраничного сайта Kosov Group выбрать главную, проекты и команду.",
+        "Екатерина приложила PDF фирменного стиля и попросила добавить его в существующий кейс Kosov Group.",
+        "Екатерина уточнила личный вклад: арт-дирекшн совместно с верстальщиком и дизайнером; точное распределение задач ещё нужно подтвердить.",
+        "Екатерина сообщила, что разработала фирменный стиль Kosov Group.",
+        "В desktop-аудите Екатерина установила год проекта Kosov Group: 2022 и зафиксировала полное название."
+      ],
+      "limitations": [
+        "Подтвердить точную сферу компании и разделение работы по логотипу, гайдлайну и сайту."
+      ]
+    },
+    {
+      "slug": "3r-agency",
+      "title": "3R Agency",
+      "url": "https://kate-dash.github.io/projects/3r-agency/",
+      "industry": "AI-агентство",
+      "personal_role": "Логотип, фирменный стиль, гайдбук и продающий лендинг",
+      "description": "В проекте объединены брендинг и лендинг: Екатерина разработала логотип, фирменный стиль и гайдбук. Система использует монохромную основу с оранжевым акцентом и продолжается в цифровых и печатных материалах. В кейсе сайта есть отдельный раздел айдентики; полный гайдбук сохранён локально. Подходит, когда заказчику нужны одновременно визуальная основа бренда и веб-презентация услуг. Не заявлять автоматизацию или разработку AI-продуктов как личный вклад Екатерины.",
+      "use_for": "Брендинг и лендинг, агентство, технологичная подача, гайдбук",
+      "html": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/projects/3r-agency/index.html",
+      "read_detail": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/../portfolio-site/PROJECT_KNOWLEDGE.json",
+      "pdf": null,
+      "figma_urls": [],
+      "user_facts": [
+        "Помимо сайта 3R Agency Екатерина разработала логотип и фирменный стиль; есть гайдбук в PDF."
+      ],
+      "limitations": [
+        "Подтвердить сферу агентства, расшифровку 3R и точный личный объём работы с сайтом."
+      ]
+    },
+    {
+      "slug": "credu",
+      "title": "CREDU",
+      "url": "https://kate-dash.github.io/projects/credu/",
+      "industry": "Web3, образовательный проект и клуб",
+      "personal_role": "Логотип, фирменный стиль, небольшой гайдлайн и два лендинга",
+      "description": "Екатерина отдельно подтвердила работу над логотипом, фирменным стилем и небольшим гайдлайном CREDU. Веб-часть включает два самостоятельных лендинга: образовательный проект и Crypto Legion; второй не следует называть только вариантом первого. Сейчас веб-часть показана подробнее, развитие брендинговой подачи остаётся в плане. Подходит для задач связи айдентики с digital, но не как единственный пример большого подробного брендбука.",
+      "use_for": "Брендинг плюс digital, Web3, лендинги",
+      "html": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/projects/credu/index.html",
+      "read_detail": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/../portfolio-site/PROJECT_KNOWLEDGE.json",
+      "pdf": null,
+      "figma_urls": [],
+      "user_facts": [
+        "Пользовательница упомянула папку Credo как проект, который можно взять для портфолио.",
+        "Екатерина отдельно уточнила: для CREDU она делала фирменный стиль, логотип и небольшой гайдлайн.",
+        "Второй материал Crypto Legion — второй лендинг, а не визуальная концепция первого."
+      ],
+      "limitations": [
+        "Сверить название Credo/CREDU, связь Crypto Legion с проектом, роль и задачу."
+      ]
+    }
+  ],
+  "do_not_offer": [
+    "Life Revival Universe: в чате HH Екатерина указала, что кейс ещё не готов для работодателей. Не использовать, пока она не подтвердит.",
+    "Smart City: также не предлагать без отдельного разрешения."
+  ],
+  "rules": [
+    "Новые сгенерированные сцены — концептуальные применения, не доказательство производства носителей или запуска сайтов.",
+    "Не придумывать метрики и не присваивать работу команды.",
+    "Имена и роли сверять по current records: старые README и архивные тексты могут быть устаревшими.",
+    "Для быстрых откликов достаточно этой карты и одного выбранного проекта; не перечитывать весь архив."
+  ]
+}

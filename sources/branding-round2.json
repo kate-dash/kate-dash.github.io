@@ -1,12 +1,12 @@
 {
-  "status": "Страницы дополнены современными концептуальными визуализациями. Пока только прямые ссылки, без главной и подборок.",
+  "status": "Кейсы доступны по прямым ссылкам и добавлены в подборку брендинга. На главную не добавлять.",
   "projects": [
     {
       "slug": "finance-branding",
       "name": "Finances & Sales",
       "label": "Finance",
       "pdf": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Branding portfolio/K:H_Logo_2 copy.pdf",
-      "year": "Уточняется",
+      "year": "2020",
       "industry": "Финансы и образовательные проекты",
       "scope": [
         "Концепция логотипа",
@@ -54,27 +54,28 @@
         "Уточнить, какой вариант логотипа был принят и год проекта.",
         "Есть ли готовый лендинг или другие материалы этого проекта?"
       ],
-      "application_hero": "assets/branding-applications/finance-workbook-v1.webp",
+      "application_hero": "assets/branding-applications/finance-workbook-v2.webp",
       "applications": [
         {
           "title": "Деловые носители",
           "text": "Концептуальные применения существующей айдентики: папка, бланк, конверт и визитки. Здесь графическая система показана в современной предметной сцене.",
-          "asset": "assets/branding-applications/finance-stationery-v1.webp",
+          "asset": "assets/branding-applications/finance-stationery-v2.webp",
           "alt": "Finances & Sales — stationery: папка, бланк, конверт и визитки"
         },
         {
           "title": "Цифровые материалы",
-          "text": "Анонс вебинара и тематические карточки показывают, как знак и математическая графика работают в цифровой коммуникации.",
-          "asset": "assets/branding-applications/finance-digital-v1.webp",
+          "text": "Анонсы вебинаров на ноутбуке и телефоне: полупрозрачные градиентные символы наложены на фотографии и работают как декоративная графика бренда.",
+          "asset": "assets/branding-applications/finance-digital-v2.webp",
           "alt": "Finances & Sales — цифровое применение айдентики"
         }
       ],
       "application_context": {
         "title": "Учебный комплект",
-        "text": "Рабочая тетрадь и карточки продолжают тему финансовых символов: крупные знаки помогают выделять темы, а строгая сетка организует учебный материал.",
+        "text": "Рабочая тетрадь и визитки: градиентные символы работают поверх фотографий, продолжая приём исходных анонсов.",
         "status": "Визуализации концептуальных применений; созданы для подачи в портфолио, не подтверждают выпуск носителей"
       },
-      "visualisations_status": "Выполнено: три сцены, включая stationery. Исходные предложения сохранены как контекст, не как незакрытый backlog."
+      "visualisations_status": "Выполнено: три сцены, включая stationery. Исходные предложения сохранены как контекст, не как незакрытый backlog.",
+      "year_note": "Временно 2020 как у большинства соседних примеров; историческая дата требует подтверждения."
     },
     {
       "slug": "insurance-branding",
@@ -210,7 +211,7 @@
         "Проверить, относится ли проект к агентству, образовательному направлению или обоим.",
         "Уточнить личный объём веб-дизайна и найти готовый лендинг."
       ],
-      "application_hero": "assets/branding-applications/marketing-up-workshop-v1.webp",
+      "application_hero": "assets/branding-applications/marketing-up-digital-v1.webp",
       "applications": [
         {
           "title": "Деловые носители",
@@ -219,10 +220,10 @@
           "alt": "Marketing Up — stationery: папка, бланк, конверт и визитки"
         },
         {
-          "title": "Презентация и анонс",
-          "text": "Презентационный экран и мобильный анонс показывают, как одна графическая система адаптируется к разным пропорциям.",
-          "asset": "assets/branding-applications/marketing-up-digital-v1.webp",
-          "alt": "Marketing Up — цифровое применение айдентики"
+          "title": "Учебный комплект",
+          "text": "Рабочая тетрадь, разворот и карточки показывают применение модульной графики в учебных материалах.",
+          "asset": "assets/branding-applications/marketing-up-workshop-v1.webp",
+          "alt": "Marketing Up — рабочая тетрадь, разворот и карточки"
         }
       ],
       "application_context": {

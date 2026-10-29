@@ -57,7 +57,7 @@ COLLECTIONS = {
     'branding': {
         'title': 'Брендинг',
         'description': 'Логотипы, фирменный стиль и визуальные системы в цифровых и печатных материалах.',
-        'projects': ['unity-branding', 'svetlana-delle', 'avioagroalliance', 'kosov', 'renom', 'status-compliance', '3r-agency', 'life-revival', 'credu'],
+        'projects': ['marketing-up-branding', 'unity-branding', 'svetlana-delle', 'venediktov-branding', 'finance-branding', 'insurance-branding', 'avioagroalliance', 'renom', 'status-compliance', 'kosov', '3r-agency', 'credu'],
     },
     'real-estate': {
         'title': 'Недвижимость',
@@ -79,7 +79,7 @@ for route, data in COLLECTIONS.items():
     featured = primary + related
     if len(featured) != len(set(featured)) or not set(featured) <= set(page_cards):
         raise ValueError(f'Invalid project list for {route}')
-    remaining = [slug for slug in page_cards if slug not in featured]
+    remaining = [] if route == 'branding' else [slug for slug in page_cards if slug not in featured]
 
     content = ['      ' + page_cards[slug] for slug in primary]
     if related:
@@ -88,18 +88,21 @@ for route, data in COLLECTIONS.items():
             + data['related_heading'] + '</div>'
         )
         content.extend('      ' + page_cards[slug] for slug in related)
-    content.append('      <div id="extraProjects" style="display:none;flex-direction:column;gap:80px;">')
-    content.extend('        ' + page_cards[slug] for slug in remaining)
-    content.append('      </div>')
-    content.append(
-        '      <div class="y-more-wrap"><button class="y-more-btn" id="moreProjectsBtn" '
-        'type="button" aria-controls="extraProjects" aria-expanded="false" '
-        'onclick="toggleExtraProjects()">'
-        f'( + ОСТАЛЬНЫЕ ПРОЕКТЫ · ЕЩЁ {len(remaining)} РАБОТ )'
-        '</button></div>'
-    )
+    if remaining:
+        content.append('      <div id="extraProjects" style="display:none;flex-direction:column;gap:80px;">')
+        content.extend('        ' + page_cards[slug] for slug in remaining)
+        content.append('      </div>')
+        content.append(
+            '      <div class="y-more-wrap"><button class="y-more-btn" id="moreProjectsBtn" '
+            'type="button" aria-controls="extraProjects" aria-expanded="false" '
+            'onclick="toggleExtraProjects()">'
+            f'( + ОСТАЛЬНЫЕ ПРОЕКТЫ · ЕЩЁ {len(remaining)} РАБОТ )'
+            '</button></div>'
+        )
 
     page = HOME[:start] + '\n\n'.join(content) + '\n\n' + HOME[end:]
+    if route == 'branding':
+        page = page.replace('(2024 — 2026)', '(2020 — 2026)')
     page = page.replace(
         '<title>Екатерина Дашкова — Дизайн сайтов & UI/UX</title>',
         f'<title>{data["title"]} — проекты Екатерины Дашковой</title>'

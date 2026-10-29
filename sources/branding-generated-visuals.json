@@ -248,5 +248,17 @@
     "height": 1024,
     "kind": "Исправленное концептуальное применение существующей айдентики",
     "generator": "built-in imagegen"
+  },
+  {
+    "key": "venediktov-stationery-v2",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-d86487cb-60a3-435a-b068-f2577f1dfedb.png",
+    "prompt": "Edit target: the attached Andrey Venediktov stationery photograph. Change ONLY the envelope in the lower-right part. Replace the malformed open envelope with a physically correct CLOSED white DL envelope lying in the same position and perspective. Show its FRONT face as one perfectly simple clean rectangle, four intact square corners, straight edges, a thin real paper edge. No visible flap, opening, triangular seams or teal lining. Keep the AV monogram, 'Andrey Venediktov' and small 'LEADERSHIP / COACHING' printed neatly on its front. Preserve the folder at left, ocean photograph, letterhead at top right, both business cards, exact AV monogram artwork, palette, typography, surface, lighting, shadows, camera angle, framing and overall composition. The envelope should rest naturally on the letterhead, with physically believable contact shadow. Photorealistic premium paper, exact same scene, no redesign, no extra objects, no watermarks. Landscape 3:2.",
+    "brand": "venediktov",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/venediktov-stationery-v2.png",
+    "asset": "assets/branding-applications/venediktov-stationery-v2.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Исправление геометрии конверта",
+    "generator": "built-in imagegen"
   }
 ]

@@ -272,5 +272,35 @@
     "height": 1024,
     "kind": "Исправление иконки дома на экране телефона",
     "generator": "built-in imagegen"
+  },
+  {
+    "key": "credu-stationery-v1",
+    "brand": "credu",
+    "prompt": "Use case: product-mockup. Create premium realistic contemporary stationery photography for existing CREDU crypto education/game brand. Image 1 is the authoritative final identity, do not redesign the logo. Accurately apply its thin outlined quartered shield (VR goggles, graduation cap, bitcoin, unicorn) and spaced CREDU wordmark to a charcoal folder, one closed flat envelope with fully coherent straight edges, dark letterhead and thick business cards. Palette exactly reference: deep midnight navy, dark charcoal, electric emerald green with subtle teal/purple gradient accents. Minimal restrained modern typography, only text CREDU and CRYPTO EDUCATION. Sophisticated dark tabletop flatlay with precise geometry and soft directional light; green paper edge accents, no gold, no cryptocurrency price charts, no generic bitcoin graphics unrelated to shield. Entire finished objects visible with breathing space. Landscape 3:2 high-end portfolio mockup, crisp printing realistic paper and shadows. Do not create a guideline board or collage.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-bca68a96-2639-4f12-9900-6cdbabedfafe.png",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/credu/guide-0-1.png"
+    ],
+    "generator": "built-in image_gen",
+    "kind": "conceptual application of existing identity",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-stationery-v1.png",
+    "asset": "/assets/branding-applications/credu-stationery-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "key": "credu-event-kit-v1",
+    "brand": "credu",
+    "prompt": "Use case: product-mockup. Premium modern conference merchandise photo for CREDU, crypto education game brand. Image 1 authoritative final brand logo and palette; image 2 original website for supporting visual language only. Compose on dark navy architectural studio surfaces: one matte black stainless steel coffee tumbler with simple fitted lid, a flat black canvas shopper tote bag with two natural woven handles, and two contemporary rectangular conference badges on electric emerald fabric lanyards with realistic attachments. Use exact CREDU shield logo and spaced CREDU wordmark from image1, emerald green linework, deep navy/charcoal, gentle green/purple lighting. Bag has large bold green shield print, tumbler restrained green wordmark, badges dark with small shield and legible text CREDU / CRYPTO EDUCATION / MEMBER. Gaming/crypto visual sophistication without juvenile mascots, random coins or fake screens. Realistic cloth seams, correct straps, plausible geometry, no warped objects. Editorial premium 3:2 landscape image, items clearly separated, tactile high-resolution. These are applications of existing branding, not a new logo.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-f21c53f6-f9f6-44fa-af34-19dfec1e7f6c.png",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/credu/guide-0-1.png"
+    ],
+    "generator": "built-in image_gen",
+    "kind": "conceptual application of existing identity",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-event-kit-v1.png",
+    "asset": "/assets/branding-applications/credu-event-kit-v1.webp",
+    "width": 1536,
+    "height": 1024
   }
 ]

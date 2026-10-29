@@ -1,0 +1,7 @@
+/* Scoped CREDU presentation: existing case only. */
+.case-credu .case-display{background:#1b1d1b;color:#f3f4ef}
+.case-credu{--case-frame-bg:#18202b;--case-frame-line:#354451}
+.case-credu .screen-body{background:#101b27}
+.credu-media{margin-block:clamp(28px,5vw,72px)}
+.credu-media img{display:block;width:100%;height:auto}
+@media(min-width:901px){.credu-media{padding-left:calc(var(--case-info-column) + var(--case-info-gap))}}

@@ -225,12 +225,12 @@
       "title": "CREDU",
       "url": "https://kate-dash.github.io/projects/credu/",
       "industry": "Web3, образовательный проект и клуб",
-      "personal_role": "Логотип, фирменный стиль, небольшой гайдлайн и два лендинга",
-      "description": "Екатерина отдельно подтвердила работу над логотипом, фирменным стилем и небольшим гайдлайном CREDU. Веб-часть включает два самостоятельных лендинга: образовательный проект и Crypto Legion; второй не следует называть только вариантом первого. Сейчас веб-часть показана подробнее, развитие брендинговой подачи остаётся в плане. Подходит для задач связи айдентики с digital, но не как единственный пример большого подробного брендбука.",
+      "personal_role": "Логотип, фирменный стиль, небольшой гайдлайн, два самостоятельных лендинга",
+      "description": "CREDU — Crypto + Education: игровой криптообразовательный проект с NFT. На одной странице собраны лендинг образовательной платформы, отдельный лендинг клуба Crypto Legion, реальный гайдлайн с логотипом-щитом и палитрой, а также новые концептуальные визуализации деловых носителей и конференционного мерча.",
       "use_for": "Брендинг плюс digital, Web3, лендинги",
       "html": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/projects/credu/index.html",
-      "read_detail": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/../portfolio-site/PROJECT_KNOWLEDGE.json",
-      "pdf": null,
+      "read_detail": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/sources/CREDU_CASE.md",
+      "pdf": "/Users/ekaterinazaitseva/Documents/Design/Portfolio/Branding portfolio/Credu colors copy.pdf",
       "figma_urls": [],
       "user_facts": [
         "Пользовательница упомянула папку Credo как проект, который можно взять для портфолио.",
@@ -238,8 +238,9 @@
         "Второй материал Crypto Legion — второй лендинг, а не визуальная концепция первого."
       ],
       "limitations": [
-        "Сверить название Credo/CREDU, связь Crypto Legion с проектом, роль и задачу."
-      ]
+        "Новые мокапы — концептуальная подача существующей айдентики; не утверждать производство мерча."
+      ],
+      "year": 2021
     }
   ],
   "do_not_offer": [

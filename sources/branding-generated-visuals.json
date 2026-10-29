@@ -260,5 +260,17 @@
     "height": 1024,
     "kind": "Исправление геометрии конверта",
     "generator": "built-in imagegen"
+  },
+  {
+    "key": "insurance-digital-v2",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-1e1b79c7-cd39-4c4b-b0b4-7894e007a60e.png",
+    "prompt": "Edit this exact insurance brand tablet-and-phone photograph. Correct ONLY the malformed central house/family icon on the PHONE screen, below the text 'Защита для жизни'. Replace it with ONE clean simple symmetrical outlined HOUSE icon, with a complete straight gabled roof, two straight vertical walls, horizontal base, and a small centered rectangular door. Use consistent dark-green stroke, crisp flat vector appearance, proportionate geometry, centered neatly in the available phone-screen space with generous breathing room below the title. No people or other shapes inside the house, no shield-house hybrid, no gaps, crooked segments, duplicate rooflines or overlapping disconnected fragments. Match the existing perspective of the phone screen exactly. Keep everything else unchanged: exact two devices and composition, tablet screen content, original shield/face logo, Cyrillic wording, palette, decorative arcs, plus signs and triangles, green glass background, sunlight and shadows, camera and framing. Preserve the phone bezel and exact screen boundaries. Photorealistic scene with sharp flat screen artwork, 3:2 landscape.",
+    "brand": "insurance",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/insurance-digital-v2.png",
+    "asset": "assets/branding-applications/insurance-digital-v2.webp",
+    "width": 1536,
+    "height": 1024,
+    "kind": "Исправление иконки дома на экране телефона",
+    "generator": "built-in imagegen"
   }
 ]

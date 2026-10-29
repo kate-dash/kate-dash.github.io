@@ -434,5 +434,53 @@
     "brand": "credu",
     "generator": "built-in image_gen",
     "kind": "targeted correction of approved application"
+  },
+  {
+    "key": "credu-laptop-stickers-v3",
+    "old": "credu-laptop-stickers-v2",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-laptop-stickers-v2.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Change ONLY the lavender/purple tabletop/background surrounding the silver laptop to a matte dark GRAPHITE neutral charcoal #303236. Keep soft directional light, real contact shadows and subtle surface texture. Preserve silver laptop itself, every sticker design, typography, colors, camera angle, crop, position and all details exactly. Do not darken or recolor laptop and stickers. No extra elements. Same landscape dimensions.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-1985abba-fc3f-4e1f-b018-c3ec1e64983c.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-laptop-stickers-v3.png",
+    "asset": "/assets/branding-applications/credu-laptop-stickers-v3.webp",
+    "width": 1536,
+    "height": 1024,
+    "brand": "credu",
+    "generator": "built-in image_gen",
+    "kind": "graphite background and simplified gradient correction"
+  },
+  {
+    "key": "credu-bottles-v3",
+    "old": "credu-bottles-v2",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-bottles-v2.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Preserve EXACT three floating CREDU bottles in same positions, perspective, cap shapes, bottle sizes, original colors and all printed shield icons/wordmark. Change light gray background to matte dark neutral GRAPHITE #303236, subtle soft studio lighting. Remove ONLY extraneous freeform cyan/purple strokes/ribbons on side bottle backgrounds, but KEEP bold printed navy VR goggles, graduation cap, shield, unicorn and bitcoin icon artwork. The emerald bottle retains its navy shield, with no extra decorative shapes. The pale mint bottle retains its large navy VR goggles and graduation cap, remove tiny cyan/purple decorative squiggles around icons. You may add ONE subtle diffused teal-to-violet gradient glow on lower part of pale mint bottle only, without any hard-edged curves, bands, ribbons or geometric patches. Center navy bottle shield and CREDU typography unchanged. Clean brand application, physically realistic, no new layout. Same square dimensions.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-0bbc1c04-34f8-475e-9ec9-a76cdbb6da54.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-bottles-v3.png",
+    "asset": "/assets/branding-applications/credu-bottles-v3.webp",
+    "width": 1254,
+    "height": 1254,
+    "brand": "credu",
+    "generator": "built-in image_gen",
+    "kind": "graphite background and simplified gradient correction"
+  },
+  {
+    "key": "credu-stationery-flatlay-v3",
+    "old": "credu-stationery-flatlay-v2",
+    "refs": [
+      "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-stationery-flatlay-v2.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Edit this CREDU top-down flatlay while preserving EXACT arrangement, object types, scale, perspective, all original shield/icon/wordmark designs and lighting. 1 Change gray tabletop to dark neutral GRAPHITE #303236, realistic consistent soft object shadows. 2 REMOVE hard-edged blue/cyan/violet ribbon/wave/pointed abstract shapes from cap, notebook, upper-right poster and lower-right bottles. No new abstract shapes. Cap stays plain dark navy with existing small green shield and white CREDU, NO gradient or stripe on cap. Notebook stays dark navy with existing shield and typography; instead of ribbon add only a subtle smooth diffused green-teal-violet GRADIENT SPOT without any hard boundary, no swoosh. 3 On large upper-right navy poster: replace current upper shield and sweeping blue ribbon with ONE LARGE emerald OUTLINE UNICORN HEAD matching the unicorn inside the existing CREDU logo (same angular original icon, scaled up). Keep CREDU and PLAY / LEARN / EARN text well composed and correctly aligned on poster. A faint diffuse gradient glow behind unicorn is okay, no solid shapes. 4 Left and right bottles below poster keep existing shields or icon column and text, remove all colored ribbon bands; ONLY ONE of these bottles may have soft diffused gradient spot near base. Keep green center bottle as is. Everything else (cards, box, pen, clips, tape, printed straps, stickers, left cropped unicorn print) remains exactly same. No added objects, no collage borders. Preserve same wide aspect ratio.",
+    "path": "/Users/ekaterinazaitseva/.codex/generated_images/01a0d44e-efbd-7f92-bf1e-0975a4c79f1a/exec-cf2a3439-2663-489b-b774-13db405dbc87.png",
+    "original": "/Users/ekaterinazaitseva/Documents/Портфолио/cover-work/branding-applications/credu-stationery-flatlay-v3.png",
+    "asset": "/assets/branding-applications/credu-stationery-flatlay-v3.webp",
+    "width": 1672,
+    "height": 941,
+    "brand": "credu",
+    "generator": "built-in image_gen",
+    "kind": "graphite background and simplified gradient correction"
   }
 ]

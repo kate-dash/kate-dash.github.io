@@ -1,0 +1,302 @@
+[
+  {
+    "project": "renom",
+    "key": "hoodie",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Renom/mockup/Hoodie .png",
+    "asset": "/assets/original-brand-applications/renom-hoodie.webp",
+    "title": "Худи",
+    "original_size": [
+      4000,
+      3000
+    ],
+    "width": 2400,
+    "height": 1800,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "renom",
+    "key": "tshirt",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Renom/mockup/T-Shirt__2.png",
+    "asset": "/assets/original-brand-applications/renom-tshirt.webp",
+    "title": "Футболка",
+    "original_size": [
+      3000,
+      2250
+    ],
+    "width": 2400,
+    "height": 1800,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "renom",
+    "key": "tumbler",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Renom/mockup/Tumbler 1.png",
+    "asset": "/assets/original-brand-applications/renom-tumbler.webp",
+    "title": "Термокружка",
+    "original_size": [
+      4000,
+      3000
+    ],
+    "width": 2400,
+    "height": 1800,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "renom",
+    "key": "umbrella",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Renom/mockup/umbrella.png",
+    "asset": "/assets/original-brand-applications/renom-umbrella.webp",
+    "title": "Зонт",
+    "original_size": [
+      3500,
+      2500
+    ],
+    "width": 2400,
+    "height": 1714,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "renom",
+    "key": "phone-cover",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Renom/mockup/Phone Cover 2.png",
+    "asset": "/assets/original-brand-applications/renom-phone-cover.webp",
+    "title": "Чехол для телефона",
+    "original_size": [
+      3000,
+      2000
+    ],
+    "width": 2400,
+    "height": 1600,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "renom",
+    "key": "lanyard",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Renom/mockup/Lanyard_2.png",
+    "asset": "/assets/original-brand-applications/renom-lanyard.webp",
+    "title": "Лента для бейджа",
+    "original_size": [
+      2500,
+      1000
+    ],
+    "width": 2400,
+    "height": 960,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "renom",
+    "key": "business-cards",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Renom/mockup/Business Cards 1.png",
+    "asset": "/assets/original-brand-applications/renom-business-cards.webp",
+    "title": "Визитные карточки",
+    "original_size": [
+      1429,
+      2000
+    ],
+    "width": 1429,
+    "height": 2000,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "renom",
+    "key": "shopping-bag",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Renom/mockup/Shopping Bag 1.png",
+    "asset": "/assets/original-brand-applications/renom-shopping-bag.webp",
+    "title": "Фирменная сумка",
+    "original_size": [
+      2000,
+      3000
+    ],
+    "width": 1867,
+    "height": 2800,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "renom",
+    "key": "calendar",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Renom/mockup/Wall_Calendar_1.png",
+    "asset": "/assets/original-brand-applications/renom-calendar.webp",
+    "title": "Настенный календарь",
+    "original_size": [
+      2250,
+      3000
+    ],
+    "width": 2100,
+    "height": 2800,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "renom",
+    "key": "ring-binder",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Renom/mockup/Ring Binder.png",
+    "asset": "/assets/original-brand-applications/renom-ring-binder.webp",
+    "title": "Папка с кольцевым механизмом",
+    "original_size": [
+      6000,
+      4500
+    ],
+    "width": 2400,
+    "height": 1800,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "status-compliance",
+    "key": "hoodie-blue",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/Mokups/Hoodie 2 blue- behance-685d3d8a68e5f_.png",
+    "asset": "/assets/original-brand-applications/status-compliance-hoodie-blue.webp",
+    "title": "Худи · синий",
+    "original_size": [
+      4000,
+      3000
+    ],
+    "width": 2400,
+    "height": 1800,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "status-compliance",
+    "key": "hoodie-green",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/Mokups/Hoodie 2 green - behance-685d3d8a68e5f_.png",
+    "asset": "/assets/original-brand-applications/status-compliance-hoodie-green.webp",
+    "title": "Худи · лаймовый",
+    "original_size": [
+      4000,
+      3000
+    ],
+    "width": 2400,
+    "height": 1800,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "status-compliance",
+    "key": "tshirt",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/Mokups/t-shirt MK110A23M8.png",
+    "asset": "/assets/original-brand-applications/status-compliance-tshirt.webp",
+    "title": "Футболка · лицевая и оборотная стороны",
+    "original_size": [
+      1800,
+      1012
+    ],
+    "width": 1800,
+    "height": 1012,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "status-compliance",
+    "key": "lanyard",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/Mokups/Lanyard_Mockup_2-2.png",
+    "asset": "/assets/original-brand-applications/status-compliance-lanyard.webp",
+    "title": "Лента для бейджа",
+    "original_size": [
+      2500,
+      1000
+    ],
+    "width": 2400,
+    "height": 960,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "status-compliance",
+    "key": "tumbler",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/Mokups/tumbler_.png",
+    "asset": "/assets/original-brand-applications/status-compliance-tumbler.webp",
+    "title": "Термокружка",
+    "original_size": [
+      4000,
+      3000
+    ],
+    "width": 2400,
+    "height": 1800,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "status-compliance",
+    "key": "phone-cover",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/Mokups/Phone Cover Mockup.png",
+    "asset": "/assets/original-brand-applications/status-compliance-phone-cover.webp",
+    "title": "Чехол для телефона",
+    "original_size": [
+      3000,
+      2000
+    ],
+    "width": 2400,
+    "height": 1600,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "status-compliance",
+    "key": "umbrella",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/Mokups/umbrella.png",
+    "asset": "/assets/original-brand-applications/status-compliance-umbrella.webp",
+    "title": "Зонт",
+    "original_size": [
+      3500,
+      2500
+    ],
+    "width": 2400,
+    "height": 1714,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "status-compliance",
+    "key": "shopping-bag",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/Mokups/bag 11092025_merchandise mockup 006.png",
+    "asset": "/assets/original-brand-applications/status-compliance-shopping-bag.webp",
+    "title": "Тканевая сумка",
+    "original_size": [
+      5000,
+      3500
+    ],
+    "width": 2400,
+    "height": 1680,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "status-compliance",
+    "key": "calendar",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/Mokups/3_Panel_Wall_Calendar_2.png",
+    "asset": "/assets/original-brand-applications/status-compliance-calendar.webp",
+    "title": "Настенный календарь",
+    "original_size": [
+      2250,
+      3000
+    ],
+    "width": 2100,
+    "height": 2800,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  },
+  {
+    "project": "status-compliance",
+    "key": "business-cards",
+    "source": "/Users/ekaterinazaitseva/Documents/Design/Status X Renom/Mokups/2 Cards - Bun - Free Business Card Mockup 02.png",
+    "asset": "/assets/original-brand-applications/status-compliance-business-cards.webp",
+    "title": "Визитные карточки",
+    "original_size": [
+      4500,
+      6300
+    ],
+    "width": 2000,
+    "height": 2800,
+    "origin": "Existing project mockup provided by Ekaterina; not AI-generated",
+    "crop": false
+  }
+]

@@ -46,10 +46,13 @@ for p in data:
  for i,(title,body,nums) in enumerate(p['sections']):
   gallery=''.join(figure(n,len(nums)%2==1 and j==0) for j,n in enumerate(nums))
   sections.append(f'<section class="brand-section wrap"><div class="brand-section-heading"><span>{i+1:02} / {esc(title)}</span><div><h2>{esc(title)}</h2><p>{esc(body)}</p></div></div><div class="brand-gallery">{gallery}</div></section>')
+ if p["slug"] == "unity-branding":
+  sections.append((R/"sources/unity-website-section.html").read_text())
  # One calm mid-case contact.
  sections.insert(1,'<div class="review-mid-cta wrap">Есть похожая задача? <a href="https://t.me/kate_dash" target="_blank" rel="noopener">Написать в Telegram <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M8 5h11v11"/></svg></a></div>')
- head='<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="'+esc(p['summary'])+'"><title>'+esc(p['name'])+' — брендинг | Екатерина Дашкова</title>'+''.join(f'<link rel="stylesheet" href="/assets/{s}.css">' for s in ['style','yaeger-direction','portfolio-extensions','branding-story','case-system','branding-review'])+'</head>'
+ extra_head='<link rel="stylesheet" href="/assets/unity-website.css">' if p['slug']=='unity-branding' else ''
+ head='<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="'+esc(p['summary'])+'"><title>'+esc(p['name'])+' — брендинг | Екатерина Дашкова</title>'+''.join(f'<link rel="stylesheet" href="/assets/{s}.css">' for s in ['style','yaeger-direction','portfolio-extensions','branding-story','case-system','branding-review'])+extra_head+'</head>'
  target=R/'projects'/p['slug'];target.mkdir(exist_ok=True)
- (target/'index.html').write_text(head+'<body class="brand-case branding-review">'+header+'<main>'+hero+''.join(sections)+cta+'</main>'+footer+'</body></html>')
+ (target/'index.html').write_text(head+'<body class="brand-case branding-review">'+header+'<main>'+hero+''.join(sections)+cta+'</main>'+footer+('<script src="/assets/site.js"></script>' if p['slug']=='unity-branding' else '')+'</body></html>')
 (R/'sources/branding-review.json').write_text(json.dumps({'status':'Добавлены в подборку брендинга; на главной не показаны','projects':data,'assets':manifest},ensure_ascii=False,indent=2))
 print('Generated three branding cases and',len(manifest),'assets')

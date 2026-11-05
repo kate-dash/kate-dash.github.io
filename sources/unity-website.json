@@ -1,0 +1,17 @@
+{
+  "assets": [
+    {
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Unity/Website/Portfolio exports/Bali Unity web.jpg",
+      "asset": "/assets/unity-website/unity-web.jpg",
+      "width": 1920,
+      "height": 19417
+    },
+    {
+      "source": "/Users/ekaterinazaitseva/Documents/Design/Unity/Website/Portfolio exports/Bali Unity mob.png",
+      "asset": "/assets/unity-website/unity-mobile.webp",
+      "width": 390,
+      "height": 13823
+    }
+  ],
+  "figma": "https://www.figma.com/design/btom1xYlrVwl3Kor5KcWwZ/Portfolio-Published?node-id=0-1"
+}

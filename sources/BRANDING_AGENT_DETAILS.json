@@ -30,12 +30,14 @@
       "url": "https://kate-dash.github.io/projects/unity-branding/",
       "industry": "Кэмп, школа и верёвочный парк на Бали",
       "personal_role": "Логотип, фирменный стиль, гайдлайн; Екатерина также делала лендинг",
-      "description": "Айдентика построена как гибкая система: буквы и тематические иконки меняются для Camp, Park и School, а компактная версия используется на небольших носителях. В документе показаны палитра, Lens Grotesk, одежда, посуда, печатные материалы и наружные применения. В кейсе сейчас только стиль: два слабых изображения сайта убраны до замены. Можно показывать для бренда с несколькими направлениями и для системной работы с носителями.",
+      "description": "Айдентика построена как гибкая система: буквы и тематические иконки меняются для Camp, Park и School, а компактная версия используется на небольших носителях. В документе показаны палитра, Lens Grotesk, одежда, посуда, печатные материалы и наружные применения. В кейсе есть фирменный стиль и полные desktop/mobile макеты лендинга Bali Unity Camp: программы, расписание, активности и команда. Можно показывать для бренда с несколькими направлениями и для системной работы с носителями.",
       "use_for": "Зонтичный бренд, образование, отдых, мерч, развитие айдентики",
       "html": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/projects/unity-branding/index.html",
       "read_detail": "/Users/ekaterinazaitseva/Documents/Портфолио/github-pages-deploy/sources/branding-review.json",
       "pdf": "/Users/ekaterinazaitseva/Documents/Design/Unity/Unity brand/Unity Style 2024/Unity style_26.04.24.pdf",
-      "figma_urls": [],
+      "figma_urls": [
+        "https://www.figma.com/design/btom1xYlrVwl3Kor5KcWwZ/Portfolio-Published?node-id=0-1"
+      ],
       "user_facts": [],
       "limitations": [
         "Подтвердить год дизайна лендинга: 2024 относится к версии стиля.",

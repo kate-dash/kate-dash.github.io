@@ -28,3 +28,6 @@ Unity, Svetlana Delle и расширенный кейс АвиоАгроАль�
 
 ## Unity — сайт
 Добавлен раздел сайта с двумя прокручиваемыми макетами. Оригиналы: `/Users/ekaterinazaitseva/Documents/Design/Unity/Website/Portfolio exports/`. Веб-файлы и размеры: `branding-review.json`, поле `website_assets`. Общая подборка сайтов Figma найдена в материалах FL.ru: https://www.figma.com/design/btom1xYlrVwl3Kor5KcWwZ/Portfolio-Published?node-id=0-1 . Пользователь затем предоставила экспорт Unity напрямую.
+
+## Качество mobile Unity
+Исходник 390×13823 (1×). Используется unity-mobile-lossless.webp, проверено побитовое совпадение декодированных пикселей с исходным PNG. Превью сужено до 240px на desktop/mobile. Для Retina потребуется новый экспорт исходного макета 2× (780px); апскейл не применялся.

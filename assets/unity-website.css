@@ -5,3 +5,7 @@
 .unity-website .phone-body img{width:100%;height:auto}
 @media(max-width:760px){.unity-web-previews{grid-template-columns:1fr;gap:40px}.unity-website .case-viewer:last-child{width:min(100%,240px);justify-self:center}.unity-website .screen-body{height:440px}.unity-website .phone-body{height:580px}}
 .unity-website .case-viewer .viewer-title h2{font-size:17px;line-height:1.2;letter-spacing:-.035em}
+
+/* Unity currently presents only the desktop design. */
+.unity-web-previews{grid-template-columns:minmax(0,1fr)}
+.unity-website .unity-web-previews .case-viewer{width:100%;justify-self:stretch}

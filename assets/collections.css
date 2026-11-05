@@ -58,3 +58,10 @@
   .y-collection-title h2 { font-size: clamp(38px, 10vw, 56px); }
   .y-collection-group-label { margin-bottom: -58px; }
 }
+
+/* Two portfolio entries, within the existing first-screen composition. */
+.y-portfolio-entry{display:flex;flex-wrap:wrap;gap:10px;align-self:flex-end}
+.y-portfolio-entry .y-btn-pill{display:inline-flex;align-items:center;justify-content:center;padding:12px 22px;font-size:13px}
+.y-portfolio-entry [aria-current="page"]{background:var(--text);color:var(--bg)}
+.y-entry-nav[aria-current="page"]{text-decoration:underline;text-underline-offset:5px}
+@media(max-width:760px){.y-portfolio-entry{align-self:flex-start}.y-portfolio-entry .y-btn-pill{padding:9px 18px}.y-hero-bottom{gap:12px}}

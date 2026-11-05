@@ -57,7 +57,8 @@ COLLECTIONS = {
     'branding': {
         'title': 'Брендинг',
         'description': 'Логотипы, фирменный стиль и визуальные системы в цифровых и печатных материалах.',
-        'projects': ['marketing-up-branding', 'unity-branding', 'svetlana-delle', 'venediktov-branding', 'finance-branding', 'insurance-branding', 'avioagroalliance', 'renom', 'status-compliance', 'kosov', '3r-agency', 'credu'],
+        'projects': ['renom', 'kosov', 'status-compliance', '3r-agency', 'unity-branding', 'credu', 'marketing-up-branding', 'finance-branding', 'insurance-branding', 'venediktov-branding', 'svetlana-delle', 'avioagroalliance'],
+        'related_heading': 'Сайты и интерфейсы',
     },
     'real-estate': {
         'title': 'Недвижимость',
@@ -70,12 +71,18 @@ start = HOME.index('      <!-- Project 01:')
 end = HOME.index('    </main>', start)
 function_re = re.compile(r'    function toggleExtraProjects\(\) \{.*?\n    \}', re.S)
 
+import sys
+
 for route, data in COLLECTIONS.items():
+    if len(sys.argv) > 1 and route not in sys.argv[1:]:
+        continue
     page_cards = dict(cards)
     if route == 'branding':
         page_cards.update(json.loads((ROOT / 'sources' / 'branding-collection-cards.json').read_text()))
     primary = data['projects']
     related = data.get('related', [])
+    if route == 'branding':
+        related = [slug for slug in cards if slug not in primary and slug != 'life-revival']
     featured = primary + related
     if len(featured) != len(set(featured)) or not set(featured) <= set(page_cards):
         raise ValueError(f'Invalid project list for {route}')
@@ -103,6 +110,10 @@ for route, data in COLLECTIONS.items():
     page = HOME[:start] + '\n\n'.join(content) + '\n\n' + HOME[end:]
     if route == 'branding':
         page = page.replace('(2024 — 2026)', '(2020 — 2026)')
+        page = page.replace('href="/" class="y-entry-nav" aria-current="page"', 'href="/" class="y-entry-nav"')
+        page = page.replace('href="/branding/" class="y-entry-nav"', 'href="/branding/" class="y-entry-nav" aria-current="page"')
+        page = page.replace('class="y-btn-pill" href="/" aria-current="page"', 'class="y-btn-pill" href="/"')
+        page = page.replace('class="y-btn-pill" href="/branding/"', 'class="y-btn-pill" href="/branding/" aria-current="page"')
     page = page.replace(
         '<title>Екатерина Дашкова — Дизайн сайтов & UI/UX</title>',
         f'<title>{data["title"]} — проекты Екатерины Дашковой</title>'
